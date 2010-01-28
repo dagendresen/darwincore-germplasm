@@ -1,7 +1,7 @@
 #summary Table of Contents
 #labels Phase-Design,TERMS
 
-  * [DarwinCore Darwin Core (About)]
+
   * [DarwinCoreGermplasm Darwin Core Germplasm]
   * [DarwinCoreGermplasmTerms DwC Germplasm TERMS]
     * [DatasetTerms Dataset]
@@ -20,3 +20,4 @@
     * [ConservationTraitsTerms Conservation Traits]
   * [DarwinCoreGermplasmMapping Mapping of DwC-G]
   * [DarwinCoreGermplasmReferences Links and references]
+  * [DarwinCore Darwin Core (About)]
