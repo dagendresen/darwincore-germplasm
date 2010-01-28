@@ -1,0 +1,9 @@
+#summary Mapping of the DwC-G terms to other standards
+
+= Mapping =
+
+ * Mapping of DwC to the MCPD The Multi-Crop Passport Descriptor list, developed in 2001 by FAO and IPGRI (now Bioversity) is a widely used list of terms for documentation of Crop Germplasm. 
+
+ * Mapping of EURISCO descriptors to the ABCD (2004-2006) 
+ [http://www.bgbm.org/tdwg/codata/Schema/Mappings/EURISCO-2-ABCD.pdf]
+ [http://www.ecpgr.cgiar.org/epgris/Tech_papers/EURISCO_Descriptors.pdf] 
