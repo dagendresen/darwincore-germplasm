@@ -1,0 +1,9 @@
+#summary DwC-G Dataset TERMS.
+#labels TERMS
+
+= Dataset =
+
+    * dwc:datasetID [[http://rs.tdwg.org/dwc/terms/index.htm#datasetID]]
+    * NICODE (missing term) - Disscussion at: NationalInventoryCode
+    * UPLOADERCODE (epgris3-trait:UPLOADERCODE)
+    * DATASET_REMARKS (epgris3-trait:DATASET_REMARKS)
