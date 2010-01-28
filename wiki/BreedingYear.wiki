@@ -1,0 +1,7 @@
+#summary DwC-Germplasm BreedingYear
+#labels TERMS
+
+http://rs.nordgen.org/dwc/germplasm/0.1/terms/BreedingYear
+
+
+Year when the cultivar or germplasm was developed from a breeding event. 
