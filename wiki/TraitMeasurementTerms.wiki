@@ -1,0 +1,10 @@
+#summary GermplasmTraitMeasurement
+#labels TERMS
+
+= Trait Measurement =
+
+ * dwc:measurementID [[http://rs.tdwg.org/dwc/terms/index.htm#measurementID]]
+ * dwc:measurementValue [[http://rs.tdwg.org/dwc/terms/index.htm#measurementValue]]
+ * dwc:measurementDeterminedBy [[http://rs.tdwg.org/dwc/terms/index.htm#measurementDeterminedBy]]
+ * *MeasurementByInstituteCode* (redundant by new term dwc:measurementDeterminedBy)
+ * *MeasurementGrowthStage* 
