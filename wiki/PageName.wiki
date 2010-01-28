@@ -1,0 +1,25 @@
+#summary Table of Contents
+#labels Phase-Design
+
+  * [DarwinCore Darwin Core (About)]
+  * [DarwinCoreGermplasm Darwin Core Germplasm]
+
+  * [DarwinCoreGermplasmTerms DwC Germplasm TERMS]
+    * [DatasetTerms Dataset]
+    * [SampleTerms Sample]
+    * [TaxonTerms Taxon]
+    * [SampleAcquisitionTerms Sample Acquisition]
+    * [CollectingEventTerms Collecting Event]
+    * [BreedingEventTerms Breeding Event]
+    * [SafetyDuplicationTerms Safety Duplication]
+    * [TreatiesAndRegulationsTerms Treaties and Regulations]
+    * [DistributionTerms Distribution]
+    * [TraitDescriptorTerms Trait Descriptors]
+    * [TraitExperimentTerms Trait Experiments]
+    * [TraitMeasurementTerms Trait Measurement]
+
+  * [DarwinCoreGermplasmTermsProposed DwC Germplasm TERMS Proposed]
+    * [ConservationTraitsTerms Conservation Traits]
+
+  * [DarwinCoreGermplasmMapping Mapping of DwC-G]
+  * [DarwinCoreGermplasmReferences Links and references]
