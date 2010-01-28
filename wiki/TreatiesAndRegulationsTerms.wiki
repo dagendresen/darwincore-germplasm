@@ -1,0 +1,8 @@
+#summary GermplasmTreatiesAndRegulations
+#labels TERMS
+
+= Treaties and Regulations= 
+
+    * *[GermplasmRegulationID]*
+    * *TreatyOrRegulationName*
+    * *TreatyOrRegulationGoverningBody* 
