@@ -90,7 +90,7 @@ If not completely unexpected, there was more interest from other communities out
 
 
 
-Short summary bullet points
+= Short summary bullet points =
 
     * Darwin Core Germplasm extension defines unique terms for genetic resources.
     * The flexible implementation of the DwC-G terms in the GBIF IPT is essential for the deployment of the IPT for the genetic resources information infrastructure.
