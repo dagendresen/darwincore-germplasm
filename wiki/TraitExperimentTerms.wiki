@@ -1,0 +1,10 @@
+#summary GermplasmTraitExperiment
+#labels TERMS
+
+= Trait Experiment =
+
+    * *[GermplasmExperimentID]*
+    * *GermplasmExperimentIdentifier*
+    * *GermplasmExperimentReport*
+    * *GermplasmExperimentYear*
+    * *GermplasmExperimentRemarks* 
