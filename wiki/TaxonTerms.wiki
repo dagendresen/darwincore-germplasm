@@ -5,5 +5,5 @@
     * dwc:genus [[http://rs.tdwg.org/dwc/terms/index.htm#genus]] (mcpd:GENUS)
     * dwc:specificEpithet [[http://rs.tdwg.org/dwc/terms/index.htm#specificEpithet]] (mcpd:SPECIES)
     * dwc:infraspecificEpithet [[http://rs.tdwg.org/dwc/terms/index.htm#infraspecificEpithet]] (mcpd:SUBTAXA)
-    * dwc:scientificNameAuthorship [[http://rs.tdwg.org/dwc/terms/index.htm#scientificNameAuthorship]] (mcpd:SPAUTHOR)* (mcpd:SUBTAUTHOR)*
+    * dwc:scientificNameAuthorship [[http://rs.tdwg.org/dwc/terms/index.htm#scientificNameAuthorship]] (mcpd:SPAUTHOR) (mcpd:SUBTAUTHOR)
     * dwc:vernacularName [[http://rs.tdwg.org/dwc/terms/index.htm#vernacularName]] (mcpd:CROPNAME) 
