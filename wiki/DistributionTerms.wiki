@@ -1,0 +1,8 @@
+#summary GermplasmDistribution
+#labels TERMS
+
+= Germplasm Distribution =
+
+Distribution of germplasm reporting standards need to be developed. Perhaps to be included in the Darwin Core Extension terms?
+
+Reporting for the ITPGRFA (International Treaty for Plant Genetic Resources for Food and Agriculture). 
