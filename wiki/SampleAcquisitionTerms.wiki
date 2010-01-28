@@ -1,0 +1,10 @@
+#summary SampleAcquisition
+#labels TERMS
+
+    * *[SampleAcquisitionID]*
+    * *DonorInstitute* (eurisco:DONORDESCR)
+    * *DonorInstituteCode* (mcpd:DONORCODE)
+    * *DonorsSampleIdentifier* (mcpd:DONORNUMB)
+    * *SampleAcquisitionDate* (mcpd:ACQDATE)
+    * *SampleAcquisitionSource* (mcpd:COLLSRC)
+    * *SampleAcquisitionRemarks*
