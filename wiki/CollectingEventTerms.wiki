@@ -1,0 +1,15 @@
+#summary CollectingEvent TERMS
+#labels TERMS
+
+= CollectingEvent =
+
+ * dwc:recordNumber [[http://rs.tdwg.org/dwc/terms/index.htm#eventID]]
+ * CollectingInstituteCode (mcpd:COLLCODE)
+ * dwc:recordNumber [[http://rs.tdwg.org/dwc/terms/index.htm#recordNumber]] (mcpd:COLLNUMB)
+ * dwc:decimalLatitude] [[http://rs.tdwg.org/dwc/terms/index.htm#decimalLatitude]] (mcpd:LATITUDE)
+ * dwc:decimalLongitude [[http://rs.tdwg.org/dwc/terms/index.htm#decimalLongitude]] (mcpd:LONGITUDE)
+ * dwc:minimumElevationinMeters [[http://rs.tdwg.org/dwc/terms/index.htm#minimumElevationInMeters]] (mcpd:ELEVATION)
+ * dwc:eventDate [[http://rs.tdwg.org/dwc/terms/index.htm#eventDate]] (mcpd:COLLDATE)
+ * dwc:locality [[http://rs.tdwg.org/dwc/terms/index.htm#locality]] (mcpd:COLLSITE)
+ * dwc:countryCode [[http://rs.tdwg.org/dwc/terms/index.htm#countryCode]] (mcpd:ORIGCTY)
+ * dwc:eventRemarks [[http://rs.tdwg.org/dwc/terms/index.htm#eventRemarks]] 
