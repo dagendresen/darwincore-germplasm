@@ -20,4 +20,4 @@ Darwin Core (DwC) is designed around a set of general (core) terms applicable fo
 == Dublin Core ==
 The Darwin Core is based on the standards developed by the Dublin Core Metadata Initiative  and should be viewed as an extension of the Dublic Core for biodiversity information. The purpose of these terms is to facilitate data sharing by providing a well-defined standard core vocabulary in a flexible framework to minimize the barriers to adoption and to maximize re-usability. The Darwin Core can be extended by adding new terms to share additional information.
 
-<wiki:gadget url="http://google-code-feed-gadget.googlecode.com/svn/trunk/gadget.xml" up_feeds="http://code.google.com/p/darwincore/feeds" width="500px" height="340px" border="0"/>
+<wiki:gadget url="http://google-code-feed-gadget.googlecode.com/svn/trunk/gadget.xml" up_feeds="http://code.google.com/feeds/p/darwincore/updates/basic" width="500px" height="340px" border="0"/>
