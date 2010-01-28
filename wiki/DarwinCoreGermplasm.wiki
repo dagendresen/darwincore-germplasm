@@ -1,7 +1,7 @@
-#summary One-sentence summary of this page.
+#summary Darwin Core Germplasm is an extension to the Darwin Core standard for genetic resources data.
 #labels Phase-Design
 
-= Darwin Core Germplasm Extension =
+= Darwin Core Germplasm Extension (DwC-G) =
 
 Development of the Darwin Core Germplasm Extension was started during the Darwin Core workshop in January 2009 (in Copenhagen). This Germplasm Extension is modelled directly from the Multi-Crop Passport  standard and the (proposed) EPGRIS3 trait data standard for characterisation and evaluation data (C&E). The purpose of building this germplasm extension for Darwin Core is for the development of an application schema for the GBIF IPT data publishing toolkit. The DwC Germplasm extension could also stimulate a process of further improved compatibility of the terms for documentation of germplasm and the terms and concepts used for documentation in other sub-domains of biodiversity informatics.
 
