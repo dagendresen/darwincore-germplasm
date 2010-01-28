@@ -18,3 +18,12 @@
 At the TDWG 2009, Dag Endresen and Samy Gaiji convened a working session on the DwC-G and the implementation of the DwC-G in the GBIF IPT. The working session also included a more technical presentation of the GBIF IPT by Markus Döring, and a presentation of the GBIF Harvesting and Indexing Toolkit (HIT) by Kyle Braak.
 
 Read more at [TDWG2009_DwC_Germplasm]. 
+
+
+= DwC-G Feeds =
+
+The updates made to the Darwin Core Germplasm here is available as a <a href='http://en.wikipedia.org/wiki/Atom_(standard)'>Atom Feed</a>. You may subscribe with most RSS News readers.
+ * <a href='http://code.google.com/p/darwincore-germplasm/feeds'>Feeds</a>
+ * <a href='http://code.google.com/feeds/p/darwincore/updates/basic'>Basic DwC-G Project Updates</a>
+ * <a href='http://code.google.com/feeds/p/darwincore-germplasm/svnchanges/basic?path=/wiki/'>Wiki page updates</a>
+ * <a href='http://code.google.com/feeds/p/darwincore-germplasm/svnchanges/basic'>Subversion commits</a>
