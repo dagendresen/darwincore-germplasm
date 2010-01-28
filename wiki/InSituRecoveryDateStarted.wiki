@@ -1,0 +1,4 @@
+#summary DwC-Germplasm InSituRecoveryDateStarted
+#labels TERM-PROPOSED
+
+Proposed by Stephane Riviere of the ENSCONET - for information on conservation traits http://www.ensconet.eu/
