@@ -1,0 +1,9 @@
+#summary LocationOfSafetyDuplication
+#labels TERMS
+
+= Location Of Safety Duplication =
+
+    * *[SafetyDuplicationID]*
+    * *SafetyDuplicationDate*
+    * *SafetyDuplicationInstitute*
+    * *SafetyDuplicationInstituteCode* (mcpd:DUPLSITE) 
