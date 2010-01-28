@@ -1,0 +1,15 @@
+#summary DwC-G Sample TERMS.
+#labels TERMS
+
+= Sample =
+
+ * dwc:occurrenceID [[http://rs.tdwg.org/dwc/terms/index.htm#occurrenceID]] (epgris3-trait:GENOTYPE_NUMBER)
+ * GermplasmID (redundant by dwc:occurrenceID) [[http://rs.tdwg.org/dwc/terms/index.htm#occurrenceID]]
+ * dwc:catalogNumber [[http://rs.tdwg.org/dwc/terms/index.htm#catalogNumber]] (mcpd:ACCENUMB)
+ * *GermplasmIdentifier* (mcpd:ACCENAME)
+ * dwc:institutionCode [http://rs.tdwg.org/dwc/terms/index.htm#institutionCode] (mcpd:INSTCODE)
+ * *BiologicalStatusOfSample*
+ * *BiologicalStatusOfSampleCode* (mcpd:SAMPSTAT)
+ * *TypeOfStorage* (mcpd:STORAGE)
+ * dwc:otherCatalogNumbers [[http://rs.tdwg.org/dwc/terms/index.htm#otherCatalogNumbers]] (mcpd:OTHERNUMB)
+ * dwc:occurrenceRemarks [[http://rs.tdwg.org/dwc/terms/index.htm#occurrenceRemarks]] (mcpd:REMARKS) 
