@@ -1,6 +1,7 @@
 #summary Short introduction and link to the Darwin Core
 #labels Phase-Requirements
 
+
 = Introduction =
 
 Darwin Core (DwC) is designed around a set of general (core) terms applicable for most biodiversity datasets. Darwin Core also implements extensions to the core terms, designed to include terms of more specific utility in thematic domains such as the community for plant genetic resources. The Darwin Core Germplasm Extension has been developed to include the additional terms required to describe germplasm samples maintained by genebanks worldwide. 
@@ -11,3 +12,6 @@ Darwin Core (DwC) is designed around a set of general (core) terms applicable fo
 *Links:*
   * Darwin Core: http://rs.tdwg.org/dwc/index.htm
   * Dublin Core: http://dublincore.org/
+
+
+#sidebar TableOfContents
