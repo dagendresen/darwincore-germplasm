@@ -1,0 +1,13 @@
+#summary GermplasmTrait
+#labels TERMS
+
+= Trait Descriptors =
+
+ * *[GermplasmTraitID]*
+ * *GermplasmTraitIdentifier*
+ * *GermplasmTraitClass*
+ * _dwc:measurementType_ [[http://rs.tdwg.org/dwc/terms/index.htm#measurementType]]
+ * _dwc:measurementMethod_ [[http://rs.tdwg.org/dwc/terms/index.htm#measurementMethod]]
+ * *GermplasmTraitSource*
+ * *GermplasmTraitScale*
+ * *GermplasmTraitRemarks* 
