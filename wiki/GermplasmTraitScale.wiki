@@ -1,5 +1,5 @@
 #summary DwC-Germplasm GermplasmTraitScale
-#labels TERMS
+#labels TERM
 
 = Trait Descriptor Scale =
 
