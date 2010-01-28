@@ -3,7 +3,7 @@
 
 = Breeding Event =
 
-    * *BreedingEventID*
+    * *[BreedingEventID]*
     * *BreedersSampleIdentifier* (mcpd:ACCENAME)**
     * *BreederInstitute* (eurisco:BREDDESCR)
     * *BreederInstituteCode* (mcpd:BREDCODE)
