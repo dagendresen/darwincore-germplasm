@@ -1,5 +1,5 @@
 #summary DwC-Germplasm GermplasmTraitSource
-#labels TERMS
+#labels TERM
 
 = Trait Descriptor Source =
 
