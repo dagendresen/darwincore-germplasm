@@ -1,6 +1,6 @@
 #summary Short introduction and links to the Darwin Core Project
 #labels Phase-Requirements
-
+#sidebar ToC
 
 = Introduction =
 
