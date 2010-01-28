@@ -1,5 +1,5 @@
 #summary DwC-G Dataset TERMS.
-#labels TERM
+#labels TERMS
 
 = Dataset =
 
