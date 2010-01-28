@@ -1,4 +1,4 @@
-#summary ConservationTraits
+#summary Conservation Traits
 #labels TERMS
 
 = Conservation Traits =
