@@ -1,10 +1,10 @@
-#summary CollectingEvent TERMS
+#summary Collecting Event TERMS
 #labels TERMS
 
-= CollectingEvent =
+= Collecting Event =
 
  * dwc:recordNumber [[http://rs.tdwg.org/dwc/terms/index.htm#eventID]]
- * CollectingInstituteCode (mcpd:COLLCODE)
+ * *CollectingInstituteCode* (mcpd:COLLCODE)
  * dwc:recordNumber [[http://rs.tdwg.org/dwc/terms/index.htm#recordNumber]] (mcpd:COLLNUMB)
  * dwc:decimalLatitude] [[http://rs.tdwg.org/dwc/terms/index.htm#decimalLatitude]] (mcpd:LATITUDE)
  * dwc:decimalLongitude [[http://rs.tdwg.org/dwc/terms/index.htm#decimalLongitude]] (mcpd:LONGITUDE)
