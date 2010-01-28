@@ -1,4 +1,5 @@
 #summary DwC-Germplasm SampleAcquisitionDate
+#labels TERMS
 
 http://rs.nordgen.org/dwc/germplasm/0.1/terms/SampleAcquisitionDate
 
