@@ -1,0 +1,6 @@
+#summary DwC-Germplasm MeasurementGrowthStage
+#labels TERM
+
+http://rs.nordgen.org/dwc/germplasm/0.1/terms/MeasurementGrowthStage
+
+Germplasm term to describe the growth stage of the plant when the trait observation or measurement was made. Examples include: Ripening, heading, ... A modifier of the TDWG SDD style could be applied here to be more generic and include modifiers like for example part of the plant where the observation was made (eg. leaf, stem, seeds). 
