@@ -1,5 +1,5 @@
 #summary DwC-Germplasm GermplasmTraitIdentifier
-#labels TERMS
+#labels TERM
 
 = Trait Identifier (Name) =
 
