@@ -1,0 +1,8 @@
+#summary DwC-Germplasm GermplasmExperimentRemarks
+#labels TERMS
+
+http://rs.nordgen.org/dwc/germplasm/0.1/terms/GermplasmExperimentRemarks
+
+EPGRIS3: EXPERIMENT_DESCRIPTION
+
+Information relevant for the interpretation of the scores in the experiment such as experimental design, location, experimentor, weather, etc. 
