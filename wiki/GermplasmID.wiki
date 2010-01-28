@@ -1,5 +1,5 @@
 #summary dwc:occurrenceID
-#labels TERMS
+#labels TERM
 
 DwC-Germplasm GermplasmID
 
