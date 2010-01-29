@@ -13,3 +13,5 @@
  * dwc:locality [[http://rs.tdwg.org/dwc/terms/index.htm#locality]] (mcpd:COLLSITE)
  * dwc:countryCode [[http://rs.tdwg.org/dwc/terms/index.htm#countryCode]] (mcpd:ORIGCTY)
  * dwc:eventRemarks [[http://rs.tdwg.org/dwc/terms/index.htm#eventRemarks]] 
+
+<img src='http://darwincore-germplasm.googlecode.com/svn/trunk/images/illustrations/germplasm_collecting.png' align='bottom' />
