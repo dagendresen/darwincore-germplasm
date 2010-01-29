@@ -7,3 +7,5 @@
     * dwc:infraspecificEpithet [[http://rs.tdwg.org/dwc/terms/index.htm#infraspecificEpithet]] (mcpd:SUBTAXA)
     * dwc:scientificNameAuthorship [[http://rs.tdwg.org/dwc/terms/index.htm#scientificNameAuthorship]] (mcpd:SPAUTHOR) (mcpd:SUBTAUTHOR)
     * dwc:vernacularName [[http://rs.tdwg.org/dwc/terms/index.htm#vernacularName]] (mcpd:CROPNAME) 
+
+<img src='http://darwincore-germplasm.googlecode.com/svn/trunk/images/illustrations/seeds_mustard_rj45.png' align='bottom' />
