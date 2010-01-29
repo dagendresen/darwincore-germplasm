@@ -13,3 +13,6 @@
  * *TypeOfStorage* (mcpd:STORAGE)
  * dwc:otherCatalogNumbers [[http://rs.tdwg.org/dwc/terms/index.htm#otherCatalogNumbers]] (mcpd:OTHERNUMB)
  * _dwc:occurrenceRemarks_ [[http://rs.tdwg.org/dwc/terms/index.htm#occurrenceRemarks]] (mcpd:REMARKS) 
+
+
+<img src='http://darwincore-germplasm.googlecode.com/svn/trunk/images/illustrations/seed_containers.jpg' align='bottom' />
