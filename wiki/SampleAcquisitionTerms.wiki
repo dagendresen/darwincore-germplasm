@@ -8,3 +8,6 @@
     * *SampleAcquisitionDate* (mcpd:ACQDATE)
     * *SampleAcquisitionSource* (mcpd:COLLSRC)
     * *SampleAcquisitionRemarks*
+
+
+<img src='http://darwincore-germplasm.googlecode.com/svn/trunk/images/illustrations/germplasm_collecting.png' align='bottom' />
