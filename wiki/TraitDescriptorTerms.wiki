@@ -3,6 +3,9 @@
 
 = Trait Descriptors =
 
+<br clear='all' />
+<img src='http://darwincore-germplasm.googlecode.com/svn/trunk/images/illustrations/beans_5mm_grid.png' align='right' width='200px' />
+
  * *[GermplasmTraitID]*
  * *GermplasmTraitIdentifier*
  * *GermplasmTraitClass*
