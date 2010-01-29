@@ -1,6 +1,8 @@
 #summary SampleAcquisition
 #labels TERMS
 
+= Sample Acquisition =
+
     * *[SampleAcquisitionID]*
     * *DonorInstitute* (eurisco:DONORDESCR)
     * *DonorInstituteCode* (mcpd:DONORCODE)
