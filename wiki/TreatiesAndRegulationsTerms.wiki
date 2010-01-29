@@ -3,6 +3,9 @@
 
 = Treaties and Regulations= 
 
+<br clear='all' />
+<img src='http://darwincore-germplasm.googlecode.com/svn/trunk/images/logos/itpgrfa_logo.jpg' align='right' />
+
     * *[GermplasmRegulationID]*
     * *TreatyOrRegulationName*
     * *TreatyOrRegulationGoverningBody* 
