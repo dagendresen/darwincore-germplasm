@@ -8,3 +8,6 @@
  * dwc:measurementDeterminedBy [[http://rs.tdwg.org/dwc/terms/index.htm#measurementDeterminedBy]]
  * *MeasurementByInstituteCode* (redundant by new term dwc:measurementDeterminedBy)
  * *MeasurementGrowthStage* 
+
+<br clear='all' />
+<img src='http://darwincore-germplasm.googlecode.com/svn/trunk/images/illustrations/trait_measurement_AUS.JPG' align='right' />
