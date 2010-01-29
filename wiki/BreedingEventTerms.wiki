@@ -14,3 +14,7 @@
     * *AncestralData* (mcpd:ANCEST)
     * *PurdyPedigree*
     * *BreedingEventRemarks*
+
+
+<br clear='all' />
+<img src='http://darwincore-germplasm.googlecode.com/svn/trunk/images/illustrations/trait_field_trial.JPG' align='right' />
