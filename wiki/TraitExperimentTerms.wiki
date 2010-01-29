@@ -3,6 +3,9 @@
 
 = Trait Experiment =
 
+<br clear='all' />
+<img src='http://darwincore-germplasm.googlecode.com/svn/trunk/images/illustrations/trait_experiment_LTU.JPG' align='right' />
+
     * *[GermplasmExperimentID]*
     * *GermplasmExperimentIdentifier*
     * *GermplasmExperimentReport*
