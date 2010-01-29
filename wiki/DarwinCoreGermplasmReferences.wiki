@@ -36,7 +36,7 @@ Please find here some relevant references to previous work and standards for ger
 
  * EURISCO Descriptors (2003) [http://www.ecpgr.cgiar.org/epgris/Tech_papers/EURISCO_Descriptors.pdf http://darwincore-germplasm.googlecode.com/svn/trunk/images/small/link_out.png] 
 
- * Species Profile Model (SPM) [http://wiki.tdwg.org/SPM URL] group at TDWG. For descriptive data, trait (C&E) measurement experiment data. 
+ * Species Profile Model (SPM) [http://wiki.tdwg.org/SPM http://darwincore-germplasm.googlecode.com/svn/trunk/images/small/link_out.png] group at TDWG. For descriptive data, trait (C&E) measurement experiment data. 
 
  * Moore, J.D., Kell, S.P., Iriondo, J.M., Ford-Lloyd, B.V. & Maxted, N., (2008). CWRML: representing crop wild relative conservation and use data in XML. BMC Bioinformatics, 9: 116. [http://wrap.warwick.ac.uk/547/ http://darwincore-germplasm.googlecode.com/svn/trunk/images/small/link_out.png] [http://dx.doi.org/10.1186/1471-2105-9-116 http://darwincore-germplasm.googlecode.com/svn/trunk/images/small/link_out.png]
 
