@@ -1,6 +1,8 @@
 #summary DwC-G Taxon TERMS
 #labels TERMS
 
+= Taxon =
+
     * dwc:scientificNameID [[http://rs.tdwg.org/dwc/terms/index.htm#scientificNameID]]
     * dwc:genus [[http://rs.tdwg.org/dwc/terms/index.htm#genus]] (mcpd:GENUS)
     * dwc:specificEpithet [[http://rs.tdwg.org/dwc/terms/index.htm#specificEpithet]] (mcpd:SPECIES)
