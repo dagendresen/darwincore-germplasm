@@ -7,3 +7,5 @@
     * NICODE (missing term) - Disscussion at: NationalInventoryCode
     * UPLOADERCODE (epgris3-trait:UPLOADERCODE)
     * DATASET_REMARKS (epgris3-trait:DATASET_REMARKS)
+
+http://darwincore-germplasm.googlecode.com/svn/trunk/images/illustrations/cereals.jpg
