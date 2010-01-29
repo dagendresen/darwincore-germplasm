@@ -3,6 +3,8 @@
 
 = Location Of Safety Duplication =
 
+<img src='http://darwincore-germplasm.googlecode.com/svn/trunk/images/illustrations/sgsv_entrance.jpg' align='right' />
+
     * *[SafetyDuplicationID]*
     * *SafetyDuplicationDate*
     * *SafetyDuplicationInstitute*
