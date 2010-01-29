@@ -5,6 +5,8 @@
 
 ----
 
+<img src='http://darwincore-germplasm.googlecode.com/svn/trunk/images/logos/tdwg_2009_logo.png' align='right' />
+
 = TDWG 2009, working session on the DwC =
 
 At the TDWG 2009, Dag Endresen and Samy Gaiji convened a working session on the DwC-G and the implementation of the DwC-G in the GBIF IPT. The working session also included a more technical presentation of the GBIF IPT by Markus Döring, and a presentation of the GBIF Harvesting and Indexing Toolkit (HIT) by Kyle Braak.
