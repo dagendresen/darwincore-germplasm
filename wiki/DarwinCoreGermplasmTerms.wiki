@@ -3,8 +3,9 @@
 
 = DwC-G TERMS =
 
-The terms of the Darwin Core Germplasm (DwC-G) extension are grouped by class for improved overview. The grouping class is not part of the DwC-G, only used here for improved readability.
+<img src='http://darwincore-germplasm.googlecode.com/svn/trunk/images/illustrations/crop_descriptors.jpg' align='right' />
 
+The terms of the Darwin Core Germplasm (DwC-G) extension are grouped by class for improved overview. The grouping class is not part of the DwC-G, only used here for improved readability.
 
     * [DatasetTerms Dataset]
     * [SampleTerms Sample]
