@@ -3,6 +3,8 @@
 
 = Breeding Event =
 
+<img src='http://darwincore-germplasm.googlecode.com/svn/trunk/images/illustrations/trait_field_trial.JPG' align='right' />
+
     * *[BreedingEventID]*
     * *BreedersSampleIdentifier* (mcpd:ACCENAME)**
     * *BreederInstitute* (eurisco:BREDDESCR)
@@ -14,7 +16,3 @@
     * *AncestralData* (mcpd:ANCEST)
     * *PurdyPedigree*
     * *BreedingEventRemarks*
-
-
-<br clear='all' />
-<img src='http://darwincore-germplasm.googlecode.com/svn/trunk/images/illustrations/trait_field_trial.JPG' align='right' />
