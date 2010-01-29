@@ -1,9 +1,9 @@
 #summary References and links
 
-= References and links =
 
 <wiki:toc />
 
+----
 
 = TDWG 2009, working session on the DwC =
 
