@@ -7,8 +7,10 @@
     * dwc:datasetName [[http://rs.tdwg.org/dwc/terms/index.htm#datasetName]]
     * dwc:collectionID [[http://rs.tdwg.org/dwc/terms/index.htm#collectionID]]
     * dwc:collectionCode [[http://rs.tdwg.org/dwc/terms/index.htm#collectionCode]]
-    * NationalInventoryCode proposed term (EURISCO: NICODE)
-    * UPLOADERCODE (epgris3-trait:UPLOADERCODE)
-    * DATASET_REMARKS (epgris3-trait:DATASET_REMARKS)
+
+Proposed terms:
+    * NationalInventoryCode (EURISCO: NICODE)
+    * UploaderCode (epgris3-trait:UPLOADERCODE)
+    * DatasetRemarks (epgris3-trait:DATASET_REMARKS)
 
 http://darwincore-germplasm.googlecode.com/svn/trunk/images/illustrations/cereals.gif
