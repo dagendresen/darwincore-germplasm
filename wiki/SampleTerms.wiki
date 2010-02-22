@@ -7,7 +7,6 @@
  * *[GermplasmID]* (redundant by dwc:occurrenceID) [[http://rs.tdwg.org/dwc/terms/index.htm#occurrenceID]]
  * _dwc:catalogNumber_ [[http://rs.tdwg.org/dwc/terms/index.htm#catalogNumber]] (mcpd:ACCENUMB)
  * *GermplasmIdentifier* (mcpd:ACCENAME)
- * _dwc:institutionCode_ [http://rs.tdwg.org/dwc/terms/index.htm#institutionCode] (mcpd:INSTCODE)
  * *BiologicalStatusOfSample*
  * *BiologicalStatusOfSampleCode* (mcpd:SAMPSTAT)
  * *TypeOfStorage* (mcpd:STORAGE)
