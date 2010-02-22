@@ -11,3 +11,6 @@
     * dwc:vernacularName [[http://rs.tdwg.org/dwc/terms/index.htm#vernacularName]] (mcpd:CROPNAME) 
 
 <img src='http://darwincore-germplasm.googlecode.com/svn/trunk/images/illustrations/seeds_mustard_rj45.png' align='bottom' />
+
+= Proposed =
+ * CropName - controlled list of crop names, following the crop name standard used by the CGIAR genebanks.
