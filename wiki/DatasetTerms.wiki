@@ -4,6 +4,7 @@
 = Dataset =
 
     * dwc:datasetID [[http://rs.tdwg.org/dwc/terms/index.htm#datasetID]]
+    * dwc:datasetName [[http://rs.tdwg.org/dwc/terms/index.htm#datasetName]]
     * NICODE (missing term) - Disscussion at: NationalInventoryCode
     * UPLOADERCODE (epgris3-trait:UPLOADERCODE)
     * DATASET_REMARKS (epgris3-trait:DATASET_REMARKS)
