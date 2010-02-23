@@ -7,7 +7,6 @@
     * [DatasetTerms Dataset]
     * [TaxonTerms Taxon]
     * [SampleTerms Sample]
-    * [SampleAcquisitionTerms Sample Acquisition]
     * [CollectingEventTerms Collecting Event]
     * [BreedingEventTerms Breeding Event]
     * [SafetyDuplicationTerms Safety Duplication]
@@ -20,6 +19,7 @@
   * [DarwinCore Darwin Core (About)]
 
 <wiki:comment>
+    * [SampleAcquisitionTerms Sample Acquisition]
     * [TraitDescriptorTerms Trait Descriptors]
     * [TraitExperimentTerms Trait Experiments]
 </wiki:comment>
