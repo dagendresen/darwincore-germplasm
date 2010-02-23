@@ -11,14 +11,16 @@
  * _dwc:institutionCode_ [http://rs.tdwg.org/dwc/terms/index.htm#institutionCode] (mcpd:INSTCODE)
 
 
+<img src='http://darwincore-germplasm.googlecode.com/svn/trunk/images/illustrations/cereals.gif' align='right' />
+
 Proposed terms:
  * NationalInventoryCode (eurisco:NICODE)
  * UploaderCode (epgris3-trait:UPLOADERCODE)
  * DatasetRemarks (epgris3-trait:DATASET_REMARKS)
 
 
-http://darwincore-germplasm.googlecode.com/svn/trunk/images/illustrations/cereals.gif
-
+<br clear='all' />
+<br />
 
 *Dataset* is the set of data the record belong to. For EURISCO the datasetName could for example be the National Inventory. The datasetID would preferably be a global unique persistent identifier. 
 
