@@ -11,12 +11,15 @@
     * [CollectingEventTerms Collecting Event]
     * [BreedingEventTerms Breeding Event]
     * [SafetyDuplicationTerms Safety Duplication]
-    * [TraitDescriptorTerms Trait Descriptors]
-    * [TraitExperimentTerms Trait Experiments]
-    * [TraitMeasurementTerms Trait Measurement]
+    * [TraitMeasurementTerms Trait Measurements]
     * [TreatiesAndRegulationsTerms Treaties and Regulations]
     * [DistributionTerms Distribution - PROPOSED]
     * [ConservationTraitsTerms Conservation Traits - PROPOSED]
   * [DarwinCoreGermplasmMapping Mapping of DwC-G]
   * [DarwinCoreGermplasmReferences Links and references]
   * [DarwinCore Darwin Core (About)]
+
+<wiki:comment>
+    * [TraitDescriptorTerms Trait Descriptors]
+    * [TraitExperimentTerms Trait Experiments]
+</wiki:comment>
