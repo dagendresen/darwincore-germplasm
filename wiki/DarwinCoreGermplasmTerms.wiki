@@ -13,7 +13,7 @@ The terms of the Darwin Core Germplasm (DwC-G) extension are grouped by class fo
     * [CollectingEventTerms Collecting Event]
     * [BreedingEventTerms Breeding Event]
     * [SafetyDuplicationTerms Safety Duplication]
-    * [TraitMeasurementTerms Trait Measurements]
+    * [TraitMeasurementTerms Trait Measurements (C&E)]
     * [TreatiesAndRegulationsTerms Treaties and Regulations]
 
     * [DistributionTerms Distribution - PROPOSED]
