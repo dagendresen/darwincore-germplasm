@@ -11,3 +11,15 @@
 
 <br clear='all' />
 <img src='http://darwincore-germplasm.googlecode.com/svn/trunk/images/illustrations/trait_measurement_AUS.JPG' align='right' />
+
+
+= Trait Experiment =
+
+<br clear='all' />
+<img src='http://darwincore-germplasm.googlecode.com/svn/trunk/images/illustrations/trait_experiment_LTU.JPG' align='right' />
+
+    * *[GermplasmExperimentID]*
+    * *GermplasmExperimentIdentifier*
+    * *GermplasmExperimentReport*
+    * *GermplasmExperimentYear*
+    * *GermplasmExperimentRemarks* 
