@@ -8,14 +8,14 @@
 The terms of the Darwin Core Germplasm (DwC-G) extension are grouped by class for improved overview. The grouping class is not part of the DwC-G, only used here for improved readability.
 
     * [DatasetTerms Dataset]
-    * [SampleTerms Sample]
     * [TaxonTerms Taxon]
+    * [SampleTerms Sample]
     * [SampleAcquisitionTerms Sample Acquisition]
     * [CollectingEventTerms Collecting Event]
     * [BreedingEventTerms Breeding Event]
     * [SafetyDuplicationTerms Safety Duplication]
+    * [TraitMeasurementTerms Trait Measurements]
     * [TreatiesAndRegulationsTerms Treaties and Regulations]
-    * [DistributionTerms Distribution]
-    * [TraitDescriptorTerms Trait Descriptors]
-    * [TraitExperimentTerms Trait Experiments]
-    * [TraitMeasurementTerms Trait Measurement]
+
+    * [DistributionTerms Distribution - PROPOSED]
+    * [ConservationTraitsTerms Conservation traits - PROPOSED]
