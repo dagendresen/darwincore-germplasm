@@ -6,14 +6,14 @@
 
 <img src='http://darwincore-germplasm.googlecode.com/svn/trunk/images/illustrations/beans_5mm_grid.png' align='right' width='200px' />
 
- * *[GermplasmTraitID]*
- * *GermplasmTraitIdentifier*
+ * *[GermplasmTraitID]* (epgris3_trait:TRAIT_NUMBER)
+ * *GermplasmTraitIdentifier* (epgris3_trait:TRAIT_NAME)
  * *GermplasmTraitClass*
  * _dwc:measurementType_ [[http://rs.tdwg.org/dwc/terms/index.htm#measurementType]]
  * _dwc:measurementMethod_ [[http://rs.tdwg.org/dwc/terms/index.htm#measurementMethod]]
  * *GermplasmTraitSource*
  * *GermplasmTraitScale*
- * *GermplasmTraitRemarks* 
+ * *GermplasmTraitRemarks* (epgris3_trait:TRAIT_REMARK)
 
 <br />
 <br clear='all' />
@@ -24,7 +24,7 @@
 <img src='http://darwincore-germplasm.googlecode.com/svn/trunk/images/illustrations/trait_measurement_AUS.JPG' align='right' width='200px' />
 
  * dwc:measurementID [[http://rs.tdwg.org/dwc/terms/index.htm#measurementID]]
- * dwc:measurementValue [[http://rs.tdwg.org/dwc/terms/index.htm#measurementValue]]
+ * dwc:measurementValue [[http://rs.tdwg.org/dwc/terms/index.htm#measurementValue]] (epgris3_trait:SCORE)
  * dwc:measurementDeterminedBy [[http://rs.tdwg.org/dwc/terms/index.htm#measurementDeterminedBy]]
  * *MeasurementByInstituteCode* (redundant by new term dwc:measurementDeterminedBy)
  * *MeasurementGrowthStage* 
