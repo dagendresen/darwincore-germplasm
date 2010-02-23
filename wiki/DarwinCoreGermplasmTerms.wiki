@@ -10,7 +10,6 @@ The terms of the Darwin Core Germplasm (DwC-G) extension are grouped by class fo
     * [DatasetTerms Dataset]
     * [TaxonTerms Taxon]
     * [SampleTerms Sample]
-    * [SampleAcquisitionTerms Sample Acquisition]
     * [CollectingEventTerms Collecting Event]
     * [BreedingEventTerms Breeding Event]
     * [SafetyDuplicationTerms Safety Duplication]
