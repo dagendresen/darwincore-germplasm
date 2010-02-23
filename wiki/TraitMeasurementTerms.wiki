@@ -19,7 +19,7 @@
 <br clear='all' />
 <br clear='all' />
 
-= Trait Measurement =
+= Trait Measurement Value =
 
 <img src='http://darwincore-germplasm.googlecode.com/svn/trunk/images/illustrations/trait_measurement_AUS.JPG' align='right' width='200px' />
 
