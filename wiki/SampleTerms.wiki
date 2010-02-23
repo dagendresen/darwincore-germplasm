@@ -13,5 +13,17 @@
  * dwc:otherCatalogNumbers [[http://rs.tdwg.org/dwc/terms/index.htm#otherCatalogNumbers]] (mcpd:OTHERNUMB)
  * _dwc:occurrenceRemarks_ [[http://rs.tdwg.org/dwc/terms/index.htm#occurrenceRemarks]] (mcpd:REMARKS) 
 
+<img src='http://darwincore-germplasm.googlecode.com/svn/trunk/images/illustrations/seed_containers.jpg' align='right' />
 
-<img src='http://darwincore-germplasm.googlecode.com/svn/trunk/images/illustrations/seed_containers.jpg' align='bottom' />
+
+<br break='all' />
+
+= Sample Acquisition =
+
+    * *[SampleAcquisitionID]*
+    * *DonorInstitute* (eurisco:DONORDESCR)
+    * *DonorInstituteCode* (mcpd:DONORCODE)
+    * *DonorsSampleIdentifier* (mcpd:DONORNUMB)
+    * *SampleAcquisitionDate* (mcpd:ACQDATE)
+    * *SampleAcquisitionSource* (mcpd:COLLSRC)
+    * *SampleAcquisitionRemarks*
