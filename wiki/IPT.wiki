@@ -72,7 +72,9 @@ export CATALINA_OPTS="-Xms512M -Xmx1024M -XX:MaxPermSize=512M"
 
 Both PermSize and MaxPermSize could be useful... Anyway the MaxPermSize setting made wonders for the stability of the IPT at NordGen.
 
+{{{
 export CATALINA_OPTS="-Xms512M -Xmx1024M -XX:PermSize=512M -XX:MaxPermSize=1024M"
+}}}
 
 On the laptop (MacBook) I am setting this in my .bash_profile - as I log in as myself and the system is running as me. On the server we read these variables into the environment. Typing the above command on a running Linux server would work fine, but need to be typed again after restart - so better to add to a script during startup. One option is of course simply to add this line to the Tomcat startup script...
 
