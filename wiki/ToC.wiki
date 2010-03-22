@@ -17,6 +17,7 @@
   * [DarwinCoreGermplasmMapping Mapping of DwC-G]
   * [DarwinCoreGermplasmReferences Links and references]
   * [DarwinCore Darwin Core (About)]
+  * [IPT GBIF IPT toolkit]
 
 <wiki:comment>
     * [SampleAcquisitionTerms Sample Acquisition]
