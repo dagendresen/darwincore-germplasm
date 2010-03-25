@@ -27,3 +27,5 @@
     * *SampleAcquisitionDate* (mcpd:ACQDATE)
     * *SampleAcquisitionSource* (mcpd:COLLSRC)
     * *SampleAcquisitionRemarks*
+
+= PROPOSED =
