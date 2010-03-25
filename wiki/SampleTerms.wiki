@@ -28,4 +28,5 @@
     * *SampleAcquisitionSource* (mcpd:COLLSRC)
     * *SampleAcquisitionRemarks*
 
-= PROPOSED =
+= Proposed =
+*
