@@ -12,7 +12,18 @@
 
 <img src='http://darwincore-germplasm.googlecode.com/svn/trunk/images/illustrations/seeds_mustard_rj45.png' align='bottom' />
 
+
+<br clear='all' />
+----
+
 = Proposed =
  * cropCode - controlled list of crop names, following the crop name standard used by the CGIAR genebanks.
  * speciesAuthorship - Species author (for compatibility with EURISCO standard).
  * infraspecificAuthorship - Infraspecific epithet's author (for compatibility with EURISCO standard).
+ * cropGenePool - The three gene pool system (GP1, GB2, GP3) [http://www.jstor.org/pss/1218252 Harlan & De Wet, 1971], [http://www.springerlink.com/content/7877472w50114341/ Maxsted et al., 2006]
+
+
+<br clear='all' />
+----
+
+The current core terms of the Darwin Core describe the taxonomy of the plant genetic resources well. For historical reasons the atomized reporting of authorship for species and subspecies level is proposed to be added. Further the crop group and the crop gene pool could be useful additions to consider.
