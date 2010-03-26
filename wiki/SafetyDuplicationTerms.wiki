@@ -3,9 +3,9 @@
 
 = Location Of Safety Duplication =
 
-<img src='http://darwincore-germplasm.googlecode.com/svn/trunk/images/illustrations/sgsv_entrance.jpg' align='right' />
-
 Most genebank germplasm samples are safe duplicated at least at a second genebank as a black box agreement. The Svalbard Global Seed Vault offer a third safe duplication location. Samples deposited at Svalbard should first be stored at two distinct locations, with Svalbard as the third location.
+
+<img src='http://darwincore-germplasm.googlecode.com/svn/trunk/images/illustrations/sgsv_entrance.jpg' align='right' />
 
  === DwC germplasm terms: ===
  * *[SafetyDuplicationID]*
