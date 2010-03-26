@@ -3,6 +3,9 @@
 
 = Collecting Event =
 
+Most of the terms needed to describe the collecting of plant genetic resources are already defined by the Darwin Core. The FAO WIEWS institute code for the collecting institute has been added.
+
+
  === Darwin Core Terms ===
  * dwc:recordNumber [[http://rs.tdwg.org/dwc/terms/index.htm#eventID]]
  * dwc:recordNumber [[http://rs.tdwg.org/dwc/terms/index.htm#recordNumber]] (mcpd:COLLNUMB)
@@ -23,5 +26,7 @@
 
 ----
 <br clear='all' />
+
 === Proposed terms ===
+
  * add new proposed terms here...
