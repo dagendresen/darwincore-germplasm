@@ -1,6 +1,8 @@
 #summary GermplasmTraitMeasurement
 #labels TERMS
 
+Characterization & Evaluation data (C&E) are measurements of crop traits. This data type is considered to be important for the effective use of plant genetic resources conserved ex situ in the large seed collections (genebanks).
+
 
 = Trait Descriptors =
 
