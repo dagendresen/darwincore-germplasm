@@ -3,7 +3,7 @@
 
 = Collecting Event =
 
-Most of the terms needed to describe the collecting of plant genetic resources are already defined by the Darwin Core. The FAO WIEWS institute code for the collecting institute has been added.
+Most of the terms needed to describe the collecting of plant genetic resources are already defined by the Darwin Core. Only the FAO WIEWS institute code for the collecting institute has been added as part of the extension below.
 
 
  === Darwin Core Terms ===
