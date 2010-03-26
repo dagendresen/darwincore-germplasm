@@ -2,8 +2,8 @@
 #labels Phase-Design,TERMS
 
 
-  * [DarwinCoreGermplasm Darwin Core Germplasm]
-  * [DarwinCoreGermplasmTerms DwC Germplasm TERMS]
+ * [DarwinCoreGermplasm Darwin Core Germplasm]
+ * [DarwinCoreGermplasmTerms DwC Germplasm TERMS]
     * [DatasetTerms Dataset]
     * [TaxonTerms Taxonomy]
     * [SpecimenTerms Specimen (Accession)]
@@ -14,10 +14,11 @@
     * [TreatiesAndRegulationsTerms Treaties and Regulations]
     * [DistributionTerms Distribution - PROPOSED]
     * [ConservationTraitsTerms Conservation Traits - PROPOSED]
-  * [DarwinCoreGermplasmMapping Mapping of DwC-G]
-  * [DarwinCoreGermplasmReferences Links and references]
-  * [DarwinCore Darwin Core (About)]
-  * [IPT GBIF IPT toolkit]
+ * [DarwinCoreGermplasmMapping Mapping of DwC-G]
+ * [DarwinCoreGermplasmReferences Links and references]
+ * [DarwinCore Darwin Core (About)]
+ * [IPT GBIF IPT toolkit]
+ * [http://code.google.com/p/darwincore-germplasm/w/list (list ALL pages)]
 
 <wiki:comment>
     * [SampleAcquisitionTerms Sample Acquisition]
