@@ -6,39 +6,59 @@
 
 <img src='http://darwincore-germplasm.googlecode.com/svn/trunk/images/illustrations/beans_5mm_grid.png' align='right' width='200px' />
 
+ === DwC terms ===
+ * _dwc:measurementType_ [[http://rs.tdwg.org/dwc/terms/index.htm#measurementType]]
+ * _dwc:measurementMethod_ [[http://rs.tdwg.org/dwc/terms/index.htm#measurementMethod]]
+
+ === DwC germplasm terms ===
  * *[GermplasmTraitID]* (epgris3_trait:TRAIT_NUMBER)
  * *GermplasmTraitIdentifier* (epgris3_trait:TRAIT_NAME)
  * *GermplasmTraitClass*
- * _dwc:measurementType_ [[http://rs.tdwg.org/dwc/terms/index.htm#measurementType]]
- * _dwc:measurementMethod_ [[http://rs.tdwg.org/dwc/terms/index.htm#measurementMethod]]
  * *GermplasmTraitSource*
  * *GermplasmTraitScale*
  * *GermplasmTraitRemarks* (epgris3_trait:TRAIT_REMARK)
 
-<br />
+
 <br clear='all' />
+----
 <br clear='all' />
 
-= Trait Measurement Value =
+
 
 <img src='http://darwincore-germplasm.googlecode.com/svn/trunk/images/illustrations/trait_measurement_AUS.JPG' align='right' width='200px' />
 
+= Trait Measurement Value =
+
+ === DwC terms ===
  * dwc:measurementID [[http://rs.tdwg.org/dwc/terms/index.htm#measurementID]]
  * dwc:measurementValue [[http://rs.tdwg.org/dwc/terms/index.htm#measurementValue]] (epgris3_trait:SCORE)
  * dwc:measurementDeterminedBy [[http://rs.tdwg.org/dwc/terms/index.htm#measurementDeterminedBy]]
+
+ === DwC germplasm terms ===
  * *MeasurementByInstituteCode* (redundant by new term dwc:measurementDeterminedBy)
  * *MeasurementGrowthStage* 
 
-<br />
+
 <br clear='all' />
+----
 <br clear='all' />
 
-= Trait Experiment =
 
 <img src='http://darwincore-germplasm.googlecode.com/svn/trunk/images/illustrations/trait_experiment_LTU.JPG' align='right' width='200px' />
 
-    * *[GermplasmExperimentID]*
-    * *GermplasmExperimentIdentifier*
-    * *GermplasmExperimentReport*
-    * *GermplasmExperimentYear*
-    * *GermplasmExperimentRemarks* 
+= Trait Experiment =
+
+ === DwC germplasm terms ===
+ * *[GermplasmExperimentID]*
+ * *GermplasmExperimentIdentifier*
+ * *GermplasmExperimentReport*
+ * *GermplasmExperimentYear*
+ * *GermplasmExperimentRemarks* 
+
+
+<br clear='all' />
+----
+
+== Proposed Terms ==
+
+ * add new proposed terms here...
