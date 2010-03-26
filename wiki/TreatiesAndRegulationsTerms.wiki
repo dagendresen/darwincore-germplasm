@@ -6,6 +6,17 @@
 <br clear='all' />
 <img src='http://darwincore-germplasm.googlecode.com/svn/trunk/images/logos/itpgrfa_logo.jpg' align='right' />
 
-    * *[GermplasmRegulationID]*
-    * *TreatyOrRegulationName*
-    * *TreatyOrRegulationGoverningBody* 
+ === DwC germplasm terms === 
+ * *[GermplasmRegulationID]*
+ * *TreatyOrRegulationName*
+ * *TreatyOrRegulationGoverningBody* 
+
+
+
+<br clear='all' />
+----
+
+== Proposed terms ==
+
+ * [InTrust] (indication that the specimen/accession is held in trust)
+ * add new proposed terms here...
