@@ -35,6 +35,8 @@
     * *SampleAcquisitionRemarks*
 
 
+<br break='all' />
+----
 
 = Proposed Terms =
   * add suggestions here...
