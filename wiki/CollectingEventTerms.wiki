@@ -3,8 +3,8 @@
 
 = Collecting Event =
 
+=== Darwin Core Terms ===
  * dwc:recordNumber [[http://rs.tdwg.org/dwc/terms/index.htm#eventID]]
- * *CollectingInstituteCode* (mcpd:COLLCODE)
  * dwc:recordNumber [[http://rs.tdwg.org/dwc/terms/index.htm#recordNumber]] (mcpd:COLLNUMB)
  * dwc:decimalLatitude] [[http://rs.tdwg.org/dwc/terms/index.htm#decimalLatitude]] (mcpd:LATITUDE)
  * dwc:decimalLongitude [[http://rs.tdwg.org/dwc/terms/index.htm#decimalLongitude]] (mcpd:LONGITUDE)
@@ -14,5 +14,14 @@
  * dwc:countryCode [[http://rs.tdwg.org/dwc/terms/index.htm#countryCode]] (mcpd:ORIGCTY)
  * dwc:eventRemarks [[http://rs.tdwg.org/dwc/terms/index.htm#eventRemarks]] 
 
+
 <br clear='all' />
 <img src='http://darwincore-germplasm.googlecode.com/svn/trunk/images/illustrations/germplasm_collecting.png' align='right' />
+
+=== DwC germplasm extension term ===
+ * *CollectingInstituteCode* (mcpd:COLLCODE)
+
+----
+<br clear='all' />
+=== Proposed terms ===
+ * add new proposed terms here...
