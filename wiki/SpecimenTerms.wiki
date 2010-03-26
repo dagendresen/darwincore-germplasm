@@ -1,0 +1,40 @@
+#summary DwC-G Specimen TERMS.
+#labels TERMS
+
+= Specimen =
+
+=== Darwin Core Terms ===
+ * _dwc:occurrenceID_ [[http://rs.tdwg.org/dwc/terms/index.htm#occurrenceID]] (epgris3-trait:GENOTYPE_NUMBER)
+ * _dwc:occurrenceRemarks_ [[http://rs.tdwg.org/dwc/terms/index.htm#occurrenceRemarks]] (mcpd:REMARKS) 
+ * _dwc:catalogNumber_ [[http://rs.tdwg.org/dwc/terms/index.htm#catalogNumber]] (mcpd:ACCENUMB)
+ * dwc:otherCatalogNumbers [[http://rs.tdwg.org/dwc/terms/index.htm#otherCatalogNumbers]] (mcpd:OTHERNUMB)
+
+
+=== DwC germplasm extension terms ===
+ * *[GermplasmID]* (redundant by  [http://rs.tdwg.org/dwc/terms/index.htm#occurrenceID dwc:occurrenceID)] Suggestion: REMOVE TERM
+ * *GermplasmIdentifier* (mcpd:ACCENAME)
+ * *BiologicalStatusOfSample*
+ * *BiologicalStatusOfSampleCode* (mcpd:SAMPSTAT)
+ * *TypeOfStorage* (mcpd:STORAGE)
+
+
+
+<img src='http://darwincore-germplasm.googlecode.com/svn/trunk/images/illustrations/seed_containers.jpg' align='right' />
+
+
+<br break='all' />
+
+= Sample Acquisition =
+
+    * *[SampleAcquisitionID]*
+    * *DonorInstitute* (eurisco:DONORDESCR)
+    * *DonorInstituteCode* (mcpd:DONORCODE)
+    * *DonorsSampleIdentifier* (mcpd:DONORNUMB)
+    * *SampleAcquisitionDate* (mcpd:ACQDATE)
+    * *SampleAcquisitionSource* (mcpd:COLLSRC)
+    * *SampleAcquisitionRemarks*
+
+
+
+= Proposed Terms =
+  * add suggestions here...
