@@ -1,4 +1,4 @@
-#summary DwC-G Sample TERMS.
+#summary DwC-G Specimen TERMS.
 #labels TERMS
 
 = Specimen =
