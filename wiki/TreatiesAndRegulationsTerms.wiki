@@ -3,8 +3,11 @@
 
 = Treaties and Regulations= 
 
-<br clear='all' />
 <img src='http://darwincore-germplasm.googlecode.com/svn/trunk/images/logos/itpgrfa_logo.jpg' align='right' />
+
+Plant genetic resources are essential to a sustainable agriculture and food security. Some fear that corporate financial interests might prevent safeguarding of livelihoods, promotion of food security, biodiversity-rich farming under control of local communities, and implementation of Farmers' Rights. A number of treaties and regulations are developed to control and ensure access to plant genetic resources for food and agriculture (under the multi-lateral system of benefit sharing).
+
+
 
  === DwC germplasm terms === 
  * *[GermplasmRegulationID]*
