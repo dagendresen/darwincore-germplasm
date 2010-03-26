@@ -16,3 +16,11 @@
     * *AncestralData* (mcpd:ANCEST)
     * *PurdyPedigree*
     * *BreedingEventRemarks*
+
+
+<br clear='all />
+----
+
+== Proposed terms ==
+
+ * add new proposed terms here...
