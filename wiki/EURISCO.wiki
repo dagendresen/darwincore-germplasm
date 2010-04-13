@@ -9,7 +9,23 @@ During 2009 the first genebanks started to install and share data with the GBIF 
 
 = From the project description =
 
+_“... a feasibility study aimed at demonstrating the practical implementation of the GBIF decentralised architecture strategy and in particular in the context of the EURISCO Network."_
+
+_“... focused on the adoption of the IPT by selected gene banks in Europe, the publishing of richer content using the Darwin Core germplasm extension and the indexing of these published resources by the EURISCO platform.”_
+
+_“... implemented in the context of EURISCO and therefore in close collaboration with the EURISCO Coordinator.”_
 
 
-= Details =
+= Installations for European genebanks =
 
+Scheduled test installations for the first demo phase during 2010. The IPT toolkit will be installed for each of these genebanks and a test for automatic indexing will be made for the EURISCO portal at Bioversity HQ in Rome, Italy.
+
+ * NordGen in Sweden covering 5 countries (Denmark, Sweden, Finland, Norway and Iceland) - *2009*
+ * EURISCO / Bioversity-HQ (Italy)
+ * Bioversity-Montpellier (France)
+ * IPK Gatersleben (Germany)
+ * WUR CGN (The Netherlands)
+ * CRI (Czech Republic)
+ * VIR (Russia) - *April 27, 2010*
+ * Balkan countries (Albania, Bosnia, Croatia, Macedonia, Serbia, Romania)
+ * Baltic countries (Estonia, Latvia, Lithuania)
