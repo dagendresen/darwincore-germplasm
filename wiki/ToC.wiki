@@ -18,6 +18,7 @@
  * [DarwinCoreGermplasmReferences Links and references]
  * [DarwinCore Darwin Core (About)]
  * [IPT GBIF IPT toolkit]
+ * [EURISCO EURISCO demo (IPT installations 2010)]
  * [http://code.google.com/p/darwincore-germplasm/w/list (list ALL pages)]
 
 <wiki:comment>
