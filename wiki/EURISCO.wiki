@@ -1,5 +1,5 @@
 #summary EURISCO demo upgrade of network with the GBIF IPT toolkit
-#labels GBIF-IPT
+#labels GBIF-IPT,EURISCO
 
 = Introduction =
 
