@@ -40,3 +40,9 @@ Scheduled test installations for the first demo phase during 2010. The IPT toolk
  * The National Inventory (NI) endorse all national gene banks (and eventually individual accessions) for EURISCO.
  * ECPGR Crop databases can access passport data from EURISCO and additional crop specific data from the genebank IPT interface.
  * Standard data sharing tools ensure that the genebank dataset is available to other relevant  decentralized thematic, regional or global networks.
+
+
+= Rationale - Potential of GBIF technology =
+
+ * Using GBIF technology (and contributing to its development), the PGR community can easily establish specific PGR networks without duplicating GBIF's work.
+ * The compatibility of data standards between PGR and biodiversity collections made it possible to integrate the worldwide germplasm collections into the biodiversity community (TDWG, GBIF).
