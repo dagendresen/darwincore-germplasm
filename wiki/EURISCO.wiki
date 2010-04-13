@@ -30,3 +30,13 @@ Scheduled test installations for the first demo phase during 2010. The IPT toolk
 || VIR || Russian Federation || *April 27, 2010* ||
 || SeedNET || Balkan countries (Albania, Bosnia, Croatia, Macedonia, Serbia, Romania) ||
 || Baltic || Baltic countries (Estonia, Latvia, Lithuania) ||
+
+ 
+ 
+
+= Possible PGR network model =
+
+ * The gene bank dataset is shared from the holding gene bank.
+ * The National Inventory (NI) endorse all national gene banks (and eventually individual accessions) for EURISCO.
+ * ECPGR Crop databases can access passport data from EURISCO and additional crop specific data from the genebank IPT interface.
+ * Standard data sharing tools ensure that the genebank dataset is available to other relevant  decentralized thematic, regional or global networks.
