@@ -20,12 +20,13 @@ _“... implemented in the context of EURISCO and therefore in close collaborati
 
 Scheduled test installations for the first demo phase during 2010. The IPT toolkit will be installed for each of these genebanks and a test for automatic indexing will be made for the EURISCO portal at Bioversity HQ in Rome, Italy.
 
- * NordGen in Sweden covering 5 countries (Denmark, Sweden, Finland, Norway and Iceland) - *2009*
- * EURISCO / Bioversity-HQ (Italy)
- * Bioversity-Montpellier (France)
- * IPK Gatersleben (Germany)
- * WUR CGN (The Netherlands)
- * CRI (Czech Republic)
- * VIR (Russia) - *April 27, 2010*
- * Balkan countries (Albania, Bosnia, Croatia, Macedonia, Serbia, Romania)
- * Baltic countries (Estonia, Latvia, Lithuania)
+|| Genebank Institute/Network || National Inventory (Country || Scheduled Installation ||
+|| NordGen || Denmark, Sweden, Finland, Norway and Iceland || *2009* ||
+|| EURISCO / Bioversity-HQ || Italy ||
+|| Bioversity-Montpellier  || France ||
+|| IPK Gatersleben || Germany ||
+|| WUR CGN || The Netherlands ||
+|| CRI || Czech Republic ||
+|| VIR || Russian Federation || *April 27, 2010* ||
+|| SeedNET || Balkan countries (Albania, Bosnia, Croatia, Macedonia, Serbia, Romania) ||
+|| Baltic || Baltic countries (Estonia, Latvia, Lithuania) ||
