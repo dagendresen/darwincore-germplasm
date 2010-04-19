@@ -11,11 +11,17 @@ Most of the terms needed to describe the collecting of plant genetic resources a
  * dwc:recordNumber [[http://rs.tdwg.org/dwc/terms/index.htm#recordNumber]] (mcpd:COLLNUMB)
  * dwc:decimalLatitude] [[http://rs.tdwg.org/dwc/terms/index.htm#decimalLatitude]] (mcpd:LATITUDE)
  * dwc:decimalLongitude [[http://rs.tdwg.org/dwc/terms/index.htm#decimalLongitude]] (mcpd:LONGITUDE)
+ * dwc:geodeticDatum [[http://rs.tdwg.org/dwc/terms/index.htm#geodeticDatum]]
  * dwc:minimumElevationinMeters [[http://rs.tdwg.org/dwc/terms/index.htm#minimumElevationInMeters]] (mcpd:ELEVATION)
  * dwc:eventDate [[http://rs.tdwg.org/dwc/terms/index.htm#eventDate]] (mcpd:COLLDATE)
  * dwc:locality [[http://rs.tdwg.org/dwc/terms/index.htm#locality]] (mcpd:COLLSITE)
  * dwc:countryCode [[http://rs.tdwg.org/dwc/terms/index.htm#countryCode]] (mcpd:ORIGCTY)
  * dwc:eventRemarks [[http://rs.tdwg.org/dwc/terms/index.htm#eventRemarks]] 
+
+ * Alternative (MCPD) format (degree, minute, second, hemisphere):
+ * dwc:verbatimLatitude] [[http://rs.tdwg.org/dwc/terms/index.htm#verbatimLatitude]] (mcpd:LATITUDE, DDMMSSH)
+ * dwc:verbatimLongitude [[http://rs.tdwg.org/dwc/terms/index.htm#verbatimLongitude]] (mcpd:LONGITUDE, DDDMMSSH)
+ * dwc:verbatimCoordinateSystem [[http://rs.tdwg.org/dwc/terms/index.htm#verbatimCoordinateSystem]]
 
 
 <br clear='all' />
