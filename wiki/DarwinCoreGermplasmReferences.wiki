@@ -9,8 +9,9 @@
 
  * Darwin Core (home) [http://rs.tdwg.org/dwc/ http://darwincore-germplasm.googlecode.com/svn/trunk/images/small/link_out.png]
  * Darwin Core TERMS [http://rs.tdwg.org/dwc/terms/index.htm http://darwincore-germplasm.googlecode.com/svn/trunk/images/small/link_out.png]
- * Darwin Core (Wikipedia) [http://en.wikipedia.org/wiki/Darwin_Core http://darwincore-germplasm.googlecode.com/svn/trunk/images/small/link_out.png]
- * Dublin Core (Wikipedia) [http://en.wikipedia.org/wiki/Dublin_Core http://darwincore-germplasm.googlecode.com/svn/trunk/images/small/link_out.png]
+ * Darwin Core Google Code Site [http://code.google.com/p/darwincore/ http://darwincore-germplasm.googlecode.com/svn/trunk/images/small/link_out.png]
+ * Darwin Core (at Wikipedia) [http://en.wikipedia.org/wiki/Darwin_Core http://darwincore-germplasm.googlecode.com/svn/trunk/images/small/link_out.png]
+ * Dublin Core (at Wikipedia) [http://en.wikipedia.org/wiki/Dublin_Core http://darwincore-germplasm.googlecode.com/svn/trunk/images/small/link_out.png]
 
 
 ----
