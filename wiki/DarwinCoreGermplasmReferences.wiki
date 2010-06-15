@@ -11,6 +11,12 @@
  * DwC TERMS [http://rs.tdwg.org/dwc/terms/index.htm http://darwincore-germplasm.googlecode.com/svn/trunk/images/small/link_out.png]
  * DwC development (Google Code) [http://code.google.com/p/darwincore/ http://darwincore-germplasm.googlecode.com/svn/trunk/images/small/link_out.png]
  * DwC (at Wikipedia) [http://en.wikipedia.org/wiki/Darwin_Core http://darwincore-germplasm.googlecode.com/svn/trunk/images/small/link_out.png]
+
+= Dublin Core =
+Darwin Core is an extension of the Dublin Core initiative.
+
+ * Dublin Core (home) [http://dublincore.org/ http://darwincore-germplasm.googlecode.com/svn/trunk/images/small/link_out.png]
+ * Dublin Core TERMS [http://dublincore.org/documents/usageguide/elements.shtml http://darwincore-germplasm.googlecode.com/svn/trunk/images/small/link_out.png]
  * Dublin Core (at Wikipedia) [http://en.wikipedia.org/wiki/Dublin_Core http://darwincore-germplasm.googlecode.com/svn/trunk/images/small/link_out.png]
 
 
