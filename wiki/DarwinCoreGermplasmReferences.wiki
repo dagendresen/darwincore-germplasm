@@ -5,6 +5,16 @@
 
 ----
 
+= Darwin Core =
+
+ * Darwin Core (home) [http://rs.tdwg.org/dwc/ http://darwincore-germplasm.googlecode.com/svn/trunk/images/small/link_out.png]
+ * Darwin Core TERMS [http://rs.tdwg.org/dwc/terms/index.htm http://darwincore-germplasm.googlecode.com/svn/trunk/images/small/link_out.png]
+ * Darwin Core (Wikipedia) [http://en.wikipedia.org/wiki/Darwin_Core http://darwincore-germplasm.googlecode.com/svn/trunk/images/small/link_out.png]
+ * Dublin Core (Wikipedia) [http://en.wikipedia.org/wiki/Dublin_Core http://darwincore-germplasm.googlecode.com/svn/trunk/images/small/link_out.png]
+
+
+----
+
 <img src='http://darwincore-germplasm.googlecode.com/svn/trunk/images/logos/tdwg_2009_logo.png' align='right' />
 
 = TDWG 2009, working session on the DwC =
@@ -13,14 +23,6 @@ At the TDWG 2009, Dag Endresen and Samy Gaiji convened a working session on the 
 
 Read more at [TDWG2009_DwC_Germplasm]. 
 
-
-= DwC-G Feeds =
-
-The updates made to the Darwin Core Germplasm here is available as a <a href='http://en.wikipedia.org/wiki/Atom_(standard)'>Atom Feed</a>. You may subscribe with most RSS News readers.
- * <a href='http://code.google.com/p/darwincore-germplasm/feeds'>Feeds</a>
- * <a href='http://code.google.com/feeds/p/darwincore/updates/basic'>Basic DwC-G Project Updates</a>
- * <a href='http://code.google.com/feeds/p/darwincore-germplasm/svnchanges/basic?path=/wiki/'>Wiki page updates</a>
- * <a href='http://code.google.com/feeds/p/darwincore-germplasm/svnchanges/basic'>Subversion commits</a>
 
 
 
@@ -43,3 +45,13 @@ Please find here some relevant references to previous work and standards for ger
  * Moore, J.D., Kell, S.P., Iriondo, J.M., Ford-Lloyd, B.V. & Maxted, N., (2008). CWRML: representing crop wild relative conservation and use data in XML. BMC Bioinformatics, 9: 116. [http://wrap.warwick.ac.uk/547/ http://darwincore-germplasm.googlecode.com/svn/trunk/images/small/link_out.png] [http://dx.doi.org/10.1186/1471-2105-9-116 http://darwincore-germplasm.googlecode.com/svn/trunk/images/small/link_out.png]
 
  * Kell, S.P., Moore, J.D., Iriondo, J.M., Scholten, M.A., Ford-Lloyd, B.V. and Maxted, N., (2008). CWRIS: a tool for managing and accessing crop wild relative information. In: Maxted, N., Ford-Lloyd, B.V., Kell, S.P., Iriondo, J., Dulloo, E. and Turok, J. (eds.) Crop Wild Relative Conservation and Use. Pp. 469-489. CAB International, Wallingford. 
+
+
+
+= DwC-G Feeds =
+
+The updates made to the Darwin Core Germplasm here is available as a <a href='http://en.wikipedia.org/wiki/Atom_(standard)'>Atom Feed</a>. You may subscribe with most RSS News readers.
+ * <a href='http://code.google.com/p/darwincore-germplasm/feeds'>Feeds</a>
+ * <a href='http://code.google.com/feeds/p/darwincore/updates/basic'>Basic DwC-G Project Updates</a>
+ * <a href='http://code.google.com/feeds/p/darwincore-germplasm/svnchanges/basic?path=/wiki/'>Wiki page updates</a>
+ * <a href='http://code.google.com/feeds/p/darwincore-germplasm/svnchanges/basic'>Subversion commits</a>
