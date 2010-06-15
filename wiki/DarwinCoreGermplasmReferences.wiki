@@ -12,6 +12,8 @@
  * DwC development (Google Code) [http://code.google.com/p/darwincore/ http://darwincore-germplasm.googlecode.com/svn/trunk/images/small/link_out.png]
  * DwC (at Wikipedia) [http://en.wikipedia.org/wiki/Darwin_Core http://darwincore-germplasm.googlecode.com/svn/trunk/images/small/link_out.png]
 
+----
+
 = Dublin Core =
 Darwin Core is an extension of the Dublin Core initiative.
 
