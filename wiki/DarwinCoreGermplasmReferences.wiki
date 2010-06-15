@@ -21,6 +21,15 @@ Darwin Core is an extension of the Dublin Core initiative.
  * Dublin Core TERMS [http://dublincore.org/documents/usageguide/elements.shtml http://darwincore-germplasm.googlecode.com/svn/trunk/images/small/link_out.png]
  * Dublin Core (at Wikipedia) [http://en.wikipedia.org/wiki/Dublin_Core http://darwincore-germplasm.googlecode.com/svn/trunk/images/small/link_out.png]
 
+----
+
+= GBIF Resources =
+
+ * GBIF IPT, Publishing Toolkit [http://code.google.com/p/gbif-providertoolkit/ http://darwincore-germplasm.googlecode.com/svn/trunk/images/small/link_out.png]
+ * GBIF HIT, Indexing Toolkit [http://code.google.com/p/gbif-indexingtoolkit/ http://darwincore-germplasm.googlecode.com/svn/trunk/images/small/link_out.png]
+ * GBRDS, Registry [http://gbrds.gbif.org http://darwincore-germplasm.googlecode.com/svn/trunk/images/small/link_out.png]
+ * GBIF vocabularies [http://vocabularies.gbif.org/ http://darwincore-germplasm.googlecode.com/svn/trunk/images/small/link_out.png]
+ * GBIF vocabularies (DwC-G) [http://vocabularies.gbif.org/node/126981 http://darwincore-germplasm.googlecode.com/svn/trunk/images/small/link_out.png]
 
 ----
 
