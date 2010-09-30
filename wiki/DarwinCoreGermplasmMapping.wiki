@@ -63,4 +63,4 @@ Proposed mapping of the most common Germplasm Passport data descriptors to the D
 || 30 ||	EURISCO	||	BREDDESCR	||	DwC Germplasm	||	BreederInstitute	||		||
 || 31 ||	EURISCO	||	DONORDESCR	||	DwC Germplasm	||	DonorInstitute	||		||
 || 32 ||	EURISCO	|| DUPLDESCR || DwC Germplasm || SafetyDuplicationInstitute ||		||
-|| 33 ||	EURISCO	||	ACCEURL	||	***	||	missing	||	*||
+|| 33 ||	EURISCO	||	ACCEURL	||	DwC	||		||	*||
