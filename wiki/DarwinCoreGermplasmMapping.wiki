@@ -1,4 +1,4 @@
-#summary Mapping of the DwC-G terms to other standards
+#summary Mapping of the DwC-Germplasm terms to other standards
 
 = Mapping =
 
