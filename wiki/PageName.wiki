@@ -1,4 +1,4 @@
-#summary Versions of the DwC-G
+#summary Versions of the DwC-Germplasm
 
 = Versions =
 
