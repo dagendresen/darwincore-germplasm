@@ -1,4 +1,4 @@
-#summary DwC-G Taxon TERMS
+#summary DwC-Germplasm Taxon TERMS
 #labels TERMS
 
 = Taxon =
