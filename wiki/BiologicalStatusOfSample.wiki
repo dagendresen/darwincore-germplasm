@@ -1,4 +1,4 @@
-#summary DwC-G BiologicalStatusOfSample
+#summary DwC-Germplasm BiologicalStatusOfSample
 #labels TERM
 
 http://rs.nordgen.org/dwc/germplasm/0.1/terms/AncestralData
