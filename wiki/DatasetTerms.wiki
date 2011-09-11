@@ -1,4 +1,4 @@
-#summary DwC-G Dataset TERMS.
+#summary DwC-Germplasm Dataset TERMS.
 #labels TERMS
 
 = Dataset =
