@@ -1,0 +1,37 @@
+ <style type="text/css">
+
+  /* Body */
+  body { background-color: #FFE47A; }
+  body { background: #FFF; color: #000;
+    font-family: Verdana, Arial, "Arial Unicode MS", Helvetica,sans-serif;
+    margin: 10px;padding: 10px;text-align: left;
+  }
+
+  body, body div, body p, body th, body td, body li, body dd { font-size: small; }
+
+  /* Table used in Document pages - yellow background for table heads */
+  table.docinfo { background: #FFC; width: 100%; margin-bottom: 10px; }
+  table.docinfo th { text-align: right; padding: 4px; width: 15%; background: #EEE; }
+  table.docinfo td { text-align: left; padding: 4px; width: 85%; }
+  table.docinfo td, table.docinfo th { border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding: .5em; }
+
+  /* Specs for tables with border */
+  table.border { border-top: 1px solid #CCC; border-left: 1px solid #CCC; margin-bottom: 10px; }
+  table.border th { background: #EEE; font-family: Verdana, Arial, "Arial Unicode MS", Helvetica, sans-serif; text-align: center; }
+  table.border td, table.border th { border-right: 1px solid #CCC; border-bottom: 1px solid #CCC; padding: .5em; }
+  table.border { background-color: #FFC; }
+  table.border td.nobr { white-space: nowrap; text-align: right; }
+  table.border td.vspacer { background-color: #FFE47A; border-right: 0px; border-left: 0px; }
+
+
+  /* Specs for tables with no border */
+  table.noborder { margin-bottom: 10px; }
+  table.noborder th { background: #EEE; font-family: Verdana, Arial, "Arial Unicode MS", Helvetica, sans-serif; }
+  table.noborder td, table.noborder th { padding: .5em; }
+  table.noborder { background-color: #FFC; }
+
+  .nobr { white-space: nowrap; }
+
+   lh { font-size: 20pt; font-family: sans-serif; }
+
+ </style>

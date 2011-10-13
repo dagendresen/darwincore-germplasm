@@ -1,0 +1,721 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html dir="ltr"><head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<script src="adding-extension-for-germplasm-to-gbif_files/googleapis.js"></script><script type="text/javascript">(function() { var a=window;function c(b){this.t={};this.tick=function(b,i,d){d=d!=void 0?d:(new Date).getTime();this.t[b]=[d,i]};this.tick("start",null,b)}var e=new c;a.jstiming={Timer:c,load:e};try{var g=null;a.chrome&&a.chrome.csi&&(g=Math.floor(a.chrome.csi().pageT));g==null&&a.gtbExternal&&(g=a.gtbExternal.pageT());g==null&&a.external&&(g=a.external.pageT);g&&(a.jstiming.pt=g)}catch(h){};a.tickAboveFold=function(b){var f=0;if(b.offsetParent){do f+=b.offsetTop;while(b=b.offsetParent)}b=f;b<=750&&a.jstiming.load.tick("aft")};var j=!1;function k(){j||(j=!0,a.jstiming.load.tick("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",k,!1):a.attachEvent("onscroll",k);
+ })();</script>
+<meta content="true" name="MSSmartTagsPreventParsing">
+<meta content="blogger" name="generator">
+<link href="http://dag-endresen.blogspot.com/favicon.ico" rel="icon" type="image/x-icon">
+<link href="http://dag-endresen.blogspot.com/2009/06/adding-extension-for-germplasm-to-gbif.html" rel="canonical">
+<link rel="alternate" type="application/atom+xml" title="Dag Endresen - Atom" href="http://dag-endresen.blogspot.com/feeds/posts/default">
+<link rel="alternate" type="application/rss+xml" title="Dag Endresen - RSS" href="http://dag-endresen.blogspot.com/feeds/posts/default?alt=rss">
+<link rel="service.post" type="application/atom+xml" title="Dag Endresen - Atom" href="http://www.blogger.com/feeds/8263062402442300493/posts/default">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.blogger.com/rsd.g?blogID=8263062402442300493">
+<link rel="alternate" type="application/atom+xml" title="Dag Endresen - Atom" href="http://dag-endresen.blogspot.com/feeds/8403802375386686128/comments/default">
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
+<title>Dag Endresen: Adding an extension for germplasm, GBIF IPT</title>
+<link type="text/css" rel="stylesheet" href="adding-extension-for-germplasm-to-gbif_files/3503329017-widget_css_bundle.css">
+ <link rel="stylesheet" type="text/css" href="adding-extension-for-germplasm-to-gbif_files/authorization.css">
+<style type="text/css">#navbar-iframe { display:block }
+</style>
+
+<style id="page-skin-1" type="text/css"><!--
+/*
+* Blogger Template Style
+*
+* Simple II
+* by Jason Sutter
+*/
+/* Variable definitions
+====================
+<Variable name="bgcolor" description="Page Background Color"
+type="color" default="#fff">
+<Variable name="textcolor" description="Text Color"
+type="color" default="#000">
+<Variable name="pagetitlecolor" description="Blog Title Color"
+type="color" default="#000">
+<Variable name="titlecolor" description="Post Title Color"
+type="color" default="#000">
+<Variable name="footercolor" description="Date and Footer Color"
+type="color" default="#555">
+<Variable name="linkcolor" description="Link Color"
+type="color" default="#58a">
+<Variable name="visitedlinkcolor" description="Visited Link Color"
+type="color" default="#999"> Used to be #969
+<Variable name="bordercolor" description="Border Color"
+type="color" default="#999">
+<Variable name="bodyfont" description="Text Font"
+type="font" default="normal normal 100% Georgia,Serif;">
+<Variable name="pagetitlefont" description="Blog Title Font"
+type="font"
+default="normal bold 200% Georgia,Serif">
+<Variable name="startSide" description="Start side in blog language"
+type="automatic" default="left">
+<Variable name="endSide" description="End side in blog language"
+type="automatic" default="right">
+*/
+body {
+margin:0;
+font:normal normal 100% Georgia,Serif;;
+background:#dff2ff;
+color:#000000;
+}
+a:link {
+color:#5588aa;
+text-decoration:none;
+}
+a:visited {
+color:#999999;
+text-decoration:none;
+}
+a:hover {
+color:#3c5f77;
+text-decoration:underline;
+}
+a img {
+border-width:0;
+}
+#outer-wrapper {
+margin-top: 0px;
+margin-right: 3em;
+margin-bottom: 0;
+margin-left: 3em;
+}
+h1 {
+border-bottom:dotted 1px #999999;
+margin-bottom:0px;
+color: #3c5f77;
+font: normal bold 200% Georgia,Serif;
+}
+h1 a, h1 a:link, h1 a:visited {
+color: #3c5f77;
+}
+h2 {
+margin:0px;
+padding: 0px;
+}
+#main .widget {
+padding-bottom:10px;
+margin-bottom:20px;
+border-bottom:dotted 1px #999999;
+clear: both;
+}
+#main .Header {
+border-bottom-width: 0px;
+}
+h2.date-header {
+padding-top:15px;
+color:#555555;
+padding-bottom:0px;
+margin-bottom:0px;
+font-size: 90%;
+}
+h3.post-title {
+font-size: 140%;
+color: #3c5f77;
+}
+.post {
+padding-left:5%;
+padding-right:10%;
+}
+.post-footer {
+color:#555555;
+}
+#comments {
+padding-top:30px;
+color:#000000;
+padding-bottom:0px;
+margin-bottom:0px;
+font-weight:bold;
+}
+#comments .comment-footer {
+font-size:1em;
+font-weight:normal;
+color:#555555;
+margin-right:10px;
+display:inline;
+}
+.comment-author {
+margin-top: 3%;
+}
+.comment-body {
+font-size:1em;
+font-weight:normal;
+}
+.deleted-comment {
+font-style:italic;
+color:gray;
+}
+.comment-link {
+margin-left:.6em;
+}
+.feed-links {
+clear: both;
+line-height: 2.5em;
+}
+#blog-pager-newer-link {
+float: left;
+}
+#blog-pager-older-link {
+float: right;
+}
+#blog-pager {
+text-align: center;
+}
+.clear {
+clear: both;
+}
+.profile-img {
+float: left;
+margin-top: 0;
+margin-right: 5px;
+margin-bottom: 5px;
+margin-left: 0;
+}
+body#layout #outer-wrapper {
+margin-top: 0px;
+margin-right: 50px;
+margin-bottom: 0;
+margin-left: 50px;
+}
+
+--></style>
+<script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('headEnd');
+</script></head>
+<body>
+<div class="navbar section" id="navbar"><div class="widget Navbar" id="Navbar1"><script src="adding-extension-for-germplasm-to-gbif_files/plusone.js" async="" type="text/javascript"></script><script type="text/javascript">
+    function setAttributeOnload(object, attribute, val) {
+      if(window.addEventListener) {
+        window.addEventListener("load",
+          function(){ object[attribute] = val; }, false);
+      } else {
+        window.attachEvent('onload', function(){ object[attribute] = val; });
+      }
+    }
+  </script>
+<iframe src="adding-extension-for-germplasm-to-gbif_files/navbar.html" marginwidth="0" marginheight="0" id="navbar-iframe" allowtransparency="true" title="Blogger Navigation and Search" frameborder="0" height="30px" scrolling="no" width="100%"></iframe>
+<div></div></div></div>
+<div id="outer-wrapper">
+<div class="main section" id="main"><div class="widget Header" id="Header1">
+<div id="header-inner">
+<div class="titlewrapper">
+<h1 class="title">
+<a href="http://dag-endresen.blogspot.com/">Dag Endresen</a>
+</h1>
+</div>
+<div class="descriptionwrapper">
+<p class="description"><span>http://www.google.com/profiles/dag.endresen</span></p>
+</div>
+</div>
+</div><div class="widget Blog" id="Blog1">
+<div class="blog-posts hfeed">
+<!-- google_ad_section_start(name=default) -->
+
+          <div class="date-outer">
+        
+<h2 class="date-header"><span>Monday, June 29, 2009</span></h2>
+
+          <div class="date-posts">
+        
+<div class="post-outer">
+<div class="post hentry">
+<a name="8403802375386686128"></a>
+<h3 class="post-title entry-title">
+Adding an extension for germplasm, GBIF IPT
+</h3>
+<div class="post-header">
+<div class="post-header-line-1"></div>
+</div>
+<div class="post-body entry-content" id="post-body-8403802375386686128">
+The <span style="font-weight: bold;">GBIF Provider Toolkit (IPT)</span> 
+is a database wrapper to help the provider of biodiversity information 
+to set up and provide these data as a web service. The primary data 
+exchange standard deployed by the GBIF IPT is the <span style="font-weight: bold;">Darwin Core</span> standard maintained by the <b style="font-weight: normal;">Biodiversity Information Standards (</b>TDWG).<br>
+<br>
+<a href="http://code.google.com/p/gbif-providertoolkit/">http://code.google.com/p/gbif-providertoolkit/</a><br>
+<a href="http://code.google.com/p/darwincore/">http://code.google.com/p/darwincore/</a><br>
+<br>
+Below are the steps I followed to develop a draft germplasm extension to
+ the Darwin Core (DwC) standard, and next to add this draft DwC 
+extension to the GBIF IPT software. You may follow the same steps to 
+develop your own extension and to add this to the GBIF IPT.<br>
+<br>
+If you are interested, you may visit the IPT from NordGen with a DEMO 
+dataset mapped to terms from this DRAFT Darwin Core extension for 
+germplasm at:<br>
+<a defaultcontextmenu="yes" href="http://ipt.nordgen.org/ipt/occResource.html?resource_id=77" target="_blank">http://ipt.nordgen.org/ipt/occResource.html?resource_id=77</a><br>
+<br>
+<span style="font-weight: bold;">Summary of steps:</span><br>
+<br>
+1. Schema<br>
+I built a suggestion to a DRAFT Darwin Core extension for germplasm<br>
+<a defaultcontextmenu="yes" href="http://code.google.com/p/darwincore/source/browse/trunk/xsd/profiles/germplasm/dwc_germplasm_0_1.xsd" target="_blank">http://code.google.com/p/darwincore/source/browse/trunk/xsd/profiles/germplasm/dwc_germplasm_0_1.xsd</a><br>
+<a defaultcontextmenu="yes" href="http://rs.nordgen.org/dwc/germplasm/0.1/dwc_germplasm_0_1.xsd" target="_blank">http://rs.nordgen.org/dwc/germplasm/0.1/dwc_germplasm_0_1.xsd</a><br>
+<br>
+2. XML definition for IPT<br>
+Listing the terms to use from the suggested DRAFT DarwinCore extension<br>
+<a defaultcontextmenu="yes" href="http://rs.nordgen.org/dwc/germplasm/0.1/ipt_germplasm_0_1.xml" target="_blank">http://rs.nordgen.org/dwc/germplasm/0.1/ipt_germplasm_0_1.xml</a><br>
+<br>
+3. Add this XML definition to a copy of extensions.json<br>
+Starting with: <a href="http://gbrds.gbif.org/registry/ipt/extensions.json">http://gbrds.gbif.org/registry/ipt/extensions.json<br>
+</a>Add text {"title":"Germplasm","url":"<a href="http://rs.nordgen.org/dwc/germplasm/0.1/ipt_germplasm_0_1.xml">http://rs.nordgen.org/dwc/germplasm/0.1/ipt_germplasm_0_1.xml</a>","id":9}<br>
+Saved as: <a href="http://rs.nordgen.org/rs/ipt/extensions.json">http://rs.nordgen.org/rs/ipt/extensions.json<br>
+</a><br>
+4. Modify ipt.properties<br>
+PATH_TO_TOMCAT_WEBAPPS/ipt/WEB-INF/classes/ipt.properties<br>
+Line 7: "registryUrl=<a href="http://gbrds.gbif.org/registry">http://gbrds.gbif.org/registry</a>" modified to<br>
+"registryUrl=<a href="http://rs.nordgen.org/rs">http://rs.nordgen.org/rs</a>"<br>
+<br>
+5. Restart Tomcat (reload ipt)<br>
+The new ipt.properties settings does not seem to be loaded without restart of tomcat<br>
+<br>
+6. Add/load the new extension to IPT<br>
+Login with admin permissions<br>
+<a defaultcontextmenu="yes" href="http://your_server_name/ipt/admin/extensions.html" target="_blank">http://your-ipt-service-url/ipt/admin/extensions.html</a><br>
+Click "Check for all available extensions"<br>
+Select the name of the new extension<br>
+Select "install" and "Done"<br>
+<br>
+7. Mapping of terms to your data<br>
+Select the new extension under "Add New Mapping"<br>
+Click "Add" button to the right<br>
+Select and map terms<br>
+<br>
+<span style="font-weight: bold;">Remarks:</span><br>
+<br>
+The IPT will contact the registry as defined in "ipt.properties". By 
+default the GBIF registry in Copenhagen is defined here, but you may 
+modify this to point to your own registry. I did not mimic the complete 
+features of the registry - ONLY the list of extensions "extensions.json"
+ to add the new draft germplasm extension I made. You may want to add 
+your own thesaurus "thesauri.json" of controlled vocabulary or more 
+features in the similar way. After loading my new extension to my IPT at
+ NordGen, I modified the "properties.ipt" back to point to the GBIF 
+registry in Copenhagen again.<br>
+<br>
+To mimic the registry feature for adding the extension, I made a copy of the file from <a href="http://gbrds.gbif.org/registry/ipt/extensions.json">http://gbrds.gbif.org/registry/ipt/extensions.json</a> and added my application schema from the extension as you will see at <a defaultcontextmenu="yes" href="http://rs.nordgen.org/rs/ipt/extensions.json" target="_blank">http://rs.nordgen.org/rs/ipt/extensions.json</a>.<br>
+<br>
+The application schema (as defined in "extensions.json") and online from: <a href="http://rs.nordgen.org/dwc/germplasm/0.1/ipt_germplasm_0_1.xml">http://rs.nordgen.org/dwc/germplasm/0.1/ipt_germplasm_0_1.xml</a>, creates a namespace (for the use by IPT) as well as includes the URL for the actual draft germplasm extension I made:<br>
+<br>
+http://rs.nordgen.org/dwc/germplasm/0.1/ http://rs.nordgen.org/rs/dwc/germplasm/0.1/dwc_germplasm_0_1.xsd<br>
+<br>
+The application schema itself (ipt_germplasm.xml) only lists the terms I
+ want to use in IPT, with the property name to be displayed in the IPT 
+mapping interface. To create this file I started with one of the other 
+extensions <a href="http://gbrds.gbif.org/resources/extensions/vernacularName.xml">http://gbrds.gbif.org/resources/extensions/vernacularName.xml</a>.
+ I just made a copy of this file and replaced the names and terms for 
+vernacular name extension with the terms I wanted from the draft 
+germplasm extension.<br>
+<br>
+<span style="font-weight: bold;">NB!</span> This DRAFT extension for 
+germplasm is still under development and I am sure that I still 
+duplicate some terms from DarwinCore or perhaps other extensions! I did 
+not yet work much with the terms for trait observations on germplasm, 
+but added most of the terms from the new proposed draft standard for 
+these data for the European genebank community.
+<div style="clear: both;"></div>
+</div>
+<div class="post-footer">
+<div class="post-footer-line post-footer-line-1"><span class="post-author vcard">
+Posted by
+<span class="fn">Dag Endresen</span>
+</span>
+<span class="post-timestamp">
+at
+<a class="timestamp-link" href="http://dag-endresen.blogspot.com/2009/06/adding-extension-for-germplasm-to-gbif.html" rel="bookmark" title="permanent link"><abbr class="published" title="2009-06-29T11:26:00+02:00">11:26</abbr></a>
+</span>
+<span class="post-comment-link">
+</span>
+<span class="post-icons">
+<span class="item-control blog-admin pid-1150380453">
+<a href="http://www.blogger.com/post-edit.g?blogID=8263062402442300493&amp;postID=8403802375386686128&amp;from=pencil" title="Edit Post">
+<img alt="" class="icon-action" src="adding-extension-for-germplasm-to-gbif_files/icon18_edit_allbkg.gif" height="18" width="18">
+</a>
+</span>
+</span>
+<div class="post-share-buttons goog-inline-block">
+<a class="goog-inline-block share-button sb-email" href="http://www.blogger.com/share-post.g?blogID=8263062402442300493&amp;postID=8403802375386686128&amp;target=email" target="_blank" title="Email This"><span class="share-button-link-text">Email This</span></a><a class="goog-inline-block share-button sb-blog" href="http://www.blogger.com/share-post.g?blogID=8263062402442300493&amp;postID=8403802375386686128&amp;target=blog" onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target="_blank" title="BlogThis!"><span class="share-button-link-text">BlogThis!</span></a><a class="goog-inline-block share-button sb-twitter" href="http://www.blogger.com/share-post.g?blogID=8263062402442300493&amp;postID=8403802375386686128&amp;target=twitter" target="_blank" title="Share to Twitter"><span class="share-button-link-text">Share to Twitter</span></a><a class="goog-inline-block share-button sb-facebook" href="http://www.blogger.com/share-post.g?blogID=8263062402442300493&amp;postID=8403802375386686128&amp;target=facebook" onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target="_blank" title="Share to Facebook"><span class="share-button-link-text">Share to Facebook</span></a><div class="goog-inline-block dummy-container"><div style="height: 20px; width: 90px; display: inline-block; text-indent: 0pt; margin: 0pt; padding: 0pt; background: none repeat scroll 0% 0% transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline;" id="___plusone_0"><iframe allowtransparency="true" hspace="0" id="I1_1317798767581" marginheight="0" marginwidth="0" name="I1_1317798767581" src="adding-extension-for-germplasm-to-gbif_files/fastbutton.html" style="position: static; left: 0pt; top: 0pt; width: 90px; margin: 0px; border-style: none; height: 20px; visibility: visible;" tabindex="-1" vspace="0" title="+1" frameborder="0" scrolling="no" width="100%"></iframe></div></div>
+</div>
+</div>
+<div class="post-footer-line post-footer-line-2"><span class="post-labels">
+</span>
+</div>
+<div class="post-footer-line post-footer-line-3"><span class="reaction-buttons">
+<table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr>
+<td class="reactions-label-cell" nowrap="nowrap" valign="top" width="1%">
+<span class="reactions-label">
+Reactions:</span>&nbsp;</td>
+<td><iframe allowtransparency="true" class="reactions-iframe" name="reactions" src="adding-extension-for-germplasm-to-gbif_files/blog-post-reactions.html" frameborder="0" scrolling="no"></iframe></td>
+</tr></tbody></table>
+</span>
+</div>
+</div>
+</div>
+<div class="comments" id="comments">
+<a name="comments"></a>
+<h4>
+0
+comments:
+        
+</h4>
+<div id="Blog1_comments-block-wrapper">
+<dl class="avatar-comment-indent" id="comments-block">
+</dl>
+</div>
+<p class="comment-footer">
+</p><div class="comment-form">
+<a name="comment-form"></a>
+<h4 id="comment-post-message">Post a Comment</h4>
+<p>
+</p>
+<a href="http://www.blogger.com/comment-iframe.g?blogID=8263062402442300493&amp;postID=8403802375386686128&amp;blogspotRpcToken=6964846" id="comment-editor-src"></a>
+<iframe allowtransparency="true" class="blogger-iframe-colorize blogger-comment-from-post" id="comment-editor" name="comment-editor" src="adding-extension-for-germplasm-to-gbif_files/comment-iframe.html" frameborder="0" height="410" width="100%"></iframe>
+<script type="text/javascript" src="adding-extension-for-germplasm-to-gbif_files/957670695-comment_from_post_iframe.js"></script>
+<script type="text/javascript">
+      BLOG_CMT_createIframe('http://www.blogger.com/rpc_relay.html', '01016845353314204892');
+    </script>
+</div>
+<p></p>
+<div id="backlinks-container">
+<div id="Blog1_backlinks-container">
+</div>
+</div>
+</div>
+</div>
+<div id="latency-8403802375386686128"></div><script type="text/javascript">if (window['tickAboveFold']) {window['tickAboveFold'](document.getElementById("latency-8403802375386686128")); } </script>
+
+        </div></div>
+      
+<!-- google_ad_section_end -->
+</div>
+<div class="blog-pager" id="blog-pager">
+<span id="blog-pager-newer-link">
+<a class="blog-pager-newer-link" href="http://dag-endresen.blogspot.com/2009/08/postgresql-shared-memory-settings.html" id="Blog1_blog-pager-newer-link" title="Newer Post">Newer Post</a>
+</span>
+<span id="blog-pager-older-link">
+<a class="blog-pager-older-link" href="http://dag-endresen.blogspot.com/2009/01/open-dbase-file-from-esri-shape-on-mac.html" id="Blog1_blog-pager-older-link" title="Older Post">Older Post</a>
+</span>
+<a class="home-link" href="http://dag-endresen.blogspot.com/">Home</a>
+</div>
+<div class="clear"></div>
+<div class="post-feeds">
+<div class="feed-links">
+Subscribe to:
+<a class="feed-link" href="http://dag-endresen.blogspot.com/feeds/8403802375386686128/comments/default" target="_blank" type="application/atom+xml">Post Comments (Atom)</a>
+</div>
+</div>
+<script type="text/javascript">window.___gcfg = {'lang': 'en'};window.___gapisync = false;(function() {var po = document.createElement('script');po.type = 'text/javascript';po.async = true;po.src = 'https://apis.google.com/js/plusone.js';var s = document.body.getElementsByTagName('script')[0];s.parentNode.insertBefore(po, s);})();</script>
+</div><div class="widget Profile" id="Profile2">
+<h2>About Me</h2>
+<div class="widget-content">
+<a href="http://www.blogger.com/profile/11068151444243786728"><img alt="My Photo" class="profile-img" src="adding-extension-for-germplasm-to-gbif_files/DagEndresen_SGSV_20080227-2.png" height="80" width="80"></a>
+<dl class="profile-datablock">
+<dt class="profile-data">
+<a class="profile-name-link" href="http://www.blogger.com/profile/11068151444243786728" rel="author">
+Dag Endresen
+</a>
+</dt>
+</dl>
+<a class="profile-link" href="http://www.blogger.com/profile/11068151444243786728" rel="author">View my complete profile</a>
+<div class="clear"></div>
+<span class="widget-item-control">
+<span class="item-control blog-admin">
+<a class="quickedit" href="http://www.blogger.com/rearrange?blogID=8263062402442300493&amp;widgetType=Profile&amp;widgetId=Profile2&amp;action=editWidget&amp;sectionId=main" onclick='return _WidgetManager._PopupConfig(document.getElementById("Profile2"));' target="configProfile2" title="Edit">
+<img alt="" src="adding-extension-for-germplasm-to-gbif_files/icon18_wrench_allbkg.png" height="18" width="18">
+</a>
+</span>
+</span>
+<div class="clear"></div>
+</div>
+</div><div class="widget BlogArchive" id="BlogArchive2">
+<h2>Blog Archive</h2>
+<div class="widget-content">
+<div id="ArchiveList">
+<div id="BlogArchive2_ArchiveList">
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://dag-endresen.blogspot.com/search?updated-min=2010-01-01T00%3A00%3A00%2B01%3A00&amp;updated-max=2011-01-01T00%3A00%3A00%2B01%3A00&amp;max-results=1">2010</a>
+<span class="post-count" dir="ltr">(1)</span>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://dag-endresen.blogspot.com/2010_03_01_archive.html">March</a>
+<span class="post-count" dir="ltr">(1)</span>
+<ul class="posts">
+<li><a href="http://dag-endresen.blogspot.com/2010/03/gbif-integrated-publishing-toolkit-ipt.html">GBIF Integrated Publishing Toolkit (IPT) installat...</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate expanded">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy toggle-open">▼&nbsp;</span>
+</a>
+<a class="post-count-link" href="http://dag-endresen.blogspot.com/search?updated-min=2009-01-01T00%3A00%3A00%2B01%3A00&amp;updated-max=2010-01-01T00%3A00%3A00%2B01%3A00&amp;max-results=5">2009</a>
+<span class="post-count" dir="ltr">(5)</span>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://dag-endresen.blogspot.com/2009_09_01_archive.html">September</a>
+<span class="post-count" dir="ltr">(1)</span>
+<ul class="posts">
+<li><a href="http://dag-endresen.blogspot.com/2009/09/gbif-ipt-customization.html">GBIF IPT Customization</a></li>
+</ul>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://dag-endresen.blogspot.com/2009_08_01_archive.html">August</a>
+<span class="post-count" dir="ltr">(1)</span>
+<ul class="posts">
+<li><a href="http://dag-endresen.blogspot.com/2009/08/postgresql-shared-memory-settings.html">PostgreSQL shared memory settings</a></li>
+</ul>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate expanded">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy toggle-open">▼&nbsp;</span>
+</a>
+<a class="post-count-link" href="http://dag-endresen.blogspot.com/2009_06_01_archive.html">June</a>
+<span class="post-count" dir="ltr">(1)</span>
+<ul class="posts">
+<li><a href="http://dag-endresen.blogspot.com/2009/06/adding-extension-for-germplasm-to-gbif.html">Adding an extension for germplasm, GBIF IPT</a></li>
+</ul>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://dag-endresen.blogspot.com/2009_01_01_archive.html">January</a>
+<span class="post-count" dir="ltr">(2)</span>
+<ul class="posts">
+<li><a href="http://dag-endresen.blogspot.com/2009/01/open-dbase-file-from-esri-shape-on-mac.html">Open dBase file from an ESRI shape on Mac Os X</a></li>
+<li><a href="http://dag-endresen.blogspot.com/2009/01/os-x-system-upgrades-and-my-apache.html">OS X system upgrades and my Apache HTTPD + PHP</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="clear"></div>
+<span class="widget-item-control">
+<span class="item-control blog-admin">
+<a class="quickedit" href="http://www.blogger.com/rearrange?blogID=8263062402442300493&amp;widgetType=BlogArchive&amp;widgetId=BlogArchive2&amp;action=editWidget&amp;sectionId=main" onclick='return _WidgetManager._PopupConfig(document.getElementById("BlogArchive2"));' target="configBlogArchive2" title="Edit">
+<img alt="" src="adding-extension-for-germplasm-to-gbif_files/icon18_wrench_allbkg.png" height="18" width="18">
+</a>
+</span>
+</span>
+<div class="clear"></div>
+</div>
+</div><div class="widget LinkList" id="LinkList1">
+<h2>LINKS</h2>
+<div class="widget-content">
+<ul>
+<li><a href="http://www.gbif.org/">Global Biodiversity Information Facility (GBIF)</a></li>
+<li><a href="http://www.bioversityinternational.org/">Bioversity International</a></li>
+<li><a href="http://www.nordgen.org/">Nordic Genetic Resource Center (NordGen)</a></li>
+</ul>
+<div class="clear"></div>
+<span class="widget-item-control">
+<span class="item-control blog-admin">
+<a class="quickedit" href="http://www.blogger.com/rearrange?blogID=8263062402442300493&amp;widgetType=LinkList&amp;widgetId=LinkList1&amp;action=editWidget&amp;sectionId=main" onclick='return _WidgetManager._PopupConfig(document.getElementById("LinkList1"));' target="configLinkList1" title="Edit">
+<img alt="" src="adding-extension-for-germplasm-to-gbif_files/icon18_wrench_allbkg.png" height="18" width="18">
+</a>
+</span>
+</span>
+<div class="clear"></div>
+</div>
+</div><div class="widget Followers" id="Followers2">
+<h2 class="title">Followers</h2>
+<div class="widget-content">
+<div id="Followers2-wrapper">
+<div style="margin-right:2px;">
+<script type="text/javascript">
+        if (!window.google || !google.friendconnect) {
+          document.write('<script type="text/javascript"' +
+              'src="http://www.google.com/friendconnect/script/friendconnect.js">' +
+              '</scr' + 'ipt>');
+        }
+      </script><script type="text/javascript" src="adding-extension-for-germplasm-to-gbif_files/friendconnect.js"></script>
+<script type="text/javascript">
+      if (!window.registeredBloggerCallbacks) {
+        window.registeredBloggerCallbacks = true;
+
+        
+
+        
+        gadgets.rpc.register('requestReload', function() {
+          document.location.reload();
+        });
+
+        
+        gadgets.rpc.register('requestSignOut', function(siteId) {
+          
+          google.friendconnect.container.openSocialSiteId = siteId;
+          google.friendconnect.requestSignOut();
+        });
+      }
+    </script>
+<script type="text/javascript">
+    
+    function registerGetBlogUrls() {
+      gadgets.rpc.register('getBlogUrls', function() {
+        var holder = {};
+        
+          
+            
+            
+              holder.currentPost = "http://www.blogger.com/feeds/8263062402442300493/posts/default/8403802375386686128";
+            
+            
+            
+              holder.currentComments = "http://www.blogger.com/feeds/8263062402442300493/8403802375386686128/comments/default";
+            
+            holder.currentPostUrl = "";
+            holder.currentPostId = 8403802375386686128
+          
+          
+          
+            holder.postFeed = "http://www.blogger.com/feeds/8263062402442300493/posts/default";
+          
+          
+          
+            holder.commentFeed = "http://www.blogger.com/feeds/8263062402442300493/comments/default";
+          
+          holder.currentBlogUrl = "http://dag-endresen.blogspot.com/";
+          holder.currentBlogId = "8263062402442300493";
+        
+        return holder;
+      });
+    }
+  </script>
+<script type="text/javascript">
+  if (!window.registeredCommonBloggerCallbacks) {
+    window.registeredCommonBloggerCallbacks = true;
+
+    gadgets.rpc.register('resize_iframe', function(height) {
+      var el = document.getElementById(this['f']);
+      if (el) {
+        el.style.height = height + 'px';
+      }
+    });
+
+    
+    gadgets.rpc.register('set_pref', function() {});
+
+    registerGetBlogUrls();
+  }
+  </script>
+<div id="div-1gxggrr7bab2d" style="width: 100%; "></div>
+<script type="text/javascript">
+    var skin = {};
+    skin['FACE_SIZE'] = '32';
+    skin['HEIGHT'] = "260";
+    skin['TITLE'] = "Followers";
+    skin['BORDER_COLOR'] = "transparent";
+    skin['ENDCAP_BG_COLOR'] = "transparent";
+    skin['ENDCAP_TEXT_COLOR'] = "#000000";
+    skin['ENDCAP_LINK_COLOR'] = "#5588aa";
+    skin['ALTERNATE_BG_COLOR'] = "transparent";
+    
+    skin['CONTENT_BG_COLOR'] = "transparent";
+    skin['CONTENT_LINK_COLOR'] = "#5588aa";
+    skin['CONTENT_TEXT_COLOR'] = "#000000";
+    skin['CONTENT_SECONDARY_LINK_COLOR'] = "#5588aa";
+    skin['CONTENT_SECONDARY_TEXT_COLOR'] = "#000000";
+    skin['CONTENT_HEADLINE_COLOR'] = "#3c5f77";
+    skin['FONT_FACE'] = "normal normal 100% Georgia,Serif;";
+    google.friendconnect.container.setParentUrl("/");
+    google.friendconnect.container["renderMembersGadget"](
+    {id: "div-1gxggrr7bab2d",
+     height: 260,
+     
+     
+     
+     site: "01016845353314204892",
+      
+     locale: 'en' },
+     skin);
+  </script>
+</div>
+</div>
+<div class="clear"></div>
+<span class="widget-item-control">
+<span class="item-control blog-admin">
+<a class="quickedit" href="http://www.blogger.com/rearrange?blogID=8263062402442300493&amp;widgetType=Followers&amp;widgetId=Followers2&amp;action=editWidget&amp;sectionId=main" onclick='return _WidgetManager._PopupConfig(document.getElementById("Followers2"));' target="configFollowers2" title="Edit">
+<img alt="" src="adding-extension-for-germplasm-to-gbif_files/icon18_wrench_allbkg.png" height="18" width="18">
+</a>
+</span>
+</span>
+<div class="clear"></div>
+</div>
+</div><div class="widget BloggerButton" id="BloggerButton1">
+<div class="widget-content">
+<a href="http://www.blogger.com/"><img alt="Powered By Blogger" src="adding-extension-for-germplasm-to-gbif_files/blogger-simple-blue.gif"></a>
+<div class="clear"></div>
+<span class="widget-item-control">
+<span class="item-control blog-admin">
+<a class="quickedit" href="http://www.blogger.com/rearrange?blogID=8263062402442300493&amp;widgetType=BloggerButton&amp;widgetId=BloggerButton1&amp;action=editWidget&amp;sectionId=main" onclick='return _WidgetManager._PopupConfig(document.getElementById("BloggerButton1"));' target="configBloggerButton1" title="Edit">
+<img alt="" src="adding-extension-for-germplasm-to-gbif_files/icon18_wrench_allbkg.png" height="18" width="18">
+</a>
+</span>
+</span>
+<div class="clear"></div>
+</div>
+</div></div>
+</div>
+<script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('widgetJsBefore');
+</script><script type="text/javascript" src="adding-extension-for-germplasm-to-gbif_files/3692008350-widgets.js"></script>
+<script type="text/javascript">
+if (typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) { window['blogger_templates_experiment_id'] = "templatesV1";window['blogger_blog_id'] = '8263062402442300493';BLOG_attachCsiOnload('item_'); }_WidgetManager._Init('http://www.blogger.com/rearrange?blogID=8263062402442300493','http://dag-endresen.blogspot.com/2009/06/adding-extension-for-germplasm-to-gbif.html','8263062402442300493');
+_WidgetManager._SetPageActionUrl('http://www.blogger.com/display?blogID=8263062402442300493','APq4FmDzq773wp2aGtiKSm-WroJr3v7jNRZtqQ6hVSxvozMVKeGbQ6062_--Ajm0wnlAfZsMRaU-zqmtQSiZONZjTI6TXUs18C9-KoRBfMRd6xLvkwlubOo=','AOuZoY5eMizCN3Os6eqOr6CCsR1Xhs6pUg:1317798767026');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'title': 'Dag Endresen', 'pageType': 'item', 'url': 'http://dag-endresen.blogspot.com/2009/06/adding-extension-for-germplasm-to-gbif.html', 'canonicalUrl': 'http://dag-endresen.blogspot.com/2009/06/adding-extension-for-germplasm-to-gbif.html', 'homepageUrl': 'http://dag-endresen.blogspot.com/', 'blogspotFaviconUrl': 'http://dag-endresen.blogspot.com/favicon.ico', 'enabledCommentProfileImages': true, 'searchLabel': '', 'searchQuery': '', 'pageName': 'Adding an extension for germplasm, GBIF IPT', 'pageTitle': 'Dag Endresen: Adding an extension for germplasm, GBIF IPT', 'encoding': 'UTF-8', 'locale': 'en', 'isPrivate': false, 'isMobile': false, 'mobileClass': '', 'languageDirection': 'ltr', 'feedLinks': '\74link rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42Dag Endresen - Atom\42 href\75\42http://dag-endresen.blogspot.com/feeds/posts/default\42 /\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42Dag Endresen - RSS\42 href\75\42http://dag-endresen.blogspot.com/feeds/posts/default?alt\75rss\42 /\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42 title\75\42Dag Endresen - Atom\42 href\75\42http://www.blogger.com/feeds/8263062402442300493/posts/default\42 /\76\n\74link rel\75\42EditURI\42 type\75\42application/rsd+xml\42 title\75\42RSD\42 href\75\42http://www.blogger.com/rsd.g?blogID\758263062402442300493\42 /\76\n\74link rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42Dag Endresen - Atom\42 href\75\42http://dag-endresen.blogspot.com/feeds/8403802375386686128/comments/default\42 /\76\n', 'meTag': '', 'openIdOpTag': '', 'imageSrcTag': '', 'latencyHeadScript': '\74script type\75\42text/javascript\42\76(function() { var a\75window;function c(b){this.t\75{};this.tick\75function(b,i,d){d\75d!\75void 0?d:(new Date).getTime();this.t[b]\75[d,i]};this.tick(\42start\42,null,b)}var e\75new c;a.jstiming\75{Timer:c,load:e};try{var g\75null;a.chrome\46\46a.chrome.csi\46\46(g\75Math.floor(a.chrome.csi().pageT));g\75\75null\46\46a.gtbExternal\46\46(g\75a.gtbExternal.pageT());g\75\75null\46\46a.external\46\46(g\75a.external.pageT);g\46\46(a.jstiming.pt\75g)}catch(h){};a.tickAboveFold\75function(b){var f\0750;if(b.offsetParent){do f+\75b.offsetTop;while(b\75b.offsetParent)}b\75f;b\74\075750\46\46a.jstiming.load.tick(\42aft\42)};var j\75!1;function k(){j||(j\75!0,a.jstiming.load.tick(\42firstScrollTime\42))}a.addEventListener?a.addEventListener(\42scroll\42,k,!1):a.attachEvent(\42onscroll\42,k);\n })();\74/script\076', 'mobileHeadScript': ''}}]);
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'main'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'), {'cmtInteractionsEnabled': false}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ProfileView', new _WidgetInfo('Profile2', 'main', null, document.getElementById('Profile2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new _WidgetInfo('BlogArchive2', 'main', null, document.getElementById('BlogArchive2'), {'languageDirection': 'ltr'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList1', 'main', null, document.getElementById('LinkList1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_FollowersView', new _WidgetInfo('Followers2', 'main', null, document.getElementById('Followers2'), {'title': 'Followers', 'codeSnippet': '\74script type\75\42text/javascript\42\76\n        if (!window.google || !google.friendconnect) {\n          document.write(\47\74script type\75\42text/javascript\42\47 +\n              \47src\75\42http://www.google.com/friendconnect/script/friendconnect.js\42\76\47 +\n              \47\74/scr\47 + \47ipt\76\47);\n        }\n      \74/script\76\n\74script type\75\42text/javascript\42\76\n      if (!window.registeredBloggerCallbacks) {\n        window.registeredBloggerCallbacks \75 true;\n\n        \n\n        \n        gadgets.rpc.register(\47requestReload\47, function() {\n          document.location.reload();\n        });\n\n        \n        gadgets.rpc.register(\47requestSignOut\47, function(siteId) {\n          \n          google.friendconnect.container.openSocialSiteId \75 siteId;\n          google.friendconnect.requestSignOut();\n        });\n      }\n    \74/script\76\n\74script type\75\42text/javascript\42\76\n    \n    function registerGetBlogUrls() {\n      gadgets.rpc.register(\47getBlogUrls\47, function() {\n        var holder \75 {};\n        \n          \n            \n            \n              holder.currentPost \75 \42http://www.blogger.com/feeds/8263062402442300493/posts/default/8403802375386686128\42;\n            \n            \n            \n              holder.currentComments \75 \42http://www.blogger.com/feeds/8263062402442300493/8403802375386686128/comments/default\42;\n            \n            holder.currentPostUrl \75 \42\42;\n            holder.currentPostId \75 8403802375386686128\n          \n          \n          \n            holder.postFeed \75 \42http://www.blogger.com/feeds/8263062402442300493/posts/default\42;\n          \n          \n          \n            holder.commentFeed \75 \42http://www.blogger.com/feeds/8263062402442300493/comments/default\42;\n          \n          holder.currentBlogUrl \75 \42http://dag-endresen.blogspot.com/\42;\n          holder.currentBlogId \75 \428263062402442300493\42;\n        \n        return holder;\n      });\n    }\n  \74/script\76\n\74script type\75\42text/javascript\42\76\n  if (!window.registeredCommonBloggerCallbacks) {\n    window.registeredCommonBloggerCallbacks \75 true;\n\n    gadgets.rpc.register(\47resize_iframe\47, function(height) {\n      var el \75 document.getElementById(this[\47f\47]);\n      if (el) {\n        el.style.height \75 height + \47px\47;\n      }\n    });\n\n    \n    gadgets.rpc.register(\47set_pref\47, function() {});\n\n    registerGetBlogUrls();\n  }\n  \74/script\76\n\74div id\75\42div-6c0184244ype\42 style\75\42width: 100%; \42\76\74/div\76\n\74script type\75\42text/javascript\42\76\n    var skin \75 {};\n    skin[\47FACE_SIZE\47] \75 \04732\47;\n    skin[\47HEIGHT\47] \75 \042260\42;\n    skin[\47TITLE\47] \75 \42Followers\42;\n    skin[\47BORDER_COLOR\47] \75 \42transparent\42;\n    skin[\47ENDCAP_BG_COLOR\47] \75 \42transparent\42;\n    skin[\47ENDCAP_TEXT_COLOR\47] \75 \42#000000\42;\n    skin[\47ENDCAP_LINK_COLOR\47] \75 \42#5588aa\42;\n    skin[\47ALTERNATE_BG_COLOR\47] \75 \42transparent\42;\n    \n    skin[\47CONTENT_BG_COLOR\47] \75 \42transparent\42;\n    skin[\47CONTENT_LINK_COLOR\47] \75 \42#5588aa\42;\n    skin[\47CONTENT_TEXT_COLOR\47] \75 \42#000000\42;\n    skin[\47CONTENT_SECONDARY_LINK_COLOR\47] \75 \42#5588aa\42;\n    skin[\47CONTENT_SECONDARY_TEXT_COLOR\47] \75 \42#000000\42;\n    skin[\47CONTENT_HEADLINE_COLOR\47] \75 \42#3c5f77\42;\n    skin[\47FONT_FACE\47] \75 \42normal normal 100% Georgia,Serif;\42;\n    google.friendconnect.container.setParentUrl(\42/\42);\n    google.friendconnect.container[\42renderMembersGadget\42](\n    {id: \42div-6c0184244ype\42,\n     height: 260,\n     \n     \n     \n     site: \04201016845353314204892\42,\n      \n     locale: \47en\47 },\n     skin);\n  \74/script\076'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BloggerButtonView', new _WidgetInfo('BloggerButton1', 'main', null, document.getElementById('BloggerButton1'), {}, 'displayModeFull'));
+</script>
+
+</body></html>
