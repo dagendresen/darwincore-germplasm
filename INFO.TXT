@@ -1,0 +1,33 @@
+
+ -------------------------------
+ Darwin Core germplasm extension
+ -------------------------------
+
+ See: 
+  http://rs.nordgen.org/dwc/
+  http://rs.nordgen.org/dwc/dwc_germplasm_0_1.xsd
+  http://rs.nordgen.org/dwc/ipt_germplasm_0_1.xml
+  http://code.google.com/p/darwincore/source/browse/trunk/xsd/profiles/germplasm/
+  http://darwincore.googlecode.com/svn/trunk/xsd/profiles/germplasm/dwc_germplasm_0_1.xsd
+
+ History:
+  Dwc Germplasm discussion draft, January 23 (Darwin Core workshop hosted by GBIF in Copenhagen)
+  DwC Germplasm version 0.1, August 25 (First draft version for the GBIF IPT software)
+
+
+ Development of the Darwin Core Germplasm extension was started at the Darwin Core workshop
+ hosted by GBIF in Copenhagen during January 21-23, 2009 [http://www.gbif.org/News/DwCworkshop].
+ The DRAFT DwC Germplasm extansion was presented to 
+ the GIGA TAG meeting hosted by Bioversity in Rome during May 18-19, 2009;
+ and for the SINGER GPG2 planning meeting hosted by USDA in Washington DC during August 24-26, 2009.
+ The DwC Germplasm extension will be the topic for a slit-up session at the 
+ TDWG 2009 conference in Montpellier hosted by Bioversity, Agopolis during November 9-13, 2009.
+
+
+ -----
+ This folder is mounted as: http://rs.nordgen.org/dwc/
+ The folder /var/www/html/rs/ is mounted with virtual host as: http://rs.nordgen.org
+
+ (Dag Endresen, Lars Falk, NordGen, August 25, 2009)
+--
+-
