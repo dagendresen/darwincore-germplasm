@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/style/human.xsl"?>
+<extension xmlns="http://rs.gbif.org/extension/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xsi:schemaLocation="http://ipt.gbif.org/extension/ http://gbrds.gbif.org/resources/schemas/extension.xsd" 
+    dc:title="Germplasm Trait Descriptor" 
+    dc:subject="Application schema for the GBIF integrated data publishing toolkit (IPT)"
+    dc:description="The Darwin Core extension for genebanks (DwC germplasm) was developed in 2009 for sharing genebank datasets with the GBIF Integrated Publishing Toolkit from the Global Biodiversity Information Facility (GBIF). This application schema includes the terms to describe the descriptors used for trait measurements or so-called Characterization and Evaluation (C and E) data. These terms where developed by the EPGRIS3 group of the European Coopertive Programme for Plant Genetic Resources (ECPGR) in 2009."
+    dc:contributor="Dag Endresen, Nordic Genetic Resources Center (NordGen)"
+    name="TraitDescriptor" 
+    namespace="http://rs.nordgen.org/dwc/germplasm/0.1/terms/"
+    rowType="http://rs.nordgen.org/dwc/germplasm/0.1/terms/TraitDescriptor">
+
+    <!--
+      Application schema for the GBIF IPT data provider software
+      based on the Darwin Core extension for genebanks (DwC germplasm) version 0.1
+      Dag Endresen (NordGen), 2009-05-15, 2009-08-21, 2009-08-26, 2011-10-07
+    -->
+
+    <!-- TraitDescriptor -->
+    <property name="GermplasmTraitID" namespace="http://rs.nordgen.org/dwc/germplasm/0.1/terms/" 
+      qualName="http://rs.nordgen.org/dwc/germplasm/0.1/terms/GermplasmTD" 
+      dc:description="EPGRIS3: TRAIT_NAME. English name for the trait."
+      group="TraitDescriptor" required="false"/>
+    <property name="GermplasmTraitIdentifier" namespace="http://rs.nordgen.org/dwc/germplasm/0.1/terms/" 
+      qualName="http://rs.nordgen.org/dwc/germplasm/0.1/terms/GermplasmTraitIdentifier" 
+      dc:description="Trait ID, Germplasm Trait Descriptor (Measurement Descriptor). May eventually develop into a controlled and currated ontology for trait descriptors. Each trait descriptor could eventually be identified by a GUID, for example LSID."
+      group="TraitDescriptor" required="false"/>
+    <property name="GermplasmTraitClass" namespace="http://rs.nordgen.org/dwc/germplasm/0.1/terms/" 
+      qualName="http://rs.nordgen.org/dwc/germplasm/0.1/terms/GermplasmTraitClass" 
+      dc:description="Classification of the trait descriptor (a standard controlled vocabulary could be developed). Examples include: Agrobotanical, morphological, chemical, phenological, molecular biology, disease susceptibility/resistance, tolerance (abiotic), utilization. "
+      group="TraitDescriptor" required="false"/>
+    <property name="GermplasmTraitScale" namespace="http://rs.nordgen.org/dwc/germplasm/0.1/terms/" 
+      qualName="http://rs.nordgen.org/dwc/germplasm/0.1/terms/GermplasmTraitScale"
+      dc:description="Scale used for the observations/measurements. Absolute, interval, nominal, ordinal, ratio, or relative values."
+      group="TraitDescriptor" required="false"/>
+    <property name="GermplasmTraitSource" namespace="http://rs.nordgen.org/dwc/germplasm/0.1/terms/" 
+      qualName="http://rs.nordgen.org/dwc/germplasm/0.1/terms/GermplasmTraitSource" 
+      dc:description="Reference to the source standard Germplasm Descriptor. For example the UPOV descriptor or the Bioversity Crop Descriptor identifier."
+      group="TraitDescriptor" required="false"/>
+    <property name="GermplasmTraitRemarks" namespace="http://rs.nordgen.org/dwc/germplasm/0.1/terms/" 
+      qualName="http://rs.nordgen.org/dwc/germplasm/0.1/terms/GermplasmTraitRemarks" 
+      dc:description="Remarks to the trait descriptor."
+      group="TraitDescriptor" required="false"/>
+
+</extension>
+
+
+
