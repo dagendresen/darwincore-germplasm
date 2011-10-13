@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/style/human.xsl"?>
+<extension xmlns="http://rs.gbif.org/extension/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xsi:schemaLocation="http://ipt.gbif.org/extension/ http://gbrds.gbif.org/resources/schemas/extension.xsd" 
+    dc:title="Germplasm Trait Experiment" 
+    dc:subject="Application schema for the GBIF integrated data publishing toolkit (IPT)"
+    dc:description="The Darwin Core extension for genebanks (DwC germplasm) was developed in 2009 for sharing genebank datasets with the GBIF Integrated Publishing Toolkit from the Global Biodiversity Information Facility (GBIF). This application schema includes the terms to describe the experiments to collect trait measurements or so-called Characterization and Evaluation (C and E) data. These terms where developed by the EPGRIS3 group of the European Coopertive Programme for Plant Genetic Resources (ECPGR) in 2009."
+    dc:contributor="Dag Endresen, Nordic Genetic Resources Center (NordGen)"
+    name="TraitExperiment" 
+    namespace="http://rs.nordgen.org/dwc/germplasm/0.1/terms/"
+    rowType="http://rs.nordgen.org/dwc/germplasm/0.1/terms/TraitExperiment">
+
+    <!--
+      Application schema for the GBIF IPT data provider software
+      based on the Darwin Core extension for genebanks (DwC germplasm) version 0.1
+      Dag Endresen (NordGen), 2009-05-15, 2009-08-21, 2009-08-26, 2011-10-07
+    -->
+
+   <!-- TraitExperiment -->
+    <property name="GermplasmExperimentID" namespace="http://rs.nordgen.org/dwc/germplasm/0.1/terms/" 
+      qualName="http://rs.nordgen.org/dwc/germplasm/0.1/terms/GermplasmExperimentID" 
+      dc:description="Experiment ID, Germplasm Trait Descriptor (Measurement Event). Each trait experiment would preferably be identified by a GUID, for example LSID."
+      group="TraitExperiment" required="false"/>
+    <property name="GermplasmExperimentIdentifier" namespace="http://rs.nordgen.org/dwc/germplasm/0.1/terms/" 
+      qualName="http://rs.nordgen.org/dwc/germplasm/0.1/terms/GermplasmExperimentIdentifier" 
+      dc:description="EPGRIS3: EXPERIMENT_NUMBER."
+      group="TraitExperiment" required="false"/>
+    <property name="GermplasmExperimentYear" namespace="http://rs.nordgen.org/dwc/germplasm/0.1/terms/" 
+      qualName="http://rs.nordgen.org/dwc/germplasm/0.1/terms/GermplasmExperimentYear" 
+      dc:description="EPGRIS3: EXPERIMENT_YEAR."
+      group="TraitExperiment" required="false"/>
+    <property name="GermplasmExperimentReport" namespace="http://rs.nordgen.org/dwc/germplasm/0.1/terms/" 
+      qualName="http://rs.nordgen.org/dwc/germplasm/0.1/terms/GermplasmExperimentReport" 
+      dc:description="EPGRIS3: EXPERIMENT_REPORT. A reference to the report of the experiment, either supplied as the file name or the URL of the report."
+      group="TraitExperiment" required="false"/>
+    <property name="GermplasmExperimentRemarks" namespace="http://rs.nordgen.org/dwc/germplasm/0.1/terms/" 
+      qualName="http://rs.nordgen.org/dwc/germplasm/0.1/terms/GermplasmExperimentRemarks" 
+      dc:description="EPGRIS3: EXPERIMENT_DESCRIPTION. Information relevant for the interpretation of the scores in the experiment such as experimental design, location, experimentor, weather, etc."
+      group="TraitExperiment" required="false"/>
+
+</extension>
+
+
+

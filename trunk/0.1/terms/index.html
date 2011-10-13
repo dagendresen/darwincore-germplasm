@@ -1,0 +1,785 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+  <title>Darwin Core extension for genebanks (DwC germplasm)</title>
+  <link rel="schema.dwcg" href="http://rs.nordgen.org/dwc/germplasm/0.1/terms/"/>
+  <link rel="shortcut icon" href="../../images/favicon.ico" />
+
+  <meta name='DC.Title' content='Darwin Core extension for genebanks (DwC germplasm)'/>
+  <meta name='DC.Description' content='The Darwin Core extension for genebanks (DwC germplasm)
+    was developed in 2009 for sharing genebank datasets with the GBIF Integrated Publishing Toolkit
+    from the Global Biodiversity Information Facility (GBIF). The GBIF IPT use the Darwin Core as the 
+    Core data standard and implements the Star Schema with extensions to the Darwin Core.
+    The DwC germaplsm provides some of the fundamental terms from the plant genetic resouces
+    community for food and agriculture (PGRFA). Most of these terms are from the Multi-Crop Passport
+    Descriptor List (MCPD) maintained by Bioversity International and the Food and Agriculture Organization
+    of the United Nations (FAO). Some few additional terms developed by the European Coopertive Programme for 
+    Plant Genetic Resources (ECPGR).'/>
+  <meta name='DC.Subject.keyword' content='germplasm, plant genetic resources for food and agriculture, seedbank, genebank'/>
+
+  <meta name='DC.Publisher' content='Nordic Genetic Resources Center (NordGen)'/>
+  <meta name='DC.Creator' content='Nordic Genetic Resources Center (NordGen)'/>
+  <meta name='DC.Creator.Address' content='it@nordgen.org'/>
+  <meta name='DC.Creator.PersonalName' content='Endresen, Dag Terje Filip'/>
+  <meta name='DC.Creator.PersonalName.Address' content='dag.endresen@gmail.com'/>
+  <meta name='DC.Contributer' content='Dag T.F. Endresen (NordGen, Bioversity International)'/>
+  <meta name='DC.Type' content='data exchange standard'/>
+  <meta name='DC.Identifier' scheme='URL' content='http://rs.nordgen.org/dwc/germplasm'/>
+  <meta name='DC.Language' scheme='=ISO639-1' content='en'/>
+  <meta name='DC.Coverage' content='global'/>
+  <meta name='DC.Rights' content='Copy Left, GPL 2.0'/>
+  <meta name='DC.Date' scheme='ISO8601' content=': 2011-09-23 12:17:39 +0100 (Fri, 23 Sep 2011)'/>
+
+  <link rel='stylesheet' type='text/css' media='screen' href='../../style/style.css'/>
+  <style type="text/css">
+   body { background-color: #FFE47A; }
+  </style>
+
+ </head>
+
+
+<body>
+<img align='right' src='../../images/bioversity_logo.png' alt='Bioversity logo' style='margin:15px' height='60' />
+<img align='right' src='../../images/NordGen_logo.png' alt='NordGen logo' style='margin:15px' height='60' />
+<h1>Darwin Core extension for genebanks (DwC germplasm)</h1>
+<hr/>
+<h3>DwC germplasm, version 0.1, 26 August 2009</h3>
+
+
+<table cellspacing="0" class="docinfo">
+<tbody>
+ <tr>
+  <th class="nobr">Title:</th>
+  <td>Darwin Core extension for genebanks</td>
+ </tr>
+ <tr>
+  <th>Abbreviation:</th>
+  <td>DwC germplasm</td>
+ </tr>
+ <tr>
+  <th>Abstract:</th>
+  <td>The Darwin Core extension for genebanks (DwC germplasm) was developed to provide a bridge between the 
+  established standards in use by the genebank community for plant genetic resources for food and agriculture (PGRFA) 
+  and the standards maintained by the Biodiversity Information Standards/Taxonomic Databases Working Group 
+  (<a href='http://www.tdwg.org' target='_blank'>TDWG</a>).
+  The DwC germplasm provides an extension to the <a href='http://rs.tdwg.org/dwc/terms' target='_blank'>Darwin Core</a>
+  standard of the TDWG for occurrences.
+  Darwin Core can be seen as an extension to the Dublin Core Metata Data Initiative
+  <a href='http://dublincore.org/documents/dcmi-terms/' target='_blank'>(DCMI)</a> terms.
+  <br/><br/>
+  The primary objective for creating the DwC germplasm was to describe the additional terminology required
+  for exchange of genebank datasets using the
+  <a href='http://code.google.com/p/gbif-providertoolkit/' target='_blank'>GBIF Integrated Publishing Toolkit (IPT)</a>.
+  The terms included in the DwC germplasm are from the Multi-Crop Passport Descriptors 
+  (<a href='http://www.bioversityinternational.org/index.php?id=19&user_bioversitypublications_pi1[showUid]=2192' target='_blank'>MCPD</a>)
+  and the proposed descriptors for germplasm characterization and evaluation data (C&E)
+  (see: <a href='http://www.epgris3.eu/EPGRIS3%2020090507workshop.htm' target='_blank'>[1]</a> and
+  <a href='http://www.epgris3.eu/docs/activities/2-05/Inclusion%20of%20C&E%20data.pdf'>[2]</a>)
+  from the <a href='http://www.epgris3.eu' target='_blank'>EPGRIS3 group</a> of the 
+  European Cooperative Programme for Plant Genetic Resources <a href=http://www.ecpgr.cgiar.org/Index.htm' target='_blank'>(ECPGR)</a>.
+  <br/><br/>
+  This version 0.1 of the DwC germplasm was developed by the Nordic Genetic Resources Center 
+  (<a href="http://www.nordgen.org" target="_blank">NordGen</a>
+  and Bioversity International (<a href="http://www.bioversityinternational.org" target="_blank">Bioversity</a>) in 2009.
+  </td>
+ </tr>
+ <tr>
+  <th>Date Issued:</th>
+  <td>24 Aug 2009</td>
+ </tr>
+ <tr>
+  <th>Identifier:</th>
+  <td><a href=http://rs.nordgen.org/dwc/germplasm/0.1/terms/>http://rs.nordgen.org/dwc/germplasm/0.1/terms/</a></td>
+ </tr>
+ <tr>
+  <th>Schema:</th>
+  <td>
+    <a href='../dwc_germplasm_0_1.xsd'>http://rs.nordgen.org/dwc/germplasm/0.1/terms/dwc_germplasm_0_1.xsd</a>
+    &nbsp;&nbsp;
+    <small><a title="Trick for the browser to color xml nicly" href='../dwc_germplasm_0_1.xsd.xml'>[view]</a></small>
+  </td>
+ </tr>
+ <tr>
+  <th class='nobr'>Application schema for IPT:</th><td>
+   <a href='../ipt_extension/germplasmAccession.xml'>http://rs.nordgen.org/dwc/germplasm/0.1/terms/ipt_extension/germplasmAccession.xml</a><br/>
+   <a href='../ipt_extension/traitDescriptor.xml'>http://rs.nordgen.org/dwc/germplasm/0.1/terms/ipt_extension/traitDescriptor.xml</a><br/>
+   <a href='../ipt_extension/traitExperiment.xml'>http://rs.nordgen.org/dwc/germplasm/0.1/terms/ipt_extension/traitExperiment.xml</a><br/>
+   <a href='../ipt_extension/traitMeasurement.xml'>http://rs.nordgen.org/dwc/germplasm/0.1/terms/ipt_extension/traitMeasurement.xml</a>
+  </td>
+ </tr>
+ <tr>
+  <th class='nobr'>Project home page:</th>
+  <td><a href='http://code.google.com/p/darwincore-germplasm/' target='_blank'>http://code.google.com/p/darwincore-germplasm/</a></td>
+ </tr>
+ <tr>
+  <th>Creator:</th>
+  <td>Nordic Genetic Resources Center (NordGen) and Bioversity International (Bioversity)</td>
+ </tr>
+ <tr>
+  <th>Contributors:</th>
+  <td>Dag T.F. Endresen (NordGen), Elizabeth Arnaud (Bioversity), Milko Skofic (Bioversity), Massimo Buonaiuto (Bioversity),
+  Helmut Kn&uuml;pffer (IPK Gatersleben) and Jonas Nordling (NordGen)</td>
+ </tr>
+ <tr>
+  <th class='nobr'>Document Status:</th>
+  <td>Deployed with the GBIF IPT</td>
+ </tr>
+</tbody>
+</table>
+
+
+<br/><br/>
+
+<div><b>dwcg</b> = <a href="http://rs.nordgen.org/dwc/germplasm/0.1/terms/">http://rs.nordgen.org/dwc/germplasm/0.1/terms/</a> DwC germplasm.</div>
+<div><b>dwc</b> = <a href="http://rs.tdwg.org/dwc/terms/">http://rs.tdwg.org/dwc/terms/</a> Darwin Core (DwC).</div>
+<div><b>dc</b> = <a href="http://dublincore.org/documents/dcmi-terms/">http://dublincore.org/documents/dcmi-terms/</a> Dublin Core Metadata Initiative (DCMI).</div>
+
+<br/>
+<div>Other referenced standards without name space defined:</div>
+<div><b>mcpd</b> = <a href="http://www.bioversityinternational.org/index.php?id=19&user_bioversitypublications_pi1[showUid]=2192">http://www.bioversityinternational.org/index.php?id=19&user_bioversitypublications_pi1[showUid]=2192</a> Multi-Crop Passport Descriptors (MCPD).</div>
+<div><b>epgris3</b> = <a href="http://www.epgris3.eu/docs/activities/2-05/Inclusion%20of%20C&E%20data.pdf">http://www.epgris3.eu/docs/activities/2-05/Inclusion%20of%20C&E%20data.pdf</a> EPGRIS3 proposed standard for characterization and evaluation data (C&E).</div>
+
+
+<hr/>
+<br/><br/>
+
+
+
+
+
+
+
+
+
+<!-- **************************** -->
+<!-- Index of DwC germplasm Terms -->
+<!-- **************************** -->
+
+
+<h2>Index of terms</h2>
+<a name="terms">&nbsp;</a>
+
+<table cellspacing="0" class="docinfo">
+<tr><th style='text-align: center'>Class</th><th style='text-align: center'>Terms</th></tr>
+
+
+<!-- DataSet -->
+<tr><th>Dataset</th>
+<td>DwC-Terms:
+  <a href="http://rs.tdwg.org/dwc/terms/datasetID">dwc:datasetID</a>,
+  <a href="http://rs.tdwg.org/dwc/terms/datasetName">dwc:datasetName</a>,
+  <a href="http://rs.tdwg.org/dwc/terms/collectionID">dwc:collectionID</a>,
+  <a href="http://rs.tdwg.org/dwc/terms/collectionCode">dwc:collectionCode</a>,
+  <a href="http://rs.tdwg.org/dwc/terms/institutionID">dwc:institutionID</a>,
+  <a href="http://rs.tdwg.org/dwc/terms/institutionCode">dwc:institutionCode</a> (mcpd:INSTCODE)
+</td></tr>
+
+
+<!-- Taxon -->
+<tr><th>Taxon<br/><small><a href="http://rs.tdwg.org/dwc/terms/#Taxon">dwc:Taxon</a></small></th>
+<td>DwC-Terms:
+  <a href="http://rs.tdwg.org/dwc/terms/scientificNameID">dwc:scientificNameID</a>,
+  <a href="http://rs.tdwg.org/dwc/terms/genus">dwc:genus</a> (mcpd:GENUS),
+  <a href="http://rs.tdwg.org/dwc/terms/specificEpithet">dwc:specificEpithet</a> (mcpd:SPECIES),
+  <a href="http://rs.tdwg.org/dwc/terms/scientificNameAuthorship">dwc:scientificNameAuthorship</a> (mcpd:SPAUTHOR, mcpd:SUBTAUTHOR),
+  <a href="http://rs.tdwg.org/dwc/terms/vernacularName">dwc:vernacularName</a> (mcpd:CROPNAME)
+</td></tr>
+
+
+<!-- GermplasmSample -->
+<tr><th class='nobr'><a href="#GermplasmAccession">GermplasmAccession</a></th><td>
+  <a href="#GermplasmID">GermplasmID</a>,
+  <a href="#GermplasmIdentifier">GermplasmIdentifier</a> (mcpd:ACCENAME),
+  <a href="#BiologicalStatusOfSample">BiologicalStatusOfSample</a>,
+  <a href="#BiologicalStatusOfSampleCode">BiologicalStatusOfSampleCode</a> (mcpd:SAMPSTAT),
+  <a href="#TypeOfStorage">TypeOfStorage</a> (mcpd:STORAGE)
+  <br/>DwC-Terms:
+  <a href="http://rs.tdwg.org/dwc/terms/occurrenceID">dwc:occurrenceID</a>,
+  <a href="http://rs.tdwg.org/dwc/terms/occurrenceRemarks">dwc:occurrenceRemarks</a>,
+  <a href="http://rs.tdwg.org/dwc/terms/catalogNumber">dwc:catalogNumber</a> (mcpd:ACCENUMB),
+  <a href="http://rs.tdwg.org/dwc/terms/otherCatalogNumbers">dwc:otherCatalogNumbers</a> (mcpd:OTHERNUMB),
+  <a href="http://rs.tdwg.org/dwc/terms/occurrenceDetails">dwc:occurrenceDetails</a> (eurisco:ACCEURL)
+</td></tr>
+
+
+<!-- CollectingEvent -->
+<tr><th class='nobr'><a href="#CollectingEvent">CollectingEvent</a><br/>
+  <small><a href="http://rs.tdwg.org/dwc/terms/#Event">dwc:Event</a><br/>
+  <a href="http://dublincore.org/documents/dcmi-terms/#classes-Location">dc:Location</a></small>
+</th><td>
+  <a href="#CollectingInstituteCode">CollectingInstituteCode</a> (mcpd:COLLCODE)
+  <br/>DwC-Terms:
+  <a href="http://rs.tdwg.org/dwc/terms/eventID">dwc:eventID</a>,
+  <a href="http://rs.tdwg.org/dwc/terms/recordNumber">dwc:recordNumber</a> (mcpd:COLLNUMB),
+  <a href="http://rs.tdwg.org/dwc/terms/decimalLatitude">dwc:decimalLatitude</a>,
+  <a href="http://rs.tdwg.org/dwc/terms/decimalLongitude">dwc:decimalLongitude</a>,
+  <a href="http://rs.tdwg.org/dwc/terms/geodeticDatum">dwc:geodeticDatum</a>,
+  <a href="http://rs.tdwg.org/dwc/terms/minimumElevationInMeters">dwc:minimumElevationInMeters</a> (mcpd:ELEVATION),
+  <a href="http://rs.tdwg.org/dwc/terms/eventDate">dwc:eventDate</a> (mcpd:COLLDATE),
+  <a href="http://rs.tdwg.org/dwc/terms/locality">dwc:locality</a> (mcpd:COLLSITE),
+  <a href="http://rs.tdwg.org/dwc/terms/countryCode">dwc:countryCode</a> (mcpd:ORIGCTY),
+  <a href="http://rs.tdwg.org/dwc/terms/eventRemarks">dwc:eventRemarks</a>,
+  <a href="http://rs.tdwg.org/dwc/terms/verbatimLatitude">dwc:verbatimLatitude</a> (mcpd:LATITUDE),
+  <a href="http://rs.tdwg.org/dwc/terms/verbatimLongitude">dwc:verbatimLongitude</a> (mcpd:LONGITUDE),
+  <a href="http://rs.tdwg.org/dwc/terms/verbatimCoordinateSystem">dwc:verbatimCoordinateSystem</a>
+</td></tr>
+
+
+<!-- BreedingEvent -->
+<tr><th class='nobr'><a href="#BreedingEvent">BreedingEvent</a></th><td>
+  <a href="#BreedingEventID">BreedingEventID</a>,
+  <a href="#BreedersSampleIdentifier">BreedersSampleIdentifier</a> (mcpd:ACCENAME ?),
+  <a href="#BreederInstitute">BreederInstitute</a> (eurisco:BREDDESCR),
+  <a href="#BreederInstituteCode">BreederInstituteCode</a> (mcpd:BREDCODE),
+  <a href="#BreederPerson">BreederPerson</a>,
+  <a href="#BreedingCountry">BreedingCountry</a>,
+  <a href="#BreedingCountryCode">BreedingCountryCode</a>,
+  <a href="#BreedingYear">BreedingYear</a>,
+  <a href="#AncestralData">AncestralData</a> (mcpd:ANCEST),
+  <a href="#PurdyPedigree">PurdyPedigree</a>,
+  <a href="#BreedingEventRemarks">BreedingEventRemarks</a>
+</td></tr>
+
+
+<!-- AcquisitionEvent -->
+<tr><th class='nobr'><a href="#AcquisitionEvent">AcquisitionEvent</a></th><td>
+  <a href="#SampleAcquisitionID">SampleAcquisitionID</a>,
+  <a href="#DonorInstitute">DonorInstitute</a> (eurisco:DONORDESCR),
+  <a href="#DonorInstituteCode">DonorInstituteCode</a> (mcpd:DONORCODE),
+  <a href="#DonorsSampleIdentifier">DonorsSampleIdentifier</a> (mcpd:DONORNUMB),
+  <a href="#SampleAcquisitionDate">SampleAcquisitionDate</a> (mcpd:ACQDATE),
+  <a href="#SampleAcquisitionSource">SampleAcquisitionSource</a> (mcpd:COLLSRC),
+  <a href="#SampleAcquisitionRemarks">SampleAcquisitionRemarks</a>
+</td></tr>
+
+
+<!-- SafetyDuplication -->
+<tr><th class='nobr'><a href="#SafetyDuplication">SafetyDuplication</a></th><td>
+  <a href="#SafetyDuplicationID">SafetyDuplicationID</a>,
+  <a href="#SafetyDuplicationDate">SafetyDuplicationDate</a>,
+  <a href="#SafetyDuplicationInstitute">SafetyDuplicationInstitute</a>,
+  <a href="#SafetyDuplicationInstituteCode">SafetyDuplicationInstituteCode</a> (mcpd:DUPLSITE)
+</td></tr>
+
+
+<!-- TreatyOrRegulation -->
+<tr><th class='nobr'><a href="#TreatyOrRegulation">TreatyOrRegulation</a></th><td>
+  <a href="#GermplasmRegulationID">GermplasmRegulationID</a>,
+  <a href="#TreatyOrRegulationName">TreatyOrRegulationName</a>,
+  <a href="#TreatyOrRegulationGoverningBody">TreatyOrRegulationGoverningBody</a>
+</td></tr>
+
+
+<!-- TraitDescriptor -->
+<tr><th class='nobr'><a href="#TraitDescriptor">TraitDescriptor</a></th><td>
+  <a href="#GermplasmTraitID">GermplasmTraitID</a> (epgris3:TRAIT_NUMBER),
+  <a href="#GermplasmTraitIdentifier"></a> (epgris3:TRAIT_NAME),
+  <a href="#GermplasmTraitClass">GermplasmTraitClass</a>,
+  <a href="#GermplasmTraitSource">GermplasmTraitSource</a>,
+  <a href="#GermplasmTraitScale">GermplasmTraitScale</a>,
+  <a href="#GermplasmTraitRemarks">GermplasmTraitRemarks</a> (epgris3:TRAIT_REMARK)
+  <br/>DwC-Terms:
+  <a href="http://rs.tdwg.org/dwc/terms/measurementType">dwc:measurementType</a>,
+  <a href="http://rs.tdwg.org/dwc/terms/measurementMethod">dwc:measurementMethod</a>
+</td></tr>
+
+
+<tr><th class='nobr'><a href="#TraitExperiment">TraitExperiment</a></th><td>
+  <a href="#GermplasmExperimentID">GermplasmExperimentID</a>,
+  <a href="#GermplasmExperimentIdentifier">GermplasmExperimentIdentifier</a>,
+  <a href="#GermplasmExperimentReport">GermplasmExperimentReport</a>,
+  <a href="#GermplasmExperimentYear">GermplasmExperimentYear</a>,
+  <a href="#GermplasmExperimentRemarks">GermplasmExperimentRemarks</a>
+</td></tr>
+
+
+<tr><th class='nobr'><a href="#TraitMeasurement">TraitMeasurement</a></th><td>
+  <a href="#MeasurementByInstituteCode">MeasurementByInstituteCode</a>,
+  <a href="#MeasurementGrowthStage">MeasurementGrowthStage</a>
+  <br/>DwC-Terms:
+  <a href="http://rs.tdwg.org/dwc/terms/measurementID">dwc:measurementID</a>,
+  <a href="http://rs.tdwg.org/dwc/terms/measurementValue">dwc:measurementValue</a>,
+  <a href="http://rs.tdwg.org/dwc/terms/measurementUnit">dwc:measurementUnit</a>,
+  <a href="http://rs.tdwg.org/dwc/terms/measurementAccuracy">dwc:measurementAccuracy</a>,
+  <a href="http://rs.tdwg.org/dwc/terms/measurementDeterminedDate">dwc:measurementDeterminedDate</a>,
+  <a href="http://rs.tdwg.org/dwc/terms/measurementDeterminedBy">dwc:measurementDeterminedBy</a>,
+</td></tr>
+
+</table>
+
+
+
+<br/><br/>
+<hr/>
+<br/><br/>
+
+
+
+
+
+
+
+
+<!-- *************************************** -->
+<!-- Definitions for the DwC germplasm Terms -->
+<!-- *************************************** -->
+
+
+
+<h2>Term definitions</h2>
+
+<table cellspacing="0" class="border">
+
+
+<!-- ******************* -->
+<!-- Germplasm Accession -->
+<tr><td colspan="2" class="vspacer"><a name="GermplasmAccession"/></td></tr>
+
+<tr><th colspan="2"><a name="GermplasmID"/>Term Name: GermplasmID</th></tr>
+<tr><td class='nobr'>Label:</td><td>GermplasmID</td></tr>
+<tr><td class='nobr'>Class:</td><td>GermplasmAccession</td></tr>
+<tr><td class='nobr'>URI:</td><td><a href="./GermplasmID">http://rs.nordgen.org/dwc/germplasm/0.1/terms/GermplasmID</a></td></tr>
+<tr><td class='nobr'>Definition:</td><td>An identifier for the genebank accession. Could be an unique and stable identifier specific to the genebank collection. A globally unique identifier (GUID), persistent identifier (PI) such as a URI, DOI, LSID or similar is preferred.</td></tr>
+<tr><td class='nobr'>Discussion at:</td><td><a href="http://code.google.com/p/darwincore-germplasm/wiki/GermplasmID">http://code.google.com/p/darwincore-germplasm/wiki/GermplasmID</a></td></tr>
+<tr><td class='nobr'>Comment:</td><td>There used to be a sampleID in a previous DRAFT Darwin Core...?</td></tr>
+
+<tr><th colspan="2"><a name="GermplasmIdentifier"/>Term Name: GermplasmIdentifier</th>
+<tr><td class='nobr'>Label:</td><td>GermplasmIdentifier</td></tr>
+<tr><td class='nobr'>Class:</td><td>GermplasmAccession</td></tr>
+<tr><td class='nobr'>URI:</td><td><a href="./GermplasmIdentifier">http://rs.nordgen.org/dwc/germplasm/0.1/terms/GermplasmIdentifier</a></td></tr>
+<tr><td class='nobr'>Definition:</td><td>MCPD term: 11: Accession name, ACCENAME. Either a registered or other formal designation given to the accession. For example: Rheinische Vorgebirgstrauben;Emma;Avlon</td></tr>
+<tr><td class='nobr'>Discussion at:</td><td><a href="http://code.google.com/p/darwincore-germplasm/wiki/GermplasmIdentifier">http://code.google.com/p/darwincore-germplasm/wiki/GermplasmIdentifier</a></td></tr>
+<tr><td class='nobr'>Comment:</td><td>...</td></tr>
+
+<tr><th colspan="2"><a name="BiologicalStatusOfSample"/>Term Name: BiologicalStatusOfSample</th></tr>
+<tr><td class='nobr'>Label:</td><td>BiologicalStatusOfSample</td></tr>
+<tr><td class='nobr'>Class:</td><td>GermplasmAccession</td></tr>
+<tr><td class='nobr'>URI:</td><td><a href="./BiologicalStatusOfSample">http://rs.nordgen.org/dwc/germplasm/0.1/terms/BiologicalStatusOfSample</a></td></tr>
+<tr><td class='nobr'>Definition:</td><td>(MCPD term: 20): Biological status of sample.Wild, Crop wild relative (CWR), Primitive, Traditional cultivar/landrace, Breeding line, Genetic stock, Modern cultivar (recommended to follow a regulated vocabulary, or preferable the SAMPSTAT code, MCPD term 20).</td></tr>
+<tr><td class='nobr'>Discussion at:</td><td><a href="http://code.google.com/p/darwincore-germplasm/wiki/BiologicalStatusOfSample">http://code.google.com/p/darwincore-germplasm/wiki/BiologicalStatusOfSample</a></td></tr>
+<tr><td class='nobr'>Comment:</td><td>See also <a href="http://dublincore.org/documents/dcmi-terms/#terms-type" target="_blank">dc:type</a> and <a href="http://rs.tdwg.org/dwc/terms/basisOfRecord" target="_blank">dwc:basisOfRecord</a>.</td></tr>
+
+<tr><th colspan="2"><a name="BiologicalStatusOfSampleCode"/>Term Name: BiologicalStatusOfSampleCode</th></tr>
+<tr><td class='nobr'>Label:</td><td>BiologicalStatusOfSampleCode</td></tr>
+<tr><td class='nobr'>Class:</td><td>GermplasmAccession</td></tr>
+<tr><td class='nobr'>URI:</td><td><a href="./BiologicalStatusOfSampleCode">http://rs.nordgen.org/dwc/germplasm/0.1/terms/BiologicalStatusOfSampleCode</a></td></tr>
+<tr><td class='nobr'>Definition:</td><td>MCPD term 20: Biological status of sample, SAMPSTAT. SAMPSTAT codes distinguish wild and primitive cultivars from modern cultivars and breeding lines (material under development).</td></tr>
+<tr><td class='nobr'>Discussion at:</td><td><a href="http://code.google.com/p/darwincore-germplasm/wiki/BiologicalStatusOfSampleCode">http://code.google.com/p/darwincore-germplasm/wiki/BiologicalStatusOfSampleCode</a></td></tr>
+<tr><td class='nobr'>Comment:</td><td>See also <a href="http://dublincore.org/documents/dcmi-terms/#terms-type" target="_blank">dc:type</a> and <a href="http://rs.tdwg.org/dwc/terms/basisOfRecord" target="_blank">dwc:basisOfRecord</a>.</td></tr>
+
+<tr><th colspan="2"><a name="TypeOfStorage"/>Term Name: TypeOfStorage</th></tr>
+<tr><td class='nobr'>Label:</td><td>TypeOfStorage</td></tr>
+<tr><td class='nobr'>Class:</td><td>GermplasmAccession</td></tr>
+<tr><td class='nobr'>URI:</td><td><a href="./TypeOfStorage">http://rs.nordgen.org/dwc/germplasm/0.1/terms/TypeOfStorage</a></td></tr>
+<tr><td class='nobr'>Definition:</td><td>MCPD term 27: Type of germplasm storage, STORAGE. Refer to FAO/IPGRI Genebank Standards 1994 for details on storage type.</td></tr>
+<tr><td class='nobr'>Discussion at:</td><td><a href="http://code.google.com/p/darwincore-germplasm/wiki/TypeOfStorage">http://code.google.com/p/darwincore-germplasm/wiki/TypeOfStorage</a></td></tr>
+<tr><td class='nobr'>Comment:</td><td>...</td></tr>
+
+
+
+<!-- **************** -->
+<!-- Collecting Event -->
+<tr><td colspan="2" class="vspacer"><a name="CollectingEvent"/></td></tr>
+
+<tr><th colspan="2"><a name="CollectingInstituteCode"/>Term Name: CollectingInstituteCode</th></tr>
+<tr><td class='nobr'>Label:</td><td>CollectingInstituteCode</td></tr>
+<tr><td class='nobr'>Class:</td><td>CollectingEvent</td></tr>
+<tr><td class='nobr'>URI:</td><td><a href="./CollectingInstituteCode">http://rs.nordgen.org/dwc/germplasm/0.1/terms/CollectingInstituteCode</a></td></tr>
+<tr><td class='nobr'>Definition:</td><td>MCPD term 4: Collecting institute code, COLLCODE. FAO WIEWS institute code for the collecting/gathering institute.</td></tr>
+<tr><td class='nobr'>Discussion at:</td><td><a href="http://code.google.com/p/darwincore-germplasm/wiki/CollectingInstituteCode">http://code.google.com/p/darwincore-germplasm/wiki/CollectingInstituteCode</a></td></tr>
+<tr><td class='nobr'>Comment:</td><td>...</td></tr>
+
+
+
+
+<!-- ******************************************************************************* -->
+<!-- BREEDING EVENT (Cultivation event, "similar" but different from Sampling Event) -->
+<tr><td colspan="2" class="vspacer"><a name="BreedingEvent"/></td></tr>
+
+<tr><th colspan="2"><a name="BreedingEventID"/>Term Name: BreedingEventID</th></tr>
+<tr><td class='nobr'>Label:</td><td>BreedingEventID</td></tr>
+<tr><td class='nobr'>Class:</td><td>BreedingEvent</td></tr>
+<tr><td class='nobr'>URI:</td><td><a href="./BreedingEventID">http://rs.nordgen.org/dwc/germplasm/0.1/terms/BreedingEventID</a></td></tr>
+<tr><td class='nobr'>Definition:</td><td>An identifier for the germplasm accession developed by a plant breeder. Could be an unique and stable identifier specific to the dataset. A globally unique identifier (GUID), persistent identifier (PI) such as a URI, DOI, LSID or similar is preferred.  </td></tr>
+<tr><td class='nobr'>Discussion at:</td><td><a href="http://code.google.com/p/darwincore-germplasm/wiki/BreedingEventID">http://code.google.com/p/darwincore-germplasm/wiki/BreedingEventID</a></td></tr>
+<tr><td class='nobr'>Comment:</td><td>...</td></tr>
+
+<tr><th colspan="2"><a name="BreedersSampleIdentifier"/>Term Name: BreedersSampleIdentifier</th></tr>
+<tr><td class='nobr'>Label:</td><td>BreedersSampleIdentifier</td></tr>
+<tr><td class='nobr'>Class:</td><td>BreedingEvent</td></tr>
+<tr><td class='nobr'>URI:</td><td><a href="./BreedersSampleIdentifier">http://rs.nordgen.org/dwc/germplasm/0.1/terms/BreedersSampleIdentifier</a></td></tr>
+<tr><td class='nobr'>Definition:</td><td>The name used by the breeder. Could be the breeders catalog number, or the name under which a cultivar was marketed.</td></tr>
+<tr><td class='nobr'>Discussion at:</td><td><a href="http://code.google.com/p/darwincore-germplasm/wiki/BreedersSampleIdentifier">http://code.google.com/p/darwincore-germplasm/wiki/BreedersSampleIdentifier</a></td></tr>
+<tr><td class='nobr'>Comment:</td><td>See also: <a href="#GermplasmIdentifier">dwcg:GermplasmIdentifier</a></td></tr>
+
+<tr><th colspan="2"><a name="BreedingYear"/>Term Name: BreedingYear</th></tr>
+<tr><td class='nobr'>Label:</td><td>BreedingYear</td></tr>
+<tr><td class='nobr'>Class:</td><td>BreedingEvent</td></tr>
+<tr><td class='nobr'>URI:</td><td><a href="./BreedingYear">http://rs.nordgen.org/dwc/germplasm/0.1/terms/BreedingYear</a></td></tr>
+<tr><td class='nobr'>Definition:</td><td>The year a germplasm accession was developed by a plant breeder. Could be the year the cultivar was released.</td></tr>
+<tr><td class='nobr'>Discussion at:</td><td><a href="http://code.google.com/p/darwincore-germplasm/wiki/BreedingYear">http://code.google.com/p/darwincore-germplasm/wiki/BreedingYear</a></td></tr>
+<tr><td class='nobr'>Comment:</td><td>...</td></tr>
+
+<tr><th colspan="2"><a name="BreederPerson"/>Term Name: BreederPerson</th></tr>
+<tr><td class='nobr'>Label:</td><td>BreederPerson</td></tr>
+<tr><td class='nobr'>Class:</td><td>BreedingEvent</td></tr>
+<tr><td class='nobr'>URI:</td><td><a href="./BreederPerson">http://rs.nordgen.org/dwc/germplasm/0.1/terms/BreederPerson</a></td></tr>
+<tr><td class='nobr'>Definition:</td><td>Name of the plant breeder.</td></tr>
+<tr><td class='nobr'>Discussion at:</td><td><a href="http://code.google.com/p/darwincore-germplasm/wiki/BreederPerson">http://code.google.com/p/darwincore-germplasm/wiki/BreederPerson</a></td></tr>
+<tr><td class='nobr'>Comment:</td><td>...</td></tr>
+
+<tr><th colspan="2"><a name="BreederInstituteCode"/>Term Name: BreederInstituteCode</th></tr>
+<tr><td class='nobr'>Label:</td><td>BreederInstituteCode</td></tr>
+<tr><td class='nobr'>Class:</td><td>BreedingEvent</td></tr>
+<tr><td class='nobr'>URI:</td><td><a href="./BreederInstituteCode">http://rs.nordgen.org/dwc/germplasm/0.1/terms/BreederInstituteCode</a></td></tr>
+<tr><td class='nobr'>Definition:</td><td>MCPD term 19: Breeding institute code, BREDCODE. FAO WIEWS institute code for the breeding institute.</td></tr>
+<tr><td class='nobr'>Discussion at:</td><td><a href="http://code.google.com/p/darwincore-germplasm/wiki/BreederInstituteCode">http://code.google.com/p/darwincore-germplasm/wiki/BreederInstituteCode</a></td></tr>
+<tr><td class='nobr'>Comment:</td><td>...</td></tr>
+
+<tr><th colspan="2"><a name="BreederInstitute"/>Term Name: BreederInstitute</th></tr>
+<tr><td class='nobr'>Label:</td><td>BreederInstitute</td></tr>
+<tr><td class='nobr'>Class:</td><td>BreedingEvent</td></tr>
+<tr><td class='nobr'>URI:</td><td><a href="./BreederInstitute">http://rs.nordgen.org/dwc/germplasm/0.1/terms/BreederInstitute</a></td></tr>
+<tr><td class='nobr'>Definition:</td><td>(MCPD term 19): Breeder institute name. If the FAO WIEWS institute code is available, this term should not be reported.</td></tr>
+<tr><td class='nobr'>Discussion at:</td><td><a href="http://code.google.com/p/darwincore-germplasm/wiki/BreederInstitute">http://code.google.com/p/darwincore-germplasm/wiki/BreederInstitute</a></td></tr>
+<tr><td class='nobr'>Comment:</td><td>...</td></tr>
+
+<tr><th colspan="2"><a name="BreedingCountry"/>Term Name: BreedingCountry</th></tr>
+<tr><td class='nobr'>Label:</td><td>BreedingCountry</td></tr>
+<tr><td class='nobr'>Class:</td><td>BreedingEvent</td></tr>
+<tr><td class='nobr'>URI:</td><td><a href="./BreedingCountry">http://rs.nordgen.org/dwc/germplasm/0.1/terms/BreedingCountry</a></td></tr>
+<tr><td class='nobr'>Definition:</td><td>Country where the breeding event took place.</td></tr>
+<tr><td class='nobr'>Discussion at:</td><td><a href="http://code.google.com/p/darwincore-germplasm/wiki/BreedingCountry">http://code.google.com/p/darwincore-germplasm/wiki/BreedingCountry</a></td></tr>
+<tr><td class='nobr'>Comment:</td><td>...</td></tr>
+
+<tr><th colspan="2"><a name="BreedingCountryCode"/>Term Name: BreedingCountryCode</th></tr>
+<tr><td class='nobr'>Label:</td><td>BreedingCountryCode</td></tr>
+<tr><td class='nobr'>Class:</td><td>BreedingEvent</td></tr>
+<tr><td class='nobr'>URI:</td><td><a href="./BreedingCountryCode">http://rs.nordgen.org/dwc/germplasm/0.1/terms/BreedingCountryCode</a></td></tr>
+<tr><td class='nobr'>Definition:</td><td>Code for the country where the breeding event took place.</td></tr>
+<tr><td class='nobr'>Discussion at:</td><td><a href="http://code.google.com/p/darwincore-germplasm/wiki/BreedingCountryCode">http://code.google.com/p/darwincore-germplasm/wiki/BreedingCountryCode</a></td></tr>
+<tr><td class='nobr'>Comment:</td><td>...</td></tr>
+
+<tr><th colspan="2"><a name="AncestralData"/>Term Name: AncestralData</th></tr>
+<tr><td class='nobr'>Label:</td><td>AncestralData</td></tr>
+<tr><td class='nobr'>Class:</td><td>BreedingEvent</td></tr>
+<tr><td class='nobr'>URI:</td><td><a href="./AncestralData">http://rs.nordgen.org/dwc/germplasm/0.1/terms/AncestralData</a></td></tr>
+<tr><td class='nobr'>Definition:</td><td>MCPD term 21: Ancestral data, ANCEST. Information about either pedigree or other description of ancestral information. For example a pedigree 'Hanna/7*Atlas//Turk/8*Atlas', or a description 'mutation found in Hanna', 'selection from Irene'.</td></tr>
+<tr><td class='nobr'>Discussion at:</td><td><a href="http://code.google.com/p/darwincore-germplasm/wiki/AncestralData">http://code.google.com/p/darwincore-germplasm/wiki/AncestralData</a></td></tr>
+<tr><td class='nobr'>Comment:</td><td>...</td></tr>
+
+<tr><th colspan="2"><a name="PurdyPedigree"/>Term Name: PurdyPedigree</th></tr>
+<tr><td class='nobr'>Label:</td><td>PurdyPedigree</td></tr>
+<tr><td class='nobr'>Class:</td><td>BreedingEvent</td></tr>
+<tr><td class='nobr'>URI:</td><td><a href="./PurdyPedigree">http://rs.nordgen.org/dwc/germplasm/0.1/terms/PurdyPedigree</a></td></tr>
+<tr><td class='nobr'>Definition:</td><td>(MCPD term 21): Ancestral information following the purdy pedigree format.</td></tr>
+<tr><td class='nobr'>Discussion at:</td><td><a href="http://code.google.com/p/darwincore-germplasm/wiki/PurdyPedigree">http://code.google.com/p/darwincore-germplasm/wiki/PurdyPedigree</a></td></tr>
+<tr><td class='nobr'>Comment:</td><td>...</td></tr>
+
+<tr><th colspan="2"><a name="BreedingEventRemarks"/>Term Name: BreedingEventRemarks</th></tr>
+<tr><td class='nobr'>Label:</td><td>BreedingEventRemarks</td></tr>
+<tr><td class='nobr'>Class:</td><td>BreedingEvent</td></tr>
+<tr><td class='nobr'>URI:</td><td><a href="./BreedingEventRemarks">http://rs.nordgen.org/dwc/germplasm/0.1/terms/BreedingEventRemarks</a></td></tr>
+<tr><td class='nobr'>Definition:</td><td>Remarks to the breeding event.</td></tr>
+<tr><td class='nobr'>Discussion at:</td><td><a href="http://code.google.com/p/darwincore-germplasm/wiki/BreedingEventRemarks">http://code.google.com/p/darwincore-germplasm/wiki/BreedingEventRemarks</a></td></tr>
+<tr><td class='nobr'>Comment:</td><td>...</td></tr>
+
+
+
+<!-- ******************************** -->
+<!-- SAMPLE ACQUISITION (DONOR EVENT) -->
+<tr><td colspan="2" class="vspacer"><a name="AcquisitionEvent"/></td></tr>
+
+<tr><th colspan="2"><a name="SampleAcquisitionID"/>Term Name: SampleAcquisitionID</th></tr>
+<tr><td class='nobr'>Label:</td><td>SampleAcquisitionID</td></tr>
+<tr><td class='nobr'>Class:</td><td>AcquisitionEvent</td></tr>
+<tr><td class='nobr'>URI:</td><td><a href="./SampleAcquisitionID">http://rs.nordgen.org/dwc/germplasm/0.1/terms/SampleAcquisitionID</a></td></tr>
+<tr><td class='nobr'>Definition:</td><td>An identifier for the source accession donated to your genebank collection. Could be an unique and stable identifier specific to the dataset. A globally unique identifier (GUID), persistent identifier (PI) such as a URI, DOI, LSID or similar is preferred.</td></tr>
+<tr><td class='nobr'>Discussion at:</td><td><a href="http://code.google.com/p/darwincore-germplasm/wiki/SampleAcquisitionID">http://code.google.com/p/darwincore-germplasm/wiki/SampleAcquisitionID</a></td></tr>
+<tr><td class='nobr'>Comment:</td><td>...</td></tr>
+
+<tr><th colspan="2"><a name="DonorsSampleIdentifier"/>Term Name: DonorsSampleIdentifier</th></tr>
+<tr><td class='nobr'>Label:</td><td>DonorsSampleIdentifier</td></tr>
+<tr><td class='nobr'>Class:</td><td>AcquisitionEvent</td></tr>
+<tr><td class='nobr'>URI:</td><td><a href="./DonorsSampleIdentifier">http://rs.nordgen.org/dwc/germplasm/0.1/terms/DonorsSampleIdentifier</a></td></tr>
+<tr><td class='nobr'>Definition:</td><td>Identifier, accession number or name used by the donor of the accession in your genebank collection.</td></tr>
+<tr><td class='nobr'>Discussion at:</td><td><a href="http://code.google.com/p/darwincore-germplasm/wiki/DonorsSampleIdentifier">http://code.google.com/p/darwincore-germplasm/wiki/DonorsSampleIdentifier</a></td></tr>
+<tr><td class='nobr'>Comment:</td><td>...</td></tr>
+
+<tr><th colspan="2"><a name="SampleAcquisitionSource"/>Term Name: SampleAcquisitionSource</th></tr>
+<tr><td class='nobr'>Label:</td><td>SampleAcquisitionSource</td></tr>
+<tr><td class='nobr'>Class:</td><td>AcquisitionEvent</td></tr>
+<tr><td class='nobr'>URI:</td><td><a href="./SampleAcquisitionSource">http://rs.nordgen.org/dwc/germplasm/0.1/terms/SampleAcquisitionSource</a></td></tr>
+<tr><td class='nobr'>Definition:</td><td>MCPD term 22: Collecting/acquisition source, COLLSRC. Coded as integer value, defined enumeration.</td></tr>
+<tr><td class='nobr'>Discussion at:</td><td><a href="http://code.google.com/p/darwincore-germplasm/wiki/SampleAcquisitionSource">http://code.google.com/p/darwincore-germplasm/wiki/SampleAcquisitionSource</a></td></tr>
+<tr><td class='nobr'>Comment:</td><td>...</td></tr>
+
+<tr><th colspan="2"><a name="SampleAcquisitionDate"/>Term Name: SampleAcquisitionDate</th></tr>
+<tr><td class='nobr'>Label:</td><td>SampleAcquisitionDate</td></tr>
+<tr><td class='nobr'>Class:</td><td>AcquisitionEvent</td></tr>
+<tr><td class='nobr'>URI:</td><td><a href="./SampleAcquisitionDate">http://rs.nordgen.org/dwc/germplasm/0.1/terms/SampleAcquisitionDate</a></td></tr>
+<tr><td class='nobr'>Definition:</td><td>MCPD term 12: Acquisition date, ACQDATE. Date when the germplasm sample (accession) entered the genebank collection.</td></tr>
+<tr><td class='nobr'>Discussion at:</td><td><a href="http://code.google.com/p/darwincore-germplasm/wiki/SampleAcquisitionDate">http://code.google.com/p/darwincore-germplasm/wiki/SampleAcquisitionDate</a></td></tr>
+<tr><td class='nobr'>Comment:</td><td>...</td></tr>
+
+<tr><th colspan="2"><a name="DonorInstituteCode"/>Term Name: DonorInstituteCode</th></tr>
+<tr><td class='nobr'>Label:</td><td>DonorInstituteCode</td></tr>
+<tr><td class='nobr'>Class:</td><td>AcquisitionEvent</td></tr>
+<tr><td class='nobr'>URI:</td><td><a href="./DonorInstituteCode">http://rs.nordgen.org/dwc/germplasm/0.1/terms/DonorInstituteCode</a></td></tr>
+<tr><td class='nobr'>Definition:</td><td>MCPD term 23: Donor institute code, DONORCODE. FAO WIEWS institute code for the donor institute.</td></tr>
+<tr><td class='nobr'>Discussion at:</td><td><a href="http://code.google.com/p/darwincore-germplasm/wiki/DonorInstituteCode">http://code.google.com/p/darwincore-germplasm/wiki/DonorInstituteCode</a></td></tr>
+<tr><td class='nobr'>Comment:</td><td>...</td></tr>
+
+<tr><th colspan="2"><a name="DonorInstitute"/>Term Name: DonorInstitute</th></tr>
+<tr><td class='nobr'>Label:</td><td>DonorInstitute</td></tr>
+<tr><td class='nobr'>Class:</td><td>AcquisitionEvent</td></tr>
+<tr><td class='nobr'>URI:</td><td><a href="./DonorInstitute">http://rs.nordgen.org/dwc/germplasm/0.1/terms/DonorInstitute</a></td></tr>
+<tr><td class='nobr'>Definition:</td><td>(MCPD term 23): Donor institute name. If the FAO WIEWS institute code is available, this term should not be reported.</td></tr>
+<tr><td class='nobr'>Discussion at:</td><td><a href="http://code.google.com/p/darwincore-germplasm/wiki/DonorInstitute">http://code.google.com/p/darwincore-germplasm/wiki/DonorInstitute</a></td></tr>
+<tr><td class='nobr'>Comment:</td><td>...</td></tr>
+
+<tr><th colspan="2"><a name="SampleAcquisitionRemarks"/>Term Name: SampleAcquisitionRemarks</th></tr>
+<tr><td class='nobr'>Label:</td><td>SampleAcquisitionRemarks</td></tr>
+<tr><td class='nobr'>Class:</td><td>AcquisitionEvent</td></tr>
+<tr><td class='nobr'>URI:</td><td><a href="./SampleAcquisitionRemarks">http://rs.nordgen.org/dwc/germplasm/0.1/terms/SampleAcquisitionRemarks</a></td></tr>
+<tr><td class='nobr'>Definition:</td><td>Remarks to the acquisition event.</td></tr>
+<tr><td class='nobr'>Discussion at:</td><td><a href="http://code.google.com/p/darwincore-germplasm/wiki/SampleAcquisitionRemarks">http://code.google.com/p/darwincore-germplasm/wiki/SampleAcquisitionRemarks</a></td></tr>
+<tr><td class='nobr'>Comment:</td><td>...</td></tr>
+
+
+
+
+<!-- ***************************** -->
+<!-- Safety Duplication (Svalbard) -->
+<tr><td colspan="2" class="vspacer"><a name="SafetyDuplication"/></td></tr>
+
+<tr><th colspan="2"><a name="SafetyDuplicationID"/>Term Name: SafetyDuplicationID</th></tr>
+<tr><td class='nobr'>Label:</td><td>SafetyDuplicationID</td></tr>
+<tr><td class='nobr'>Class:</td><td>SafetyDuplication</td></tr>
+<tr><td class='nobr'>URI:</td><td><a href="./SafetyDuplicationID">http://rs.nordgen.org/dwc/germplasm/0.1/terms/SafetyDuplicationID</a></td></tr>
+<tr><td class='nobr'>Definition:</td><td>An identifier for the genebank accession in safe duplication storage. Could be an unique and stable identifier specific to the safe storage collection. A globally unique identifier (GUID), persistent identifier (PI) such as a URI, DOI, LSID or similar is preferred.</td></tr>
+<tr><td class='nobr'>Discussion at:</td><td><a href="http://code.google.com/p/darwincore-germplasm/wiki/SafetyDuplicationID">http://code.google.com/p/darwincore-germplasm/wiki/SafetyDuplicationID</a></td></tr>
+<tr><td class='nobr'>Comment:</td><td>...</td></tr>
+
+<tr><th colspan="2"><a name="SafetyDuplicationInstituteCode"/>Term Name: SafetyDuplicationInstituteCode</th></tr>
+<tr><td class='nobr'>Label:</td><td>SafetyDuplicationInstituteCode</td></tr>
+<tr><td class='nobr'>Class:</td><td>SafetyDuplication</td></tr>
+<tr><td class='nobr'>URI:</td><td><a href="./SafetyDuplicationInstituteCode">http://rs.nordgen.org/dwc/germplasm/0.1/terms/SafetyDuplicationInstituteCode</a></td></tr>
+<tr><td class='nobr'>Definition:</td><td>MCPD term 26: Location of safety duplicates, DUPLSITE. FAO institute code of the institute where a safety duplicate of the accession is maintained. Example: For Svalbard Global Seed Vault (SGSV), use the FAO WIEWS institute code NOR051.</td></tr>
+<tr><td class='nobr'>Discussion at:</td><td><a href="http://code.google.com/p/darwincore-germplasm/wiki/SafetyDuplicationInstituteCode">http://code.google.com/p/darwincore-germplasm/wiki/SafetyDuplicationInstituteCode</a></td></tr>
+<tr><td class='nobr'>Comment:</td><td>...</td></tr>
+
+<tr><th colspan="2"><a name="SafetyDuplicationInstitute"/>Term Name: SafetyDuplicationInstitute</th></tr>
+<tr><td class='nobr'>Label:</td><td>SafetyDuplicationInstitute</td></tr>
+<tr><td class='nobr'>Class:</td><td>SafetyDuplication</td></tr>
+<tr><td class='nobr'>URI:</td><td><a href="./SafetyDuplicationInstitute">http://rs.nordgen.org/dwc/germplasm/0.1/terms/SafetyDuplicationInstitute</a></td></tr>
+<tr><td class='nobr'>Definition:</td><td>(MCPD term 26): Location of safety duplicates.</td></tr>
+<tr><td class='nobr'>Discussion at:</td><td><a href="http://code.google.com/p/darwincore-germplasm/wiki/SafetyDuplicationInstitute">http://code.google.com/p/darwincore-germplasm/wiki/SafetyDuplicationInstitute</a></td></tr>
+<tr><td class='nobr'>Comment:</td><td>...</td></tr>
+
+<tr><th colspan="2"><a name="SafetyDuplicationDate"/>Term Name: SafetyDuplicationDate</th></tr>
+<tr><td class='nobr'>Label:</td><td>SafetyDuplicationDate</td></tr>
+<tr><td class='nobr'>Class:</td><td>SafetyDuplication</td></tr>
+<tr><td class='nobr'>URI:</td><td><a href="./SafetyDuplicationDate">http://rs.nordgen.org/dwc/germplasm/0.1/terms/SafetyDuplicationDate</a></td></tr>
+<tr><td class='nobr'>Definition:</td><td>Date of safety duplication.</td></tr>
+<tr><td class='nobr'>Discussion at:</td><td><a href="http://code.google.com/p/darwincore-germplasm/wiki/SafetyDuplicationDate">http://code.google.com/p/darwincore-germplasm/wiki/SafetyDuplicationDate</a></td></tr>
+<tr><td class='nobr'>Comment:</td><td>...</td></tr>
+
+
+
+<!-- *********************************************** -->
+<!-- Treaties and regulations (for PGRFA, Germplasm) -->
+<tr><td colspan="2" class="vspacer"><a name="TreatyOrRegulation"/></td></tr>
+
+<tr><th colspan="2"><a name="GermplasmRegulationID"/>Term Name: GermplasmRegulationID</th></tr>
+<tr><td class='nobr'>Label:</td><td>GermplasmRegulationID</td></tr>
+<tr><td class='nobr'>Class:</td><td>TreatyOrRegulation</td></tr>
+<tr><td class='nobr'>URI:</td><td><a href="./GermplasmRegulationID">http://rs.nordgen.org/dwc/germplasm/0.1/terms/GermplasmRegulationID</a></td></tr>
+<tr><td class='nobr'>Definition:</td><td>An identifier for the germplasm regulation or treaty. Could be an unique and stable identifier specific to the dataset. A globally unique identifier (GUID), persistent identifier (PI) such as a URI, DOI, LSID or similar is preferred.</td></tr>
+<tr><td class='nobr'>Discussion at:</td><td><a href="http://code.google.com/p/darwincore-germplasm/wiki/GermplasmRegulationID">http://code.google.com/p/darwincore-germplasm/wiki/GermplasmRegulationID</a></td></tr>
+<tr><td class='nobr'>Comment:</td><td>...</td></tr>
+
+<tr><th colspan="2"><a name="TreatyOrRegulationName"/>Term Name: TreatyOrRegulationName</th></tr>
+<tr><td class='nobr'>Label:</td><td>TreatyOrRegulationName</td></tr>
+<tr><td class='nobr'>Class:</td><td>TreatyOrRegulation</td></tr>
+<tr><td class='nobr'>URI:</td><td><a href="./TreatyOrRegulationName">http://rs.nordgen.org/dwc/germplasm/0.1/terms/TreatyOrRegulationName</a></td></tr>
+<tr><td class='nobr'>Definition:</td><td>Regulation or treaty name.</td></tr>
+<tr><td class='nobr'>Discussion at:</td><td><a href="http://code.google.com/p/darwincore-germplasm/wiki/TreatyOrRegulationName">http://code.google.com/p/darwincore-germplasm/wiki/TreatyOrRegulationName</a></td></tr>
+<tr><td class='nobr'>Comment:</td><td>...</td></tr>
+
+<tr><th colspan="2"><a name="TreatyOrRegulationGoverningBody"/>Term Name: TreatyOrRegulationGoverningBody</th></tr>
+<tr><td class='nobr'>Label:</td><td>TreatyOrRegulationGoverningBody</td></tr>
+<tr><td class='nobr'>Class:</td><td>GermplasmTreatyOrRegulation</td></tr>
+<tr><td class='nobr'>URI:</td><td><a href="./TreatyOrRegulationGoverningBody">http://rs.nordgen.org/dwc/germplasm/0.1/terms/TreatyOrRegulationGoverningBody</a></td></tr>
+<tr><td class='nobr'>Definition:</td><td>Governing body for the regulation or treaty.</td></tr>
+<tr><td class='nobr'>Discussion at:</td><td><a href="http://code.google.com/p/darwincore-germplasm/wiki/TreatyOrRegulationGoverningBody">http://code.google.com/p/darwincore-germplasm/wiki/TreatyOrRegulationGoverningBody</a></td></tr>
+<tr><td class='nobr'>Comment:</td><td>...</td></tr>
+
+
+
+
+<!-- ************************************** -->
+<!-- Germplasm trait measurement data (C&E) -->
+<tr><td colspan="2" class="vspacer"><a name="TraitDescriptor"/></td></tr>
+
+<tr><th colspan="2"><a name="GermplasmTraitID"/>Term Name: GermplasmTraitID</th></tr>
+<tr><td class='nobr'>Label:</td><td>GermplasmTraitID</td></tr>
+<tr><td class='nobr'>Class:</td><td>TraitDescriptor</td></tr>
+<tr><td class='nobr'>URI:</td><td><a href="./GermplasmTraitID">http://rs.nordgen.org/dwc/germplasm/0.1/terms/GermplasmTraitID</a></td></tr>
+<tr><td class='nobr'>Definition:</td><td>Trait ID, Germplasm Trait Descriptor (Measurement Descriptor). May eventually develop into a controlled and currated ontology for trait descriptors. Each trait descriptor could eventually be identified by a GUID, for example LSID.</td></tr>
+<tr><td class='nobr'>Discussion at:</td><td><a href="http://code.google.com/p/darwincore-germplasm/wiki/GermplasmTraitID">http://code.google.com/p/darwincore-germplasm/wiki/GermplasmTraitID</a></td></tr>
+<tr><td class='nobr'>Comment:</td><td>...</td></tr>
+
+<tr><th colspan="2"><a name="GermplasmTraitIdentifier"/>Term Name: GermplasmTraitIdentifier</th></tr>
+<tr><td class='nobr'>Label:</td><td>GermplasmTraitIdentifier</td></tr>
+<tr><td class='nobr'>Class:</td><td>TraitDescriptor</td></tr>
+<tr><td class='nobr'>URI:</td><td><a href="./GermplasmTraitIdentifier">http://rs.nordgen.org/dwc/germplasm/0.1/terms/GermplasmTraitIdentifier</a></td></tr>
+<tr><td class='nobr'>Definition:</td><td>EPGRIS3: TRAIT_NAME. English name for the trait.</td></tr>
+<tr><td class='nobr'>Discussion at:</td><td><a href="http://code.google.com/p/darwincore-germplasm/wiki/GermplasmTraitIdentifier">http://code.google.com/p/darwincore-germplasm/wiki/GermplasmTraitIdentifier</a></td></tr>
+<tr><td class='nobr'>Comment:</td><td>...</td></tr>
+
+<tr><th colspan="2"><a name="GermplasmTraitClass"/>Term Name: GermplasmTraitClass</th></tr>
+<tr><td class='nobr'>Label:</td><td>GermplasmTraitClass</td></tr>
+<tr><td class='nobr'>Class:</td><td>TraitDescriptor</td></tr>
+<tr><td class='nobr'>URI:</td><td><a href="./GermplasmTraitClass">http://rs.nordgen.org/dwc/germplasm/0.1/terms/GermplasmTraitClass</a></td></tr>
+<tr><td class='nobr'>Definition:</td><td>Classification of the trait descriptor (a standard controlled vocabulary could be developed). Examples include: Agrobotanical, morphological, chemical, phenological, molecular biology, disease susceptibility/resistance, tolerance (abiotic), utilization.</td></tr>
+<tr><td class='nobr'>Discussion at:</td><td><a href="http://code.google.com/p/darwincore-germplasm/wiki/GermplasmTraitClass">http://code.google.com/p/darwincore-germplasm/wiki/GermplasmTraitClass</a></td></tr>
+<tr><td class='nobr'>Comment:</td><td>...</td></tr>
+
+<tr><th colspan="2"><a name="GermplasmTraitScale"/>Term Name: GermplasmTraitScale</th></tr>
+<tr><td class='nobr'>Label:</td><td>GermplasmTraitScale</td></tr>
+<tr><td class='nobr'>Class:</td><td>TraitDescriptor</td></tr>
+<tr><td class='nobr'>URI:</td><td><a href="./GermplasmTraitScale">http://rs.nordgen.org/dwc/germplasm/0.1/terms/GermplasmTraitScale</a></td></tr>
+<tr><td class='nobr'>Definition:</td><td>Scale used for the observations/measurements. Absolute, interval, nominal, ordinal, ratio, or relative values.</td></tr>
+<tr><td class='nobr'>Discussion at:</td><td><a href="http://code.google.com/p/darwincore-germplasm/wiki/GermplasmTraitScale">http://code.google.com/p/darwincore-germplasm/wiki/GermplasmTraitScale</a></td></tr>
+<tr><td class='nobr'>Comment:</td><td>...</td></tr>
+
+<tr><th colspan="2"><a name="GermplasmTraitSource"/>Term Name: GermplasmTraitSource</th></tr>
+<tr><td class='nobr'>Label:</td><td>GermplasmTraitSource</td></tr>
+<tr><td class='nobr'>Class:</td><td>TraitDescriptor</td></tr>
+<tr><td class='nobr'>URI:</td><td><a href="./GermplasmTraitSource">http://rs.nordgen.org/dwc/germplasm/0.1/terms/GermplasmTraitSource</a></td></tr>
+<tr><td class='nobr'>Definition:</td><td>Reference to the source standard Germplasm Descriptor. For example the UPOV descriptor or the Bioversity Crop Descriptor identifier.</td></tr>
+<tr><td class='nobr'>Discussion at:</td><td><a href="http://code.google.com/p/darwincore-germplasm/wiki/GermplasmTraitSource">http://code.google.com/p/darwincore-germplasm/wiki/GermplasmTraitSource</a></td></tr>
+<tr><td class='nobr'>Comment:</td><td>...</td></tr>
+
+<tr><th colspan="2"><a name="GermplasmTraitRemarks"/>Term Name: GermplasmTraitRemarks</th></tr>
+<tr><td class='nobr'>Label:</td><td>GermplasmTraitRemarks</td></tr>
+<tr><td class='nobr'>Class:</td><td>TraitDescriptor</td></tr>
+<tr><td class='nobr'>URI:</td><td><a href="./GermplasmTraitRemarks">http://rs.nordgen.org/dwc/germplasm/0.1/terms/GermplasmTraitRemarks</a></td></tr>
+<tr><td class='nobr'>Definition:</td><td>Remarks to the trait descriptor.</td></tr>
+<tr><td class='nobr'>Discussion at:</td><td><a href="http://code.google.com/p/darwincore-germplasm/wiki/GermplasmTraitRemarks">http://code.google.com/p/darwincore-germplasm/wiki/GermplasmTraitRemarks</a></td></tr>
+<tr><td class='nobr'>Comment:</td><td>...</td></tr>
+
+
+
+<!-- **************** -->
+<!-- Trait Experiment -->
+<tr><td colspan="2" class="vspacer"><a name="TraitExperiment"/></td></tr>
+
+<tr><th colspan="2"><a name="GermplasmExperimentID"/>Term Name: GermplasmExperimentID</th></tr>
+<tr><td class='nobr'>Label:</td><td>GermplasmExperimentID</td></tr>
+<tr><td class='nobr'>Class:</td><td>TraitExperiment</td></tr>
+<tr><td class='nobr'>URI:</td><td><a href="./GermplasmExperimentID">http://rs.nordgen.org/dwc/germplasm/0.1/terms/GermplasmExperimentID</a></td></tr>
+<tr><td class='nobr'>Definition:</td><td>Experiment ID, Germplasm Trait Descriptor (Measurement Event).</td></tr>
+<tr><td class='nobr'>Discussion at:</td><td><a href="http://code.google.com/p/darwincore-germplasm/wiki/GermplasmExperimentID">http://code.google.com/p/darwincore-germplasm/wiki/GermplasmExperimentID</a></td></tr>
+<tr><td class='nobr'>Comment:</td><td>...</td></tr>
+
+<tr><th colspan="2"><a name="GermplasmExperimentIdentifier"/>Term Name: GermplasmExperimentIdentifier</th></tr>
+<tr><td class='nobr'>Label:</td><td>GermplasmExperimentIdentifier</td></tr>
+<tr><td class='nobr'>Class:</td><td>TraitExperiment</td></tr>
+<tr><td class='nobr'>URI:</td><td><a href="./GermplasmExperimentIdentifier">http://rs.nordgen.org/dwc/germplasm/0.1/terms/GermplasmExperimentIdentifier</a></td></tr>
+<tr><td class='nobr'>Definition:</td><td>EPGRIS3: EXPERIMENT_NUMBER.</td></tr>
+<tr><td class='nobr'>Discussion at:</td><td><a href="http://code.google.com/p/darwincore-germplasm/wiki/GermplasmExperimentIdentifier">http://code.google.com/p/darwincore-germplasm/wiki/GermplasmExperimentIdentifier</a></td></tr>
+<tr><td class='nobr'>Comment:</td><td>...</td></tr>
+
+<tr><th colspan="2"><a name="GermplasmExperimentRemarks"/>Term Name: GermplasmExperimentRemarks</th></tr>
+<tr><td class='nobr'>Label:</td><td>GermplasmExperimentRemarks</td></tr>
+<tr><td class='nobr'>Class:</td><td>TraitExperiment</td></tr>
+<tr><td class='nobr'>URI:</td><td><a href="./GermplasmExperimentRemarks">http://rs.nordgen.org/dwc/germplasm/0.1/terms/GermplasmExperimentRemarks</a></td></tr>
+<tr><td class='nobr'>Definition:</td><td>EPGRIS3: EXPERIMENT_DESCRIPTION. Information relevant for the interpretation of the scores in the experiment such as experimental design, location, experimentor, weather, etc.</td></tr>
+<tr><td class='nobr'>Discussion at:</td><td><a href="http://code.google.com/p/darwincore-germplasm/wiki/GermplasmExperimentRemarks">http://code.google.com/p/darwincore-germplasm/wiki/GermplasmExperimentRemarks</a></td></tr>
+<tr><td class='nobr'>Comment:</td><td>...</td></tr>
+
+<tr><th colspan="2"><a name="GermplasmExperimentYear"/>Term Name: GermplasmExperimentYear</th></tr>
+<tr><td class='nobr'>Label:</td><td>GermplasmExperimentYear</td></tr>
+<tr><td class='nobr'>Class:</td><td>TraitExperiment</td></tr>
+<tr><td class='nobr'>URI:</td><td><a href="./GermplasmExperimentYear">http://rs.nordgen.org/dwc/germplasm/0.1/terms/GermplasmExperimentYear</a></td></tr>
+<tr><td class='nobr'>Definition:</td><td>EPGRIS3: EXPERIMENT_YEAR.</td></tr>
+<tr><td class='nobr'>Discussion at:</td><td><a href="http://code.google.com/p/darwincore-germplasm/wiki/GermplasmExperimentYear">http://code.google.com/p/darwincore-germplasm/wiki/GermplasmExperimentYear</a></td></tr>
+<tr><td class='nobr'>Comment:</td><td>...</td></tr>
+
+<tr><th colspan="2"><a name="GermplasmExperimentReport"/>Term Name: GermplasmExperimentReport</th></tr>
+<tr><td class='nobr'>Label:</td><td>GermplasmExperimentReport</td></tr>
+<tr><td class='nobr'>Class:</td><td>TraitExperiment</td></tr>
+<tr><td class='nobr'>URI:</td><td><a href="./GermplasmExperimentReport">http://rs.nordgen.org/dwc/germplasm/0.1/terms/GermplasmExperimentReport</a></td></tr>
+<tr><td class='nobr'>Definition:</td><td>EPGRIS3: EXPERIMENT_REPORT. A reference to the report of the experiment, either supplied as the file name or the URL of the report.</td></tr>
+<tr><td class='nobr'>Discussion at:</td><td><a href="http://code.google.com/p/darwincore-germplasm/wiki/GermplasmExperimentReport">http://code.google.com/p/darwincore-germplasm/wiki/GermplasmExperimentReport</a></td></tr>
+<tr><td class='nobr'>Comment:</td><td>...</td></tr>
+
+
+
+<!-- ***************** -->
+<!-- Trait Measurement -->
+<tr><td colspan="2" class="vspacer"><a name="TraitMeasurement"/></td></tr>
+
+<tr><th colspan="2"><a name="MeasurementByInstituteCode"/>Term Name: MeasurementByInstituteCode</th></tr>
+<tr><td class='nobr'>Label:</td><td>MeasurementByInstituteCode</td></tr>
+<tr><td class='nobr'>Class:</td><td>TraitMeasurement</td></tr>
+<tr><td class='nobr'>URI:</td><td><a href="./MeasurementByInstituteCode">http://rs.nordgen.org/dwc/germplasm/0.1/terms/MeasurementByInstituteCode</a></td></tr>
+<tr><td class='nobr'>Definition:</td><td>Germplasm trait observation determined by institute code, INSTCODE. FAO WIEWS institute code for the institute performing the observation/measurement.</td></tr>
+<tr><td class='nobr'>Discussion at:</td><td><a href="http://code.google.com/p/darwincore-germplasm/wiki/MeasurementByInstituteCode">http://code.google.com/p/darwincore-germplasm/wiki/MeasurementByInstituteCode</a></td></tr>
+<tr><td class='nobr'>Comment:</td><td>...</td></tr>
+
+<tr><th colspan="2"><a name="MeasurementGrowthStage"/>Term Name: MeasurementGrowthStage</th></tr>
+<tr><td class='nobr'>Label:</td><td>MeasurementGrowthStage</td></tr>
+<tr><td class='nobr'>Class:</td><td>MeasurementGrowthStage</td></tr>
+<tr><td class='nobr'>URI:</td><td><a href="./MeasurementGrowthStage">http://rs.nordgen.org/dwc/germplasm/0.1/terms/MeasurementGrowthStage</a></td></tr>
+<tr><td class='nobr'>Definition:</td><td>Germplasm term to describe the growth stage of the plant when the trait observation or measurement was made. Examples include: Ripening, heading, ... A modifier of the TDWG SDD style could be applied here to be more generic and include modifiers like for example part of the plant where the observation was made (eg. leaf, stem, seeds).</td></tr>
+<tr><td class='nobr'>Discussion at:</td><td><a href="http://code.google.com/p/darwincore-germplasm/wiki/MeasurementGrowthStage">http://code.google.com/p/darwincore-germplasm/wiki/MeasurementGrowthStage</a></td></tr>
+<tr><td class='nobr'>Comment:</td><td>...</td></tr>
+
+
+</table>
+
+<br/><br/>
+<hr/>
+
+<br/><br/><br/><br/><br/><br/><br/><br/>
+
+
+
+<table><tr><td valign="bottom">
+<a href="http://www.nordgen.org"><img align='left' src='../../images/nordgen_logo.png' alt='NordGen logo' style='margin:5px' height='40' /></a>
+<a href="http://www.bioversityinternational.org"><img align='left' src='../../images/bioversity_logo.png' alt='Bioversity logo' style='margin:5px' height='40' /></a>
+<a href="http://creativecommons.org/licenses/by/3.0/"><img align='left' src='../../images/cc-by.png' alt='CC By logo' style='margin:5px' height='30' /></a>
+</td><td valign="middle">
+The Darwin Core extension for genebanks (<a href="http://code.google.com/p/darwincore-germplasm/" target="_blank">DwC germplasm</a>) is licensed under the 
+<a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</a>.
+</td></tr></table>
+
+
+<div><small>
+The Darwin Core extension for genebanks (<a href="http://code.google.com/p/darwincore-germplasm/" target="_blank">DwC germplasm</a>) is
+hosted by the Nordic Genetic Resources Center (<a href="http://www.nordgen.org" target="_blank">NordGen</a>), Smedjevagen 3, 230 53 Alnarp, Sweden.
+<a href="mailto:dag.endresen@gmail.com">Contact us</a></small>.
+</div><br/>
+
+
+
+<br/><br/><br/>
+
+
+<!-- The following is used to register Google Analytics for Darwin Core --> 
+<!--
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"> 
+</script>
+<script type="text/javascript"> 
+  _uacct = "xxxxx";
+  urchinTracker();
+</script> 
+-->
+
+</body>
+</html>
+
