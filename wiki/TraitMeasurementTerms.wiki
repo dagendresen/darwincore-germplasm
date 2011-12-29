@@ -9,8 +9,8 @@ Characterization & Evaluation data (C&E) are measurements of crop traits. This d
 <img src='http://darwincore-germplasm.googlecode.com/svn/trunk/images/illustrations/beans_5mm_grid.png' align='right' width='200px' />
 
  === Darwin Core terms ===
- * _dwc:measurementType_ [[http://rs.tdwg.org/dwc/terms/index.htm#measurementType]]
- * _dwc:measurementMethod_ [[http://rs.tdwg.org/dwc/terms/index.htm#measurementMethod]]
+ * [http://rs.tdwg.org/dwc/terms/index.htm#measurementType _dwc:measurementType_]
+ * [http://rs.tdwg.org/dwc/terms/index.htm#measurementMethod _dwc:measurementMethod_]
 
  === DwC-germplasm terms ===
  * *[GermplasmTraitID Trait ID]* (epgris3_trait:TRAIT_NUMBER)
