@@ -21,6 +21,28 @@ Characterization & Evaluation data (C&E) are measurements of crop traits. This d
  * *[GermplasmTraitRemarks Trait Remarks]* (epgris3_trait:TRAIT_REMARK)
 
 
+
+<br clear='all' />
+----
+<br clear='all' />
+
+
+<img src='http://darwincore-germplasm.googlecode.com/svn/trunk/images/illustrations/trait_experiment_LTU.JPG' align='right' width='200px' />
+
+= Trait Experiment =
+
+ === Darwin Core terms ===
+ * _[http://rs.tdwg.org/dwc/terms/index.htm#measurementDeterminedBy dwc:measurementDeterminedBy]_
+
+
+ === DwC-germplasm terms ===
+ * *[GermplasmExperimentID Experiment ID]*
+ * *[GermplasmExperimentIdentifier Experiment Identifier]*
+ * *[GermplasmExperimentReport Experiment Report]*
+ * *[GermplasmExperimentYear Experiment Year]*
+ * *[GermplasmExperimentRemarks Experiment Remarks]* 
+ * *[MeasurementByInstituteCode Measurement by Institute Code]*
+
 <br clear='all' />
 ----
 <br clear='all' />
@@ -34,28 +56,13 @@ Characterization & Evaluation data (C&E) are measurements of crop traits. This d
  === Darwin Core terms ===
  * _[http://rs.tdwg.org/dwc/terms/index.htm#measurementID dwc:measurementID]_
  * _[http://rs.tdwg.org/dwc/terms/index.htm#measurementValue dwc:measurementValue]_ (epgris3_trait:SCORE)
- * _[http://rs.tdwg.org/dwc/terms/index.htm#measurementDeterminedBy dwc:measurementDeterminedBy]_
+
 
  === DwC-germplasm terms ===
- * *[MeasurementByInstituteCode Measurement by Institute Code]* (redundant by new term dwc:measurementDeterminedBy)
  * *[MeasurementGrowthStage Measurement Growth Stage]* 
 
 
-<br clear='all' />
-----
-<br clear='all' />
 
-
-<img src='http://darwincore-germplasm.googlecode.com/svn/trunk/images/illustrations/trait_experiment_LTU.JPG' align='right' width='200px' />
-
-= Trait Experiment =
-
- === DwC-germplasm terms ===
- * *[GermplasmExperimentID Experiment ID]*
- * *[GermplasmExperimentIdentifier Experiment Identifier]*
- * *[GermplasmExperimentReport Experiment Report]*
- * *[GermplasmExperimentYear Experiment Year]*
- * *[GermplasmExperimentRemarks Experiment Remarks]* 
 
 
 <br clear='all' />
