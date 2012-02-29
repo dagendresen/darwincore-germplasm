@@ -1,6 +1,8 @@
 #summary DwC-Germplasm Dataset TERMS.
 #labels TERMS
 
+Back to the [DarwinCoreGermplasmTerms].
+
 = Dataset =
 
  * _dwc:datasetID_ [[http://rs.tdwg.org/dwc/terms/index.htm#datasetID]]
