@@ -16,5 +16,7 @@ The terms of the Darwin Core extension for genebanks (DwC-germplasm) are grouped
     * [TraitMeasurementTerms Trait Measurements (C&E)]
     * [TreatiesAndRegulationsTerms Treaties and Regulations]
 
-    * [DistributionTerms Distribution - PROPOSED]
-    * [ConservationTraitsTerms Conservation traits - PROPOSED]
+Proposed:
+
+    * [DistributionTerms Distribution]
+    * [ConservationTraitsTerms Conservation traits]
