@@ -1,7 +1,7 @@
 #summary DwC-Germplasm BreedingEventID
 #labels TERM
 
-Back to the [BreedingEventTerms]
+Back to the [BreedingEventTerms].
 
 = BreedingEventID =
 
