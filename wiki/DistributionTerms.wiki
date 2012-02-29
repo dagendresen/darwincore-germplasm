@@ -1,6 +1,8 @@
 #summary GermplasmDistribution
 #labels TERMS
 
+Back to the [DarwinCoreGermplasmTerms].
+
 = Germplasm Distribution =
 
 Distribution of germplasm reporting standards need to be developed. Perhaps to be included in the Darwin Core Extension terms?
