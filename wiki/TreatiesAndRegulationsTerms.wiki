@@ -1,6 +1,8 @@
 #summary GermplasmTreatiesAndRegulations
 #labels TERMS
 
+Back to the [DarwinCoreGermplasmTerms].
+
 = Treaties and Regulations= 
 
 <img src='http://darwincore-germplasm.googlecode.com/svn/trunk/images/logos/itpgrfa_logo.jpg' align='right' />
