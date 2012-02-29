@@ -1,6 +1,10 @@
 #summary DwC-Germplasm BreedersSampleIdentifier
 #labels TERM
 
+Back to the [BreedingEventTerms].
+
+= BreedersSampleIdentifier =
+
 http://rs.nordgen.org/dwc/germplasm/0.1/terms/BreedersSampleIdentifier
 
 Number (or name) assigned to an accession by the breeder. 
