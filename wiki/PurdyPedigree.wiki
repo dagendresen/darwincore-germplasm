@@ -1,6 +1,10 @@
 #summary DwC-Germplasm PurdyPedigree
 #labels TERM
 
+Back to the [BreedingEventTerms].
+
+= PurdyPedigree =
+
 http://rs.nordgen.org/dwc/germplasm/0.1/terms/PurdyPedigree
 
 Ancestral pedigree following the purdy pedigree format. 
