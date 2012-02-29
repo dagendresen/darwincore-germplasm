@@ -1,6 +1,8 @@
 #summary DwC-Germplasm Specimen TERMS.
 #labels TERMS
 
+Back to the [DarwinCoreGermplasmTerms].
+
 = Specimen =
 
 === Darwin Core Terms ===
