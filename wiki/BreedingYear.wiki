@@ -1,6 +1,10 @@
 #summary DwC-Germplasm BreedingYear
 #labels TERM
 
+Back to the [BreedingEventTerms].
+
+= BreedingYear =
+
 http://rs.nordgen.org/dwc/germplasm/0.1/terms/BreedingYear
 
 
