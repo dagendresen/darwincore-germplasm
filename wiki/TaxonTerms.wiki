@@ -1,6 +1,8 @@
 #summary DwC-Germplasm Taxon TERMS
 #labels TERMS
 
+Back to the [DarwinCoreGermplasmTerms].
+
 = Taxon =
 
 The current core terms of the Darwin Core describe the taxonomy of the plant genetic resources well. For historical reasons the atomized reporting of authorship for species and subspecies level is proposed to be added. Further the crop group and the crop gene pool could be useful additions to consider.
