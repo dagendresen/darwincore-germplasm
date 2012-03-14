@@ -24,10 +24,9 @@
  TDWG 2009 conference in Montpellier hosted by Bioversity, Agopolis during November 9-13, 2009.
 
 
- -----
+-
  This folder is mounted as: http://rs.nordgen.org/dwc/
  The folder /var/www/html/rs/ is mounted with virtual host as: http://rs.nordgen.org
 
  (Dag Endresen, Lars Falk, NordGen, August 25, 2009)
---
 -
