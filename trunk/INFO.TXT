@@ -23,7 +23,6 @@
  The DwC Germplasm extension will be the topic for a slit-up session at the 
  TDWG 2009 conference in Montpellier hosted by Bioversity, Agopolis during November 9-13, 2009.
 
-
 -
  This folder is mounted as: http://rs.nordgen.org/dwc/
  The folder /var/www/html/rs/ is mounted with virtual host as: http://rs.nordgen.org
