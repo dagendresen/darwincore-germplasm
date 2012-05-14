@@ -1,0 +1,148 @@
+-------------------------------------------------------
+FAO/IPGRI MULTI-CROP PASSPORT DESCRIPTORS December 2001
+-------------------------------------------------------
+
+The list of multi-crop passport descriptors (MCPD) is developed jointly by IPGRI and FAO to provide international standards to facilitate germplasm passport information exchange. These descriptors aim to be compatible with IPGRI crop descriptor lists and with the descriptors used for the FAO World Information and Early Warning System (WIEWS) on plant genetic resources (PGR).
+For each multi-crop passport descriptor, a brief explanation of content, coding scheme and suggested fieldname (in parentheses) is provided to assist in the computerized exchange of this type of data. It is recognized that networks or groups of users may want to further expand this MCPD List to meet their specific needs. As long as these additions allow for an easy conversion to the format proposed in the multi-crop passport descriptors, basic passport data can be exchanged worldwide in a consistent manner.
+
+General comments:
+ • If a field allows multiple values, these values should be separated by a semicolon (;) without
+space(s), (i.e. Accession name:Rheinische Vorgebirgstrauben;Emma;Avlon).
+ • A field for which no value is available should be left empty (i.e. Elevation). If data are
+exchanged in ASCII format for a field with a missing numeric value, it should be left empty. If data are exchanged in a database format, missing numeric values should be represented by generic NULL values.
+ • Dates are recorded as YYYYMMDD. If the month and/or day are missing this should be indicated with hyphens. Leading zeros are required (i.e. 197506--, or 1975----).
+ • Latitude and longitude are recorded in an alphanumeric format. If the minutes or seconds are missing, this should be indicated with hyphens. Leading zeros are required.
+ • Country names: Three letter ISO codes are used for countries.
+The ISO 3166-1: Code List and the Country or the Country or area numerical codes added or changed are not available on-line, but can be obtained from IPGRI [ipgri-mcpd@cgiar.org]
+ • For institutes the codes from FAO should be used. These codes are available from http://apps3.fao.org/wiews/ for registered WIEWS users. From the Main Menu select: ‘PGR’ and ‘Download’. If new Institute Codes are required, they can be generated online by national WIEWS administrators, or by the FAO WIEWS administrator [Stefano.Diulgheroff@fao.org].
+ • The preferred language for free text fields is English (i.e. Location of collecting site and Remarks).
+
+
+-------------------------------
+MULTI-CROP PASSPORT DESCRIPTORS
+-------------------------------
+
+￼￼￼￼￼1. Institute code (INSTCODE)
+Code of the institute where the accession is maintained. The codes consist of the 3-letter ISO 3166 country code of the country where the institute is located plus a number. The current set of Institute Codes is available from the FAO website (http://apps3.fao.org/wiews/).
+
+￼￼￼￼￼2. Accession number (ACCENUMB)
+This number serves as a unique identifier for accessions within a genebank collection, and is assigned when a sample is entered into the genebank collection.
+
+￼￼￼￼￼3. Collecting number (COLLNUMB)
+Original number assigned by the collector(s) of the sample, normally composed of the name or initials of the collector(s) followed by a number. This number is essential for identifying duplicates held in different collections.
+
+￼
+￼￼￼￼￼4. Collecting institute code (COLLCODE)
+Code of the Institute collecting the sample. If the holding institute has collected the material, the collecting institute code (COLLCODE) should be the same as the holding institute code (INSTCODE). Follows INSTCODE standard.
+
+￼￼￼￼￼5. Genus (GENUS)
+Genus name for taxon. Initial uppercase letter required.
+
+￼￼￼￼￼6. Species (SPECIES)
+Specific epithet portion of the scientific name in lowercase letters. Following abbreviation is allowed: ‘sp.’
+
+￼￼￼￼￼7. Species authority (SPAUTHOR)
+Provide the authority for the species name.
+
+￼￼￼￼￼8. Subtaxa (SUBTAXA)
+Subtaxa can be used to store any additional taxonomic identifier. Following abbreviations are allowed: ‘subsp.’ (for subspecies); ‘convar.’ (for convariety); ‘var.’ (for variety); ‘f.’ (for form).
+
+￼￼￼￼￼9. Subtaxa authority (SUBTAUTHOR)
+Provide the subtaxa authority at the most detailed taxonomic level.
+
+￼￼￼￼￼10. Common crop name (CROPNAME)
+Name of the crop in colloquial language, preferably English (i.e. 'malting barley’, 'cauliflower', or 'white cabbage')
+
+￼￼￼￼￼11. Accession name (ACCENAME)
+Either a registered or other formal designation given to the accession. First letter uppercase. Multiple names separated with semicolon without space. For example: Rheinische Vorgebirgstrauben;Emma;Avlon
+
+￼￼￼￼￼12. Acquisition date [YYYYMMDD] (ACQDATE) Date on which the accession entered the collection where YYYY is the year, MM is the month and DD is the day. Missing data (MM or DD) should be indicated with hyphens. Leading zeros are required.
+
+￼￼￼￼￼13. Country of origin (ORIGCTY)
+Code of the country in which the sample was originally collected. Use the 3-letter ISO 3166-1 extended country codes.
+
+￼￼￼￼￼14. Location of collecting site (COLLSITE)
+Location information below the country level that describes where the accession was collected. This might include the distance in kilometres and direction from the nearest town, village or map grid reference point, (e.g. 7 km south of Curitiba in the state of Parana).
+
+￼￼￼  15. Latitude of collecting site1 (LATITUDE) Degree (2 digits) minutes (2 digits), and seconds (2 digits) followed by N (North) or S (South) (e.g. 103020S). Every missing digit (minutes or seconds) should be indicated with a hyphen. Leading zeros are required (e.g. 10----S; 011530N; 4531--S).
+
+￼￼￼￼￼16. Longitude of collecting site1 (LONGITUDE) Degree (3 digits), minutes (2 digits), and seconds (2 digits) followed by E (East) or W (West) (e.g. 0762510W). Every missing digit (minutes or seconds) should be indicated with a hyphen. Leading zeros are required (e.g. 076----W).
+
+---
+[1] do m' s''=h *(d+m/ 60+s/3600) where h=1 for the Northern and Eastern hemispheres and –1 for the Southern and Western hemispheres i.e. 30o30'0'' S=–30.5 and 30o15'55'' N=30.265. To convert from longitude and latitude in degrees (o), minutes ('), seconds (''), and a hemisphere (North or South and East or West) to decimal degrees, the following formula should be used:
+---
+
+￼￼￼￼￼17. Elevation of collecting site [m asl] (ELEVATION) Elevation of collecting site expressed in metres above sea level. Negative values are allowed.
+
+￼￼￼￼￼18. Collecting date of sample [YYYYMMDD] (COLLDATE)
+Collecting date of the sample where YYYY is the year, MM is the month and DD is the day. Missing data (MM or DD) should be indicated with hyphens. Leading zeros are required.
+
+
+￼￼￼￼19. Breeding institute code (BREDCODE)
+Institute code of the institute that has bred the material. If the holding institute has bred the material, the breeding institute code (BREDCODE) should be the same as the holding institute code (INSTCODE). Follows INSTCODE standard.
+
+￼￼￼￼￼20. Biological status of accession (SAMPSTAT)
+The coding scheme proposed can be used at 3 different levels of detail: either by using the general codes (in boldface) such as 100, 200, 300, 400 or by using the more specific codes such as 110, 120 etc.
+￼￼￼￼￼100) Wild
+110) Natural
+120) Semi-natural/wild
+200) Weedy
+300) Traditional cultivar/landrace
+400) Breeding/research material
+410) Breeder's line
+411) Synthetic population
+412) Hybrid
+413) Founder stock/base population 414) Inbred line (parent of hybrid cultivar) 415) Segregating population
+420) Mutant/genetic stock
+500) Advanced/improved cultivar
+999) Other (Elaborate in REMARKS field)
+
+￼￼￼￼￼21. Ancestral data (ANCEST)
+Information about either pedigree or other description of ancestral information (i.e. parent variety in case of mutant or selection). For example a pedigree 'Hanna/7*Atlas//Turk/8*Atlas' or a description 'mutation found in Hanna', 'selection from Irene' or 'cross involving amongst others Hanna and Irene'.
+
+￼￼￼￼￼22. Collecting/acquisition source (COLLSRC)
+The coding scheme proposed can be used at 2 different levels of detail: either by using the general codes (in boldface) such as 10, 20, 30, 40 or by using the more specific codes such as 11, 12 etc.
+10) Wild habitat
+11) Forest/woodland 12) Shrubland
+13) Grassland
+14) Desert/tundra 15) Aquatic habitat
+20) Farm or cultivated habitat
+21) Field
+22) Orchard
+23) Backyard, kitchen or home garden (urban, peri-urban or rural) 24) Fallow land
+25) Pasture
+26) Farm store
+27) Threshing floor
+28) Park
+￼
+￼￼￼￼￼30) Market or shop
+40) Institute, Experimental station, Research organization, Genebank 50) Seed company
+60) Weedy, disturbed or ruderal habitat
+61) Roadside 62) Field margin
+99) Other (Elaborate in REMARKS field)
+
+￼￼￼￼￼23. Donor institute code (DONORCODE)
+Code for the donor institute. Follows INSTCODE standard.
+
+￼￼￼￼￼24. Donor accession number (DONORNUMB)
+Number assigned to an accession by the donor. Follows ACCENUMB standard.
+
+￼￼￼￼￼25. Other identification (numbers) associated with the accession (OTHERNUMB)
+Any other identification (numbers) known to exist in other collections for this accession. Use the following system: INSTCODE:ACCENUMB;INSTCODE:ACCENUMB;... INSTCODE and ACCENUMB follow the standard described above and are separated by a colon. Pairs of INSTCODE and ACCENUMB are separated by a semicolon without space. When the institute is not known, the number should be preceded by a colon.
+
+￼￼￼￼￼26. Location of safety duplicates (DUPLSITE)
+Code of the institute where a safety duplicate of the accession is maintained. Follows INSTCODE standard.
+
+￼￼￼￼￼27. Type of germplasm storage (STORAGE)
+If germplasm is maintained under different types of storage, multiple choices are allowed, separated by a semicolon (e.g. 20;30). (Refer to FAO/IPGRI Genebank Standards 1994 for details on storage type.)
+10) Seed collection
+11) Short term
+12) Medium term
+13) Long term
+20) Field collection
+30) In vitro collection (Slow growth) 40) Cryopreserved collection
+99) Other (elaborate in REMARKS field)
+
+￼￼￼￼￼28. Remarks (REMARKS)
+The remarks field is used to add notes or to elaborate on descriptors with value 99 or 999 (=Other). Prefix remarks with the field name they refer to and a colon (e.g. COLLSRC:riverside). Separate remarks referring to different fields are separated by semicolons without space.
+
