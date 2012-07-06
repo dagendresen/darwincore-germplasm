@@ -5,7 +5,7 @@
   "http://kos.gbif.org/wiki/Germplasm" and at the Google Code home page site at
   "http://code.google.com/p/darwincore-germplasm/wiki/DarwinCoreGermplasmTerms".
   Input and feedback is most welcome! 
-  Dag Endresen, Global Biodiversity Information Facility (GBIF), GBIF Norway.
+  Dag Endresen, Global Biodiversity Information Facility (GBIF).
 -->
 
 <!DOCTYPE rdf:RDF [
@@ -325,6 +325,7 @@
     <skos:inScheme rdf:resource="&germplasm;"/>
     <vs:term_status>unstable</vs:term_status>
     <skos:relatedMatch rdf:resource="dwc:MeasurementOrFact"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <skos:editorialNote>The measurement method terms should be evaluated for possible overlapping definitions in relation to the Crop Ontology (CO). These terms have further not been tested in the "wild" for sharing real data yet, and are therefore declared as status "unstable".</skos:editorialNote>
     <skos:member rdf:resource="&germplasm;measurementMethodID"/>
@@ -349,6 +350,7 @@
     <vs:term_status>unstable</vs:term_status>
     <skos:relatedMatch rdf:resource="dwc:MeasurementOrFact"/>
     <skos:narrowMatch rdf:resource="foaf:Project"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <skos:editorialNote>The measurement experiment terms should be evaluated for possible overlapping definitions in relation to the Crop Ontology (CO). These terms have further not been tested in the "wild" for sharing real data yet, and are therefore declared as status "unstable".</skos:editorialNote>
     <skos:member rdf:resource="&germplasm;measurementExperimentID"/>
@@ -368,6 +370,7 @@
     <rdfs:isDefinedBy rdf:resource="&germplasm;"/>
     <skos:inScheme rdf:resource="&germplasm;"/>
     <vs:term_status>unstable</vs:term_status>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <skos:editorialNote>The measurement terms should be evaluated for possible overlapping definitions in relation to the Crop Ontology (CO). These terms have further not been tested in the "wild" for sharing real data yet, and are therefore declared as status "unstable".</skos:editorialNote>
     <skos:member rdf:resource="&germplasm;measurementByInstituteID"/>
@@ -435,6 +438,7 @@
   dcterms:hasVersion 	(the germplasm terms are not versioned...)
   dcterms:identifier 	(we might perhaps provide other term identifiers than the URI here)
   owl:equivalentProperty
+  owl:Class, owl:ObjectProperty, owl:DatatypeProperty
 -->
 
 
