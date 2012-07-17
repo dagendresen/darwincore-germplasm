@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/style/human.xsl"?>
+<extension xmlns="http://rs.gbif.org/extension/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:dc="http://purl.org/dc/terms/"    
+    xsi:schemaLocation="http://rs.gbif.org/extension/ http://rs.gbif.org/schema/extension.xsd" 
+    dc:title="Trait measurement experiment" 
+    dc:description="The Darwin Core extension for genebanks (DwC germplasm) was developed in 2009 for sharing genebank datasets with the GBIF Integrated Publishing Toolkit from the Global Biodiversity Information Facility (GBIF). This application schema includes the terms to describe the experiments to collect trait measurements or so-called Characterization and Evaluation (C and E) data. These terms where largely developed by the EPGRIS3 group of the European Coopertive Programme for Plant Genetic Resources (ECPGR) in 2009."
+    dc:relation="http://purl.org/germplasm/germplasmTerm.rdf"
+    name="MeasurementExperiment" 
+    namespace="http://purl.org/germplasm/germplasmTerm#"
+    rowType="http://purl.org/germplasm/germplasmTerm#MeasurementExperiment">
+
+
+    <!--
+      Application schema for the GBIF IPT data provider software
+      based on the Darwin Core extension for genebanks (DwC germplasm)
+      Dag Endresen (GBIF/NordGen), 2009-05-15, 2009-08-21, 2009-08-26, 2011-10-07, 
+        2012-03-14, 2012-07-17
+    -->
+
+   <!-- TraitExperiment -->
+    <property name="measurementExperimentID" 
+      namespace="http://purl.org/germplasm/germplasmTerm#" 
+      qualName="http://purl.org/germplasm/germplasmTerm#measurementExperimentID" 
+      dc:description="Persistent identifier used to identify a trait measurement experiment."
+      type="string" 
+      examples="URI, DOI, LSID or similar" 
+      dc:relation="http://kos.gbif.org/wiki/germplasm:measurementExperimentID"
+      group="MeasurementExperiment" 
+      required="false"/>
+
+    <property name="measurementExperimentIdentifier" 
+      namespace="http://purl.org/germplasm/germplasmTerm#" 
+      qualName="http://purl.org/germplasm/germplasmTerm#measurementExperimentIdentifier" 
+      dc:description="Unique number in the dataset for the experiment."
+      type="string" 
+      examples="Local identifier for the experiment or project activity" 
+      dc:relation="http://kos.gbif.org/wiki/germplasm:measurementExperimentIdentifier"
+      group="MeasurementExperiment" 
+      required="false"/>
+
+    <property name="measurementExperimentYear" 
+      namespace="http://purl.org/germplasm/germplasmTerm#" 
+      qualName="http://purl.org/germplasm/germplasmTerm#measurementExperimentYear" 
+      dc:description="The year when the trait experiment was conducted."
+      type="integer" 
+      examples="2010" 
+      dc:relation="http://kos.gbif.org/wiki/germplasm:measurementExperimentYear"
+      group="MeasurementExperiment" 
+      required="false"/>
+
+    <property name="measurementExperimentReport" 
+      namespace="http://purl.org/germplasm/germplasmTerm#" 
+      qualName="http://purl.org/germplasm/germplasmTerm#measurementExperimentReport" 
+      dc:description="A reference to the report of the experiment, either supplied as the file name or the URL of the report."
+      type="string" 
+      examples="URL or reference citation" 
+      dc:relation="http://kos.gbif.org/wiki/germplasm:measurementExperimentReport"
+      group="MeasurementExperiment" 
+      required="false"/>
+
+    <property name="measurementExperimentRemarks" 
+      namespace="http://purl.org/germplasm/germplasmTerm#" 
+      qualName="http://purl.org/germplasm/germplasmTerm#measurementExperimentRemarks" 
+      dc:description="Information relevant for the interpretation of the scores in the experiment."
+      type="string" 
+      examples="Experimental design, location, experimentor, weather, etc" 
+      dc:relation="http://kos.gbif.org/wiki/germplasm:measurementExperimentRemarks"
+      group="MeasurementExperiment" 
+      required="false"/>
+
+</extension>

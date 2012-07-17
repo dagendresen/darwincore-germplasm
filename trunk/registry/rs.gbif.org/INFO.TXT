@@ -1,0 +1,13 @@
+
+ -------------------------------
+ Darwin Core germplasm extension
+ -------------------------------
+
+The GBIF Registry is located at http://rs.gbif.org/
+The GBIF Registry provides the definitions for Darwin Core archive extensions 
+  and controlled value vocabularies.
+
+In this folder you will find a copy of the extension files and vocabulary files
+  published at the GBIF Registry.
+
+(Dag Endresen, 17 July 2012)

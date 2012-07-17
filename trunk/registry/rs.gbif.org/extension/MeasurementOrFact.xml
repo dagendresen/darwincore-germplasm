@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/style/human.xsl"?>
+<extension xmlns="http://rs.gbif.org/extension/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:dc="http://purl.org/dc/terms/"    
+    xsi:schemaLocation="http://rs.gbif.org/extension/ http://rs.gbif.org/schema/extension.xsd" 
+    dc:title="Trait measurement or fact" 
+    dc:description="The Darwin Core extension for genebanks (DwC germplasm) was developed in 2009 for sharing genebank datasets with the GBIF Integrated Publishing Toolkit from the Global Biodiversity Information Facility (GBIF). This application schema includes the terms to describe the trait measurements or so-called Characterization and Evaluation (C and E) data. These terms where developed by the EPGRIS3 group of the European Coopertive Programme for Plant Genetic Resources (ECPGR) in 2009. Most of the terms here are already covered by Darwin Core"
+    dc:relation="http://purl.org/germplasm/germplasmTerm.rdf"
+    name="MeasurementOrFact" 
+    namespace="http://purl.org/germplasm/germplasmTerm#"
+    rowType="http://rs.tdwg.org/dwc/terms/MeasurementOrFact">
+
+    <!--
+      Application schema for the GBIF IPT data provider software
+      based on the Darwin Core extension for genebanks (DwC germplasm)
+      Dag Endresen (NordGen), 2009-05-15, 2009-08-21, 2009-08-26, 2011-10-07, 
+        2012-03-14, 2012-07-17
+    -->
+
+    <!-- MeasurementOrFact (TraitMeasurement) -->
+    <property name="measurementID" 
+      namespace="http://rs.tdwg.org/dwc/terms/" 
+      qualName="http://rs.tdwg.org/dwc/terms/measurementID"
+      dc:description="An identifier for the MeasurementOrFact (information pertaining to measurements, facts, characteristics, or assertions). May be a global unique identifier or an identifier specific to the data set."
+      type="string" 
+      examples="URI, DOI, LSID or similar" 
+      dc:relation=""
+      group="MeasurementOrFact" 
+      required="true"/>
+
+    <property name="measurementValue" 
+      namespace="http://rs.tdwg.org/dwc/terms/" 
+      qualName="http://rs.tdwg.org/dwc/terms/measurementValue"
+      dc:description="The value of the measurement, fact, characteristic, or assertion."
+      examples="0.01"
+      type="string" 
+      dc:relation=""
+      group="MeasurementOrFact" 
+      required="true"/>
+
+    <property name="measurementUnit" 
+      namespace="http://rs.tdwg.org/dwc/terms/" 
+      qualName="http://rs.tdwg.org/dwc/terms/measurementUnit"
+      dc:description="The units associated with the measurementValue. Recommended best practice is to use the International System of Units (SI)."
+      examples="mm; C; km; ha"
+      type="string" 
+      dc:relation=""
+      group="MeasurementOrFact" 
+      required="true"/>
+
+    <property name="measurementAccuracy" 
+      namespace="http://rs.tdwg.org/dwc/terms/" 
+      qualName="http://rs.tdwg.org/dwc/terms/measurementAccuracy"
+      dc:description="The description of the potential error associated with the measurementValue."
+      examples="0.01; normal distribution with variation of 2 m"
+      type="string" 
+      dc:relation=""
+      group="MeasurementOrFact" 
+      required="true"/>
+
+    <property name="measurementDeterminedDate" 
+      namespace="http://rs.tdwg.org/dwc/terms/" 
+      qualName="http://rs.tdwg.org/dwc/terms/measurementDeterminedDate"
+      dc:description="The date on which the MeasurementOrFact was made. Recommended best practice is to use an encoding scheme, such as ISO 8601_2004(E)."
+      type="string" 
+      examples="2010-06-10" 
+      dc:relation=""
+      group="MeasurementOrFact" 
+      required="true"/>
+
+    <property name="measurementDeterminedBy" 
+      namespace="http://rs.tdwg.org/dwc/terms/" 
+      qualName="http://rs.tdwg.org/dwc/terms/measurementDeterminedBy"
+      dc:description="A list (concatenated and separated) of names of people, groups, or organizations who determined the value of the MeasurementOrFact."
+      type="string" 
+      examples="" 
+      dc:relation=""
+      group="MeasurementOrFact" 
+      required="true"/>
+
+    <property name="measurementByInstituteID" 
+      namespace="http://purl.org/germplasm/germplasmTerm#" 
+      qualName="http://purl.org/germplasm/germplasmTerm#measurementByInstituteID"
+      dc:description="Trait observation determined by institute code, INSTCODE. FAO WIEWS institute code for the institute performing the observation/measurement."
+      type="string" 
+      examples="DEU146; NLD037; SWE054; urn:lsid:biocol.org:col:35293" 
+      dc:relation=""
+      group="MeasurementOrFact" 
+      required="false"/>
+
+    <property name="measurementGrowthStage" 
+      namespace="http://purl.org/germplasm/germplasmTerm#" 
+      qualName="http://purl.org/germplasm/germplasmTerm#measurementGrowthStage"
+      dc:description="The growth stage of the plant when the trait observation or measurement was made."
+      type="string" 
+      examples="flowering; heading; ripening" 
+      dc:relation=""
+      group="MeasurementOrFact" 
+      required="false"/>
+
+</extension>
