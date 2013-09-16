@@ -502,7 +502,7 @@
     <dcterms:replaces rdf:resource="&germplasm01;GermplasmIdentifier"/>
     <skos:altLabel xml:lang="en" rdf:datatype="&germplasm;mcpdTerm">ACCENAME</skos:altLabel>
     <skos:altLabel xml:lang="en" rdf:datatype="&germplasm;mcpdTerm">Accession name</skos:altLabel>
-    <dcterms:source rdf:resource="http://www.bioversityinternational.org/e-library/publications/single-details-publication/?tx_news_pi1[news]=1350&amp;cHash=d953e45ada3ab285d635593b5068a38f"/>
+    <dcterms:source rdf:resource="http://www.bioversityinternational.org/uploads/tx_news/1526.pdf"/>
     <skos:narrowMatch rdf:resource="dwc:catalogNumber"/>
     <rdfs:domain rdf:resource="&germplasm;GermplasmAccession"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
@@ -527,7 +527,7 @@
     <dcterms:replaces rdf:resource="&germplasm01;BiologicalStatusOfSample"/>
     <skos:altLabel xml:lang="en" rdf:datatype="&germplasm;mcpdTerm">SAMPSTAT</skos:altLabel>
     <skos:altLabel xml:lang="en" rdf:datatype="&germplasm;mcpdTerm">biological status of sample</skos:altLabel>
-    <dcterms:source rdf:resource="http://www.bioversityinternational.org/e-library/publications/single-details-publication/?tx_news_pi1[news]=1350&amp;cHash=d953e45ada3ab285d635593b5068a38f"/>
+    <dcterms:source rdf:resource="http://www.bioversityinternational.org/uploads/tx_news/1526.pdf"/>
     <skos:narrowMatch rdf:resource="dwc:basisOfRecord"/>
     <rdfs:domain rdf:resource="&germplasm;GermplasmAccession"/>
     <rdfs:range rdf:resource="&germplasm;BiologicalStatusType"/>
@@ -551,7 +551,7 @@
     <dcterms:replaces rdf:resource="&germplasm01;TypeOfStorage"/>
     <skos:altLabel xml:lang="en" rdf:datatype="&germplasm;mcpdTerm">STORAGE</skos:altLabel>
     <skos:altLabel xml:lang="en" rdf:datatype="&germplasm;mcpdTerm">Type of germplasm storage</skos:altLabel>
-    <dcterms:source rdf:resource="http://www.bioversityinternational.org/e-library/publications/single-details-publication/?tx_news_pi1[news]=1350&amp;cHash=d953e45ada3ab285d635593b5068a38f"/>
+    <dcterms:source rdf:resource="http://www.bioversityinternational.org/uploads/tx_news/1526.pdf"/>
     <rdfs:domain rdf:resource="&germplasm;GermplasmAccession"/>
     <rdfs:range rdf:resource="&germplasmType;StorageConditionType"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -578,7 +578,7 @@
     <dcterms:replaces rdf:resource="&germplasm01;CollectingInstituteCode"/>
     <skos:altLabel xml:lang="en" rdf:datatype="&germplasm;mcpdTerm">COLLCODE</skos:altLabel>
     <skos:altLabel xml:lang="en" rdf:datatype="&germplasm;mcpdTerm">Collecting institute code</skos:altLabel>
-    <dcterms:source rdf:resource="http://www.bioversityinternational.org/e-library/publications/single-details-publication/?tx_news_pi1[news]=1350&amp;cHash=d953e45ada3ab285d635593b5068a38f"/>
+    <dcterms:source rdf:resource="http://www.bioversityinternational.org/uploads/tx_news/1526.pdf"/>
     <skos:relatedMatch rdf:resource="dwc:recordedBy"/>
     <skos:relatedMatch rdf:resource="dcterms:identifier"/>
     <rdfs:domain rdf:resource="&germplasm;CollectingEvent"/>
@@ -714,7 +714,7 @@
     <dcterms:replaces rdf:resource="&germplasm01;BreederInstituteCode"/>
     <skos:altLabel xml:lang="en" rdf:datatype="&germplasm;mcpdTerm">BREDCODE</skos:altLabel>
     <skos:altLabel xml:lang="en" rdf:datatype="&germplasm;mcpdTerm">Breeding institute code</skos:altLabel>
-    <dcterms:source rdf:resource="http://www.bioversityinternational.org/e-library/publications/single-details-publication/?tx_news_pi1[news]=1350&amp;cHash=d953e45ada3ab285d635593b5068a38f"/>
+    <dcterms:source rdf:resource="http://www.bioversityinternational.org/uploads/tx_news/1526.pdf"/>
     <skos:narrower rdf:resource="&germplasm;breedingInstitute"/>
     <skos:relatedMatch rdf:resource="foaf:Organization"/>
     <skos:relatedMatch rdf:resource="dcterms:identifier"/>
@@ -740,7 +740,7 @@
     <skos:altLabel xml:lang="en" rdf:datatype="&germplasm;mcpdTerm">BREDNAME</skos:altLabel>
     <skos:altLabel xml:lang="en" rdf:datatype="&germplasm;mcpdTerm">Breeding institute name</skos:altLabel>
     <skos:altLabel xml:lang="en" rdf:datatype="&germplasm;euriscoTerm">BREDDESCR</skos:altLabel>
-    <dcterms:source rdf:resource="http://www.bioversityinternational.org/e-library/publications/single-details-publication/?tx_news_pi1[news]=1350&amp;cHash=d953e45ada3ab285d635593b5068a38f"/>
+    <dcterms:source rdf:resource="http://www.bioversityinternational.org/uploads/tx_news/1526.pdf"/>
     <skos:broader rdf:resource="&germplasm;breederInstituteID"/>
     <rdfs:domain rdf:resource="&germplasm;BreedingEvent"/>
     <rdfs:range rdf:resource="foaf:Organization"/>
@@ -788,7 +788,7 @@
     <dcterms:replaces rdf:resource="&germplasm01;AncestralData"/>
     <skos:altLabel xml:lang="en" rdf:datatype="&germplasm;mcpdTerm">ANCEST</skos:altLabel>
     <skos:altLabel xml:lang="en" rdf:datatype="&germplasm;mcpdTerm">Ancestral data</skos:altLabel>
-    <dcterms:source rdf:resource="http://www.bioversityinternational.org/e-library/publications/single-details-publication/?tx_news_pi1[news]=1350&amp;cHash=d953e45ada3ab285d635593b5068a38f"/>
+    <dcterms:source rdf:resource="http://www.bioversityinternational.org/uploads/tx_news/1526.pdf"/>
     <rdfs:domain rdf:resource="&germplasm;BreedingEvent"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
@@ -901,7 +901,7 @@
     <skos:altLabel xml:lang="en" rdf:datatype="&germplasm;mcpdTerm">DONORNUMB</skos:altLabel>
     <skos:altLabel xml:lang="en" rdf:datatype="&germplasm;mcpdTerm">Donor accession number</skos:altLabel>
     <skos:relatedMatch rdf:resource="dwc:otherCatalogNumbers"/>
-    <dcterms:source rdf:resource="http://www.bioversityinternational.org/e-library/publications/single-details-publication/?tx_news_pi1[news]=1350&amp;cHash=d953e45ada3ab285d635593b5068a38f"/>
+    <dcterms:source rdf:resource="http://www.bioversityinternational.org/uploads/tx_news/1526.pdf"/>
     <rdfs:domain rdf:resource="&germplasm;AcquisitionEvent"/>
     <rdfs:range rdf:resource="&germplasm;GermplasmAccession"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
@@ -926,7 +926,7 @@
     <skos:altLabel xml:lang="en" rdf:datatype="&germplasm;mcpdTerm">DONORCODE</skos:altLabel>
     <skos:altLabel xml:lang="en" rdf:datatype="&germplasm;mcpdTerm">Donor institute code</skos:altLabel>
     <skos:relatedMatch rdf:resource="dcterms:identifier"/>
-    <dcterms:source rdf:resource="http://www.bioversityinternational.org/e-library/publications/single-details-publication/?tx_news_pi1[news]=1350&amp;cHash=d953e45ada3ab285d635593b5068a38f"/>
+    <dcterms:source rdf:resource="http://www.bioversityinternational.org/uploads/tx_news/1526.pdf"/>
     <rdfs:domain rdf:resource="&germplasm;AcquisitionEvent"/>
     <rdfs:range rdf:resource="foaf:Organization"/>
     <rdfs:subPropertyOf rdf:resource="#anyProperty"/>
@@ -950,7 +950,7 @@
     <skos:altLabel xml:lang="en" rdf:datatype="&germplasm;mcpdTerm">DONORNAME</skos:altLabel>
     <skos:altLabel xml:lang="en" rdf:datatype="&germplasm;mcpdTerm">Donor institute name</skos:altLabel>
     <skos:altLabel xml:lang="en" rdf:datatype="&germplasm;euriscoTerm">DONORDESCR</skos:altLabel>
-    <dcterms:source rdf:resource="http://www.bioversityinternational.org/e-library/publications/single-details-publication/?tx_news_pi1[news]=1350&amp;cHash=d953e45ada3ab285d635593b5068a38f"/>
+    <dcterms:source rdf:resource="http://www.bioversityinternational.org/uploads/tx_news/1526.pdf"/>
     <rdfs:domain rdf:resource="&germplasm;AcquisitionEvent"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
     <rdfs:range rdf:resource="foaf:Organization"/>
@@ -976,7 +976,7 @@
     <skos:altLabel xml:lang="en" rdf:datatype="&germplasm;mcpdTerm">ACQDATE</skos:altLabel>
     <skos:altLabel xml:lang="en" rdf:datatype="&germplasm;mcpdTerm">Acquisition date</skos:altLabel>
     <skos:narrowMatch rdf:resource="dwc:eventDate"/>
-    <dcterms:source rdf:resource="http://www.bioversityinternational.org/e-library/publications/single-details-publication/?tx_news_pi1[news]=1350&amp;cHash=d953e45ada3ab285d635593b5068a38f"/>
+    <dcterms:source rdf:resource="http://www.bioversityinternational.org/uploads/tx_news/1526.pdf"/>
     <rdfs:domain rdf:resource="&germplasm;AcquisitionEvent"/>
     <rdfs:range rdf:resource="xsd:date"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
@@ -1002,7 +1002,7 @@
     <skos:altLabel xml:lang="en" rdf:datatype="&germplasm;mcpdTerm">Collecting, acquisition source</skos:altLabel>
     <skos:relatedMatch rdf:resource="dcterms:accrualMethod"/>
     <skos:relatedMatch rdf:resource="dwc:habitat"/>
-    <dcterms:source rdf:resource="http://www.bioversityinternational.org/e-library/publications/single-details-publication/?tx_news_pi1[news]=1350&amp;cHash=d953e45ada3ab285d635593b5068a38f"/>
+    <dcterms:source rdf:resource="http://www.bioversityinternational.org/uploads/tx_news/1526.pdf"/>
     <rdfs:domain rdf:resource="&germplasm;AcquisitionEvent"/>
     <rdfs:range rdf:resource="&germplasmType;AcquisitionSourceType"/>
     <rdfs:subPropertyOf rdf:resource="#anyProperty"/>
@@ -1097,7 +1097,7 @@
     <skos:altLabel xml:lang="en" rdf:datatype="&germplasm;mcpdTerm">Location of safety duplicates</skos:altLabel>
     <skos:relatedMatch rdf:resource="foaf:Organization"/>
     <skos:relatedMatch rdf:resource="dcterms:identifier"/>
-    <dcterms:source rdf:resource="http://www.bioversityinternational.org/e-library/publications/single-details-publication/?tx_news_pi1[news]=1350&amp;cHash=d953e45ada3ab285d635593b5068a38f"/>
+    <dcterms:source rdf:resource="http://www.bioversityinternational.org/uploads/tx_news/1526.pdf"/>
     <rdfs:domain rdf:resource="&germplasm;SafetyDuplication"/>
     <rdfs:range rdf:resource="foaf:Organization"/>
     <rdfs:subPropertyOf rdf:resource="#anyProperty"/>
@@ -1122,7 +1122,7 @@
     <skos:altLabel xml:lang="en" rdf:datatype="&germplasm;mcpdTerm">Institute maintaining safety duplicates</skos:altLabel>
     <skos:altLabel xml:lang="en" rdf:datatype="&germplasm;euriscoTerm">DUPLDESCR</skos:altLabel>
     <skos:altLabel xml:lang="en" rdf:datatype="&germplasm;euriscoTerm">Location of safety duplicates</skos:altLabel>
-    <dcterms:source rdf:resource="http://www.bioversityinternational.org/e-library/publications/single-details-publication/?tx_news_pi1[news]=1350&amp;cHash=d953e45ada3ab285d635593b5068a38f"/>
+    <dcterms:source rdf:resource="http://www.bioversityinternational.org/uploads/tx_news/1526.pdf"/>
     <skos:broader rdf:resource="&germplasm;SafetyDuplicationInstituteID"/>
     <rdfs:domain rdf:resource="&germplasm;SafetyDuplication"/>
     <rdfs:range rdf:resource="foaf:Organization"/>
@@ -1235,7 +1235,7 @@
     <skos:relatedMatch rdf:resource="dcterms:Policy"/>
     <skos:altLabel xml:lang="en" rdf:datatype="&germplasm;mcpdTerm">MLSSTAT</skos:altLabel>
     <skos:altLabel xml:lang="en" rdf:datatype="&germplasm;mcpdTerm">MLS status of the accession</skos:altLabel>
-    <dcterms:source rdf:resource="http://www.bioversityinternational.org/e-library/publications/single-details-publication/?tx_news_pi1[news]=1350&amp;cHash=d953e45ada3ab285d635593b5068a38f"/>
+    <dcterms:source rdf:resource="http://www.bioversityinternational.org/uploads/tx_news/1526.pdf"/>
     <rdfs:domain rdf:resource="&germplasm;GermplasmAccession"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
     <rdfs:subPropertyOf rdf:resource="#anyProperty"/>
