@@ -1,0 +1,5 @@
+
+REPLACED BY: http://purl.org/germplasm/ (27 August 2012)
+
+NOTE: The Darwin Core germplasm extension prototype version 0.1 has been discontinued!
+UPDATE: The URIs at http://rs.nordgen.org/ are no longer maintained and will not resolve.
