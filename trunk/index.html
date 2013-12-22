@@ -2,34 +2,33 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
  <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-  <title>Darwin Core extension for genebanks (DwC germplasm)</title>
-  <link rel="schema.dwcg" href="http://rs.nordgen.org/dwc/germplasm/0.1/terms/"/>
+  <title>Germplasm Vocabulary (Darwin Core extension for genebanks)</title>
+  <link rel="schema.dwcg" href="http://purl.org/germplasm/germplasmTerm#"/>
   <link rel="shortcut icon" href="./images/favicon.ico" />
 
-  <meta name='DC.Title' content='Darwin Core extension for genebanks (DwC germplasm)'/>
-  <meta name='DC.Description' content='The Darwin Core extension for genebanks (DwC germplasm)
-    was developed in 2009 for sharing genebank datasets with the GBIF Integrated Publishing Toolkit
+  <meta name='DC.Title' content='Germplasm Vocabulary (Darwin Core extension for genebanks)'/>
+  <meta name='DC.Description' content='The Germplasm Vocabulary (Darwin Core extension for genebanks)
+    was initially developed in 2009 for sharing genebank datasets with the GBIF Integrated Publishing Toolkit
     from the Global Biodiversity Information Facility (GBIF). The GBIF IPT use the Darwin Core as the 
     Core data standard and implements the Star Schema with extensions to the Darwin Core.
-    The DwC germaplsm provides some of the fundamental terms from the plant genetic resouces
+    The Germaplasm Vocabulary provides some of the fundamental terms from the plant genetic resouces
     community for food and agriculture (PGRFA). Most of these terms are from the Multi-Crop Passport
     Descriptor List (MCPD) maintained by Bioversity International and the Food and Agriculture Organization
     of the United Nations (FAO). Some few additional terms developed by the European Coopertive Programme for 
     Plant Genetic Resources (ECPGR).'/>
   <meta name='DC.Subject.keyword' content='germplasm, plant genetic resources for food and agriculture, seedbank, genebank'/>
 
-  <meta name='DC.Publisher' content='Nordic Genetic Resources Center (NordGen)'/>
-  <meta name='DC.Creator' content='Nordic Genetic Resources Center (NordGen)'/>
-  <meta name='DC.Creator.Address' content='it@nordgen.org'/>
+  <meta name='DC.Publisher' content='Nordic Genetic Resources Center (NordGen) and Bioversity International'/>
+  <meta name='DC.Creator' content='Nordic Genetic Resources Center (NordGen) and Bioversity International'/>
   <meta name='DC.Creator.PersonalName' content='Endresen, Dag Terje Filip'/>
   <meta name='DC.Creator.PersonalName.Address' content='dag.endresen@gmail.com'/>
-  <meta name='DC.Contributer' content='Dag T.F. Endresen (NordGen, Bioversity International)'/>
+  <meta name='DC.Contributer' content='Dag T.F. Endresen (NordGen, Bioversity International, GBIF)'/>
   <meta name='DC.Type' content='data exchange standard'/>
-  <meta name='DC.Identifier' scheme='URL' content='http://rs.nordgen.org/dwc/germplasm'/>
+  <meta name='DC.Identifier' scheme='URL' content='http://purl.org/germplasm/germplasmTerm#'/>
   <meta name='DC.Language' scheme='=ISO639-1' content='en'/>
   <meta name='DC.Coverage' content='global'/>
   <meta name='DC.Rights' content='Copy Left, GPL 2.0'/>
-  <meta name='DC.Date' scheme='ISO8601' content=': 2011-09-23 12:17:39 +0100 (Fri, 23 Sep 2011)'/>
+  <meta name='DC.Date' scheme='ISO8601' content=': 2013-12-22 12:17:39 +0100 (Sun, 22 Dec 2013)'/>
 
   <link rel='stylesheet' type='text/css' media='screen' href='./style/style.css'/>
   <style type="text/css">
@@ -42,59 +41,57 @@
 <body>
 <img align='right' src='./images/bioversity_logo.png' alt='Bioversity logo' style='margin:15px' height='60' />
 <img align='right' src='./images/NordGen_logo.png' alt='NordGen logo' style='margin:15px' height='60' />
-<h1>Darwin Core extension for genebanks (DwC germplasm)</h1>
+<h1>Germplasm Vocabulary (Darwin Core extension for genebanks)</h1>
 <hr/>
-<h3>DwC germplasm, version 0.1, 26 August 2009</h3>
+<h3>Germplasm Vocabulary, released 28 August 2012</h3>
 
 
 <table cellspacing="0" class="docinfo">
 <tbody>
  <tr>
   <th class="nobr">Title:</th>
-  <td>Darwin Core extension for genebanks</td>
- </tr>
- <tr>
-  <th>Abbreviation:</th>
-  <td>DwC germplasm</td>
+  <td>Germplasm Vocabulary (Darwin Core extension for genebanks)</td>
  </tr>
  <tr>
   <th>Abstract:</th>
-  <td>The Darwin Core extension for genebanks (DwC germplasm) was developed to provide a bridge between the 
+  <td>The Germplasm Vocabulary (Darwin Core extension for genebanks) was developed to provide a bridge between the 
   established standards in use by the genebank community for plant genetic resources for food and agriculture (PGRFA) 
   and the standards maintained by the Biodiversity Information Standards/Taxonomic Databases Working Group 
   (<a href='http://www.tdwg.org' target='_blank'>TDWG</a>).
-  The DwC germplasm provides an extension to the <a href='http://rs.tdwg.org/dwc/terms' target='_blank'>Darwin Core</a>
+  The Germplasm Vocabulary provides an extension to the <a href='http://rs.tdwg.org/dwc/terms' target='_blank'>Darwin Core</a>
   standard of the TDWG for occurrences.
-  Darwin Core can be seen as an extension to the Dublin Core Metata Data Initiative
+  Darwin Core can itself be seen as an extension to the Dublin Core Metata Data Initiative
   <a href='http://dublincore.org/documents/dcmi-terms/' target='_blank'>(DCMI)</a> terms.
   <br/><br/>
-  The primary objective for creating the DwC germplasm was to describe the additional terminology required
+  The primary objective for creating the Germplasm Vocabulary was to describe the additional terminology required
   for exchange of genebank datasets using the
   <a href='http://code.google.com/p/gbif-providertoolkit/' target='_blank'>GBIF Integrated Publishing Toolkit (IPT)</a>.
   The terms included in the DwC germplasm are from the Multi-Crop Passport Descriptors 
   (<a href='http://www.bioversityinternational.org/index.php?id=19&user_bioversitypublications_pi1[showUid]=2192' target='_blank'>MCPD</a>)
   and the proposed descriptors for germplasm characterization and evaluation data (C&E)
-  (see: <a href='http://www.epgris3.eu/EPGRIS3%2020090507workshop.htm' target='_blank'>[1]</a> and
-  <a href='http://www.epgris3.eu/docs/activities/2-05/Inclusion%20of%20C&E%20data.pdf'>[2]</a>)
+  (see: <a href='http://www.epgris3.eu/EPGRIS3%2020090507workshop.htm' target='_blank'>[EPGRIS3_WORKSHOP]</a> and
+  <a href='http://www.epgris3.eu/docs/activities/2-05/Inclusion%20of%20C&E%20data.pdf'>[EPGRIS3_C&E_TERMS]</a>)
   from the <a href='http://www.epgris3.eu' target='_blank'>EPGRIS3 group</a> of the 
   European Cooperative Programme for Plant Genetic Resources <a href=http://www.ecpgr.cgiar.org/Index.htm' target='_blank'>(ECPGR)</a>.
   <br/><br/>
-  This version 0.1 of the DwC germplasm was developed by the Nordic Genetic Resources Center 
-  (<a href="http://www.nordgen.org" target="_blank">NordGen</a>
-  and Bioversity International (<a href="http://www.bioversityinternational.org" target="_blank">Bioversity</a>) in 2009.
+  The (now obsolete) prototype version 0.1 of the DwC germplasm was developed by the Nordic Genetic Resources Center 
+  (<a href="http://www.nordgen.org" target="_blank">NordGen</a> and Bioversity International 
+  (<a href="http://www.bioversityinternational.org" target="_blank">Bioversity</a>) in August 2009.
   </td>
  </tr>
  <tr>
-  <th>Date Issued:</th>
-  <td>24 Aug 2009</td>
+  <th>Date issued:</th>
+  <td>28 August 2012 (prototype version 24 August 2009)</td>
  </tr>
  <tr>
   <th>Identifier:</th>
-  <td><a href=./0.1/terms/>http://rs.nordgen.org/dwc/germplasm/0.1/terms/</a></td>
+  <td><a href="http://purl.org/germplasm/germplasmTerm#">http://purl.org/germplasm/germplasmTerm#</a></td>
  </tr>
  <tr>
   <th class='nobr'>Project home page:</th>
-  <td><a href='http://code.google.com/p/darwincore-germplasm/' target='_blank'>http://code.google.com/p/darwincore-germplasm/</a></td>
+  <td><a href='http://code.google.com/p/darwincore-germplasm/' target='_blank'>http://code.google.com/p/darwincore-germplasm/</a>
+  <br /><a href="http://terms.tdwg.org/wiki/Germplasm">http://terms.tdwg.org/wiki/Germplasm</a>
+  </td>
  </tr>
  <tr>
   <th>Creator:</th>
@@ -102,10 +99,23 @@
  </tr>
  <tr>
   <th>Contributors:</th>
-  <td>Dag T.F. Endresen (NordGen), Elizabeth Arnaud (Bioversity), Milko Skofic (Bioversity), Massimo Buonaiuto (Bioversity),
-  Helmut Kn&uuml;pffer (IPK Gatersleben) and Jonas Nordling (NordGen)</td>
+  <td>
+  Dag Endresen (NordGen, Bioversity, GBIF, University of Oslo), 
+  Helmut Kn&uuml;pffer (IPK Gatersleben), 
+  Elizabeth Arnaud (Bioversity), 
+  Milko Skofic (Bioversity), 
+  Luca Matteis (Bioversity), 
+  Richard Bruskiewish (Bioversity),
+  Massimo Buonaiuto (Bioversity),
+  Jonas Nordling (NordGen),
+  Samy Gaiji (GBIF)
+  </td>
  </tr>
  <tr>
+  <th>Cite as :</th>
+  <td>Endresen, D.T.F. and H. Knüpffer (2012). The Darwin Core extension for genebanks opens up new opportunities for sharing genebank data sets. Biodiversity Informatics 8:11-29. Available online at https://journals.ku.edu/index.php/jbi/article/view/4095</td>
+ </tr>
+ <tr> <tr>
   <th class='nobr'>Document Status:</th>
   <td>Deployed with the GBIF IPT</td>
  </tr>
@@ -117,9 +127,9 @@
 <br/><br/>
 
 
-<div><b>dwcg</b> = <a href="./0.1/terms/">http://rs.nordgen.org/dwc/germplasm/0.1/terms/</a> DwC germplasm</div>
+<div><b>germplasm</b> = <a href="http://purl.org/germplasm/germplasmTerm#">http://purl.org/germplasm/germplasmTerm#</a> Germplasm Vocabulary</div>
 <div><b>dwc</b> = <a href="http://rs.tdwg.org/dwc/terms/">http://rs.tdwg.org/dwc/terms/</a> Darwin Core (DwC)</div>
-<div><b>dcmi</b> = <a href="http://dublincore.org/documents/dcmi-terms/">http://dublincore.org/documents/dcmi-terms/</a> Dublin Core Metadata Initiative (DCMI)</div>
+<div><b>dcterms</b> = <a href="http://dublincore.org/documents/dcmi-terms/">http://dublincore.org/documents/dcmi-terms/</a> Dublin Core Metadata Initiative (DCMI)</div>
 
 
 <hr/>
@@ -133,16 +143,11 @@
 <a href="http://www.bioversityinternational.org"><img align='left' src='./images/bioversity_logo.png' alt='Bioversity logo' style='margin:5px' height='40' /></a>
 <a href="http://creativecommons.org/licenses/by/3.0/"><img align='left' src='./images/cc-by.png' alt='CC By logo' style='margin:5px' height='30' /></a>
 </td><td valign="middle">
-The Darwin Core extension for genebanks (<a href="http://code.google.com/p/darwincore-germplasm/" target="_blank">DwC germplasm</a>) is licensed under the 
+The <a href="http://code.google.com/p/darwincore-germplasm/" target="_blank">Germplasm Vocabulary</a>
+(Darwin Core extension for genebanks) is licensed under the 
 <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</a>.
 </td></tr></table>
 
-
-<div><small>
-The Darwin Core extension for genebanks (<a href="http://code.google.com/p/darwincore-germplasm/" target="_blank">DwC germplasm</a>) is
-hosted by the Nordic Genetic Resources Center (<a href="http://www.nordgen.org" target="_blank">NordGen</a>), Smedjevagen 3, 230 53 Alnarp, Sweden.
-<a href="mailto:dag.endresen@gmail.com">Contact us</a></small>.
-</div><br/>
 
 
 
