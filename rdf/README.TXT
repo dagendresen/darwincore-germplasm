@@ -11,9 +11,9 @@ http://terms.tdwg.org/wiki/Germplasm
 
 
 
-——
+-----
 Note:
-——
+-----
 
 Each of these documents have a PURL under the germplasm domain:
 
@@ -34,9 +34,9 @@ Target URL: http://darwincore-germplasm.googlecode.com/svn/trunk/rdf/archive/
 
 
 
-————
+-----------
 References:
-—————
+-----------
 
 Endresen, D.T.F. and H. Knüpffer (2012). The Darwin Core extension for genebanks opens up new opportunities for sharing genebank data sets. Biodiversity Informatics 8:11-29. Available online at https://journals.ku.edu/index.php/jbi/article/view/4095
 
