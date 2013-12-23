@@ -524,7 +524,7 @@
     <skos:scopeNote rdf:resource="http://code.google.com/p/darwincore-germplasm/wiki/GermplasmAccession"/>
     <skos:scopeNote rdf:resource="http://terms.gbif.org/wiki/germplasm:biologicalStatus"/>
     <dcterms:created>2009-08-24</dcterms:created>
-    <dcterms:modified>2013-09-16</dcterms:modified>
+    <dcterms:modified>2013-12-23</dcterms:modified>
     <dcterms:hasVersion rdf:resource="&history;germplasmTerm#biologicalStatus"/>
     <vann:termGroup rdf:resource="&germplasm;GermplasmAccession"/>
     <rdfs:isDefinedBy rdf:resource="&germplasm;"/>
@@ -536,7 +536,7 @@
     <dcterms:source rdf:resource="http://www.bioversityinternational.org/uploads/tx_news/1526.pdf"/>
     <skos:narrowMatch rdf:resource="dwc:basisOfRecord"/>
     <rdfs:domain rdf:resource="&germplasm;GermplasmAccession"/>
-    <rdfs:range rdf:resource="&germplasm;BiologicalStatusType"/>
+    <rdfs:range rdf:resource="&germplasmType;BiologicalStatusType"/>
     <rdfs:subPropertyOf rdf:resource="#anyProperty"/>
   </skos:Concept>
 
