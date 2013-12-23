@@ -140,6 +140,8 @@
 
   <skos:Collection rdf:about="dcmitype:Dataset">
     <skos:prefLabel xml:lang="en">Dataset</skos:prefLabel>
+    <skos:definition>Data encoded in a defined structure.</skos:definition>
+    <!-- Copy of the normative definition by Dublin Core -->
     <rdfs:comment xml:lang="en">Data set with specimens (accessions) from genebank collections.</rdfs:comment>
     <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/dcmitype/"/>
     <skos:inScheme rdf:resource="&germplasm;"/>
@@ -156,6 +158,8 @@
 
   <skos:Collection rdf:about="dwc:Taxon">
     <skos:prefLabel xml:lang="en">Taxon</skos:prefLabel>
+    <skos:definition>The category of information pertaining to taxonomic names, taxon name usages, or taxon concepts.</skos:definition>
+    <!-- Copy of the normative definition by Darwin Core -->
     <rdfs:comment xml:lang="en">Taxon names for specimens (accessions) in genebank collections.</rdfs:comment>
     <rdfs:isDefinedBy rdf:resource="http://rs.tdwg.org/dwc/terms/"/>
     <skos:inScheme rdf:resource="&germplasm;"/>
@@ -381,6 +385,8 @@
 
   <skos:Collection rdf:about="dwc:MeasurementOrFact">
     <skos:prefLabel xml:lang="en">Measurement score</skos:prefLabel>
+    <skos:definition>The category of information pertaining to measurements, facts, characteristics, or assertions about a resource (instance of data record, such as Occurrence, Taxon, Location, Event).</skos:definition>
+    <!-- Copy of the normative definition by Dublin Core -->
     <rdfs:comment xml:lang="en">Measurement values and scores for trait properties (characterization and evaluation data).</rdfs:comment>
     <skos:scopeNote rdf:resource="http://code.google.com/p/darwincore-germplasm/wiki/MeasurementOrFact"/>
     <skos:scopeNote rdf:resource="http://terms.gbif.org/wiki/dwc:MeasurementOrFact"/>
@@ -886,7 +892,7 @@
   <skos:Concept rdf:about="&germplasm;donorsIdentifier">
     <skos:prefLabel xml:lang="en">donors accession identifier</skos:prefLabel>
     <skos:definition xml:lang="en">An identifier for the source accession donated to your genebank collection. Could be an unique and stable local identifier specific to the dataset.</skos:definition>
-    <skos:example xml:lang="en">NGB1</skos:example>
+    <skos:example xml:lang="en">NGB11</skos:example>
     <skos:note xml:lang="en">Recommended best practice is to report using the donorsID term whenever possible.</skos:note>
     <skos:scopeNote rdf:resource="http://code.google.com/p/darwincore-germplasm/wiki/AcquisitionEvent"/>
     <skos:scopeNote rdf:resource="http://terms.gbif.org/wiki/germplasm:donorsIdentifier"/>
