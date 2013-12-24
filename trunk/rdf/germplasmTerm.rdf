@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!--
-  This is the Germplasm extension to Darwin Core, "http://purl.org/germplasm/".
-  The germplasm vocabulary is also described using the GBIF KOS Wiki available at
-  "http://terms.gbif.org/wiki/Germplasm" and at the Google Code home page site at
+  This is the Germplasm Term Vocabulary, "http://purl.org/germplasm/germplasmTerm#".
+  This resource is part the Germplasm Vocabulary, "http://purl.org/germplasm/".
+  The Germplasm Vocabulary is also described using the TDWG Terms Wiki available at
+  "http://terms.tdwg.org/wiki/Germplasm" and at the Google Code home page site at
   "http://code.google.com/p/darwincore-germplasm/".
   Validated using "http://www.w3.org/RDF/Validator/".
   Input and feedback are most welcome! "dag.endresen@gmail.com"

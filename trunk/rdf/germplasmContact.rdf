@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!--
-  This is the Germplasm extension to Darwin Core, "http://purl.org/germplasm/".
-  The germplasm vocabulary is also described using the GBIF KOS Wiki available at
-  "http://terms.gbif.org/wiki/Germplasm" and at the Google Code home page site at
+  This is the Germplasm Contact Vocabulary, "http://purl.org/germplasm/germplasmContact#".
+  This resource is part the Germplasm Vocabulary, "http://purl.org/germplasm/".
+  The Germplasm Vocabulary is also described using the TDWG Terms Wiki available at
+  "http://terms.tdwg.org/wiki/Germplasm" and at the Google Code home page site at
   "http://code.google.com/p/darwincore-germplasm/".
   Validated using "http://www.w3.org/RDF/Validator/".
   Input and feedback are most welcome! "dag.endresen@gmail.com"
@@ -38,10 +39,10 @@
 >
 
   <skos:ConceptScheme rdf:about="http://purl.org/germplasm/germplasmContact#">
-    <skos:prefLabel xml:lang="en">List of contributors for the Darwin Core extension for genebanks</skos:prefLabel>
-    <rdfs:comment xml:lang="en">The Darwin Core extension for genebanks provides a vocabulary of terms for describing and annotating germplasm information resources. This resource lists the institutions and persons contributing to the development of the germplasm vocabulary.</rdfs:comment>
+    <skos:prefLabel xml:lang="en">List of contributors for the Germplasm Vocabulary (Darwin Core extension for gene banks)</skos:prefLabel>
+    <rdfs:comment xml:lang="en">The Germplasm Vocabulary (Darwin Core extension for gene banks) provides a vocabulary of terms for describing and annotating germplasm information resources. This resource lists the institutions and persons contributing to the development of the Germplasm Vocabulary.</rdfs:comment>
     <dcterms:created>2012-06-28</dcterms:created>
-    <dcterms:modified>2013-09-16</dcterms:modified>
+    <dcterms:modified>2013-12-23</dcterms:modified>
     <dcterms:creator rdf:resource="&contact;DagEndresen"/>
     <dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
     <dcterms:rights xml:lang="en">Creative Commons Public Domain license; see http://creativecommons.org/publicdomain/zero/1.0/. You are free to copy, distribute and transmit the work; to remix/adapt the work (e.g. to import the ontology and create specializations of its elements), all without asking permissions. If you wish to provide attribution you may include the statement: "This work is based on the Darwin Core extension for genebanks".</dcterms:rights>
@@ -71,6 +72,8 @@
   foaf:mbox_sha1sum			(md5 hash sum based on the mailbox [md5 -s mailbox])
  -->
 
+  <!-- Institutions -->
+
   <foaf:Organization rdf:about="&contact;Bioversity">
     <foaf:name>Bioversity International</foaf:name>
     <dcterms:identifier rdf:datatype="&germplasmType;wiewsInstituteID">ITA406</dcterms:identifier>
@@ -78,9 +81,12 @@
     <geo:long>12.23752</geo:long>
     <geo:alt>9.4</geo:alt>
     <foaf:homepage rdf:resource="http://www.bioversityinternational.org/"/>
-    <foaf:member rdf:resource="&contact;ElizabethArnaud"/>
-    <foaf:member rdf:resource="&contact;MilkoSkofic"/>
     <foaf:member rdf:resource="&contact;AdrianaAlercia"/>
+    <foaf:member rdf:resource="&contact;ElizabethArnaud"/>
+    <foaf:member rdf:resource="&contact;LucaMatteis"/>
+    <foaf:member rdf:resource="&contact;MilkoSkofic"/>
+    <foaf:member rdf:resource="&contact;RichardBruskiewich"/>
+    <foaf:member rdf:resource="&contact;TomHazekamp"/>
   </foaf:Organization>
 
   <foaf:Organization rdf:about="&contact;CGN">
@@ -138,6 +144,8 @@
   </foaf:Organization>
 
 
+  <!-- People -->
+
   <foaf:Person rdf:about="&contact;AdrianaAlercia">
     <foaf:name>Adriana Alercia</foaf:name>
     <foaf:mbox_sha1sum rdf:resource="a56ace61d2d7c86cf4b329ac1feb8bb0"/>
@@ -148,6 +156,7 @@
     <foaf:homepage rdf:resource="http://community.gbif.org/pg/profile/dag.endresen"/>
     <foaf:mbox rdf:resource="mailto:dag.endresen@gmail.com"/>
     <foaf:mbox_sha1sum rdf:resource="a8e8e5b95a36957148199894431c3ab2"/>
+    <owl:sameAs rdf:resource="http://orcid.org/0000-0002-2352-5497" />
   </foaf:Person>
 
   <foaf:Person rdf:about="&contact;ElizabethArnaud">
@@ -165,6 +174,16 @@
     <foaf:mbox_sha1sum rdf:resource="949ec64725963edbe886f6aa3ffa3b8c"/>
   </foaf:Person>
 
+  <foaf:Person rdf:about="&contact;LucaMatteis">
+    <foaf:name>Luca Matteis</foaf:name>
+    <foaf:mbox_sha1sum rdf:resource="727470ca24cb2dcd153eebaabcb8e217"/>
+  </foaf:Person>
+
+  <foaf:Person rdf:about="&contact;RichardBruskiewich">
+    <foaf:name>Richard Bruskiewich</foaf:name>
+    <foaf:mbox_sha1sum rdf:resource="7e9cdee8f16a010f22e6a47f1aa1f506"/>
+  </foaf:Person>
+
   <foaf:Person rdf:about="&contact;MilkoSkofic">
     <foaf:name>Milko Škofič</foaf:name>
     <foaf:mbox_sha1sum rdf:resource="a6aa48d12d44b332833422ffd3b7ca7e"/>
@@ -180,5 +199,9 @@
     <foaf:mbox_sha1sum rdf:resource="49ea9711975d24eecedd6071b1ed9040"/>
   </foaf:Person>
 
+  <foaf:Person rdf:about="&contact;Tom Hazekamp">
+    <foaf:name>Tom Hazekamp</foaf:name>
+    <foaf:mbox_sha1sum rdf:resource="a0e43d448b82b7a2f67eda34b3fc2a3b"/>
+  </foaf:Person>
 
 </rdf:RDF>
