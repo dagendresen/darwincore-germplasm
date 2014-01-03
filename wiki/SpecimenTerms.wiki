@@ -1,4 +1,4 @@
-#summary DwC-Germplasm Specimen TERMS.
+#summary Germplasm Accession TERMS.
 #labels TERMS
 
 Back to the [DarwinCoreGermplasmTerms].
@@ -13,12 +13,11 @@ Back to the [DarwinCoreGermplasmTerms].
  * dwc:occurrenceDetails [[http://rs.tdwg.org/dwc/terms/index.htm#occurrenceDetails]] (EURISCO:ACCEURL)
 
 
-=== DwC germplasm extension terms ===
- * *[GermplasmID]* (redundant by  [http://rs.tdwg.org/dwc/terms/index.htm#occurrenceID dwc:occurrenceID)] Suggestion: REMOVE TERM
- * *GermplasmIdentifier* (mcpd:ACCENAME)
- * *BiologicalStatusOfSample*
- * *BiologicalStatusOfSampleCode* (mcpd:SAMPSTAT)
- * *TypeOfStorage* (mcpd:STORAGE)
+=== Germplasm Vocabulary terms ===
+ * *germplasmID* [[http://purl.org/germplasm/germplasmTerm#germplasmID]] (see also  [http://rs.tdwg.org/dwc/terms/index.htm#occurrenceID dwc:occurrenceID)]
+ * *germplasmIdentifier* [[http://purl.org/germplasm/germplasmTerm#germplasmIdentifier]] (mcpd:ACCENAME)
+ * *biologicalStatus* [[http://purl.org/germplasm/germplasmTerm#biologicalStatus]] (mcpd:SAMPSTAT)
+ * *storageCondition* [[http://purl.org/germplasm/germplasmTerm#storageCondition]] (mcpd:STORAGE)
 
 
 
@@ -29,13 +28,13 @@ Back to the [DarwinCoreGermplasmTerms].
 
 = Sample Acquisition =
 
-    * *[SampleAcquisitionID]*
-    * *DonorInstitute* (eurisco:DONORDESCR)
-    * *DonorInstituteCode* (mcpd:DONORCODE)
-    * *DonorsSampleIdentifier* (mcpd:DONORNUMB)
-    * *SampleAcquisitionDate* (mcpd:ACQDATE)
-    * *SampleAcquisitionSource* (mcpd:COLLSRC)
-    * *SampleAcquisitionRemarks*
+    * *[acquisitionID]* [[http://purl.org/germplasm/germplasmTerm#gacquisitionID]]
+    * *donorInstitute* [[http://purl.org/germplasm/germplasmTerm#donorInstitute]] (eurisco:DONORDESCR)
+    * *donorInstituteID* [[http://purl.org/germplasm/germplasmTerm#donorInstituteID]] (mcpd:DONORCODE)
+    * *donorsIdentifier* [[http://purl.org/germplasm/germplasmTerm#donorsIdentifier]] (mcpd:DONORNUMB)
+    * *acquisitionDate* [[http://purl.org/germplasm/germplasmTerm#acquisitionDate]] (mcpd:ACQDATE)
+    * *acquisitionSource* [[http://purl.org/germplasm/germplasmTerm#acquisitionSource]] (mcpd:COLLSRC)
+    * *acquisitionRemarks* [[http://purl.org/germplasm/germplasmTerm#acquisitionRemarks]]
 
 
 <br break='all' />
