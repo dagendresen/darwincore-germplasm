@@ -4,7 +4,7 @@
 
  * [DarwinCoreGermplasm Darwin Core Germplasm]
  * [DarwinCoreGermplasmTerms DwC Germplasm TERMS]
-    * [DatasetTerms Dataset]
+    * [DatasetTerms Data set]
     * [TaxonTerms Taxonomy]
     * [SpecimenTerms Specimen (Accession)]
     * [CollectingEventTerms Collecting Event]
