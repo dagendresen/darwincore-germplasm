@@ -5,19 +5,17 @@ Back to the [DarwinCoreGermplasmTerms].
 
 = Specimen =
 
-=== Darwin Core Terms ===
- * _dwc:occurrenceID_ [[http://rs.tdwg.org/dwc/terms/index.htm#occurrenceID]] (epgris3-trait:GENOTYPE_NUMBER)
+ * [http://purl.org/germplasm/germplasmTerm#germplasmID germplasm:germplasmID] (see also  [http://rs.tdwg.org/dwc/terms/index.htm#occurrenceID dwc:occurrenceID)]
+ * [http://purl.org/germplasm/germplasmTerm#germplasmIdentifier germplasm:germplasmIdentifier] (mcpd:ACCENAME)
+ * [http://purl.org/germplasm/germplasmTerm#biologicalStatus germplasm:biologicalStatus] (mcpd:SAMPSTAT)
+ * *storageCondition* [[http://purl.org/germplasm/germplasmTerm#storageCondition]] (mcpd:STORAGE)
+
+ * [http://rs.tdwg.org/dwc/terms/index.htm#occurrenceID _dwc:occurrenceID_] (epgris3-trait:GENOTYPE_NUMBER)
  * _dwc:occurrenceRemarks_ [[http://rs.tdwg.org/dwc/terms/index.htm#occurrenceRemarks]] (mcpd:REMARKS) 
  * _dwc:catalogNumber_ [[http://rs.tdwg.org/dwc/terms/index.htm#catalogNumber]] (mcpd:ACCENUMB)
  * dwc:otherCatalogNumbers [[http://rs.tdwg.org/dwc/terms/index.htm#otherCatalogNumbers]] (mcpd:OTHERNUMB)
  * dwc:occurrenceDetails [[http://rs.tdwg.org/dwc/terms/index.htm#occurrenceDetails]] (EURISCO:ACCEURL)
 
-
-=== Germplasm Vocabulary terms ===
- * *germplasmID* [[http://purl.org/germplasm/germplasmTerm#germplasmID]] (see also  [http://rs.tdwg.org/dwc/terms/index.htm#occurrenceID dwc:occurrenceID)]
- * *germplasmIdentifier* [[http://purl.org/germplasm/germplasmTerm#germplasmIdentifier]] (mcpd:ACCENAME)
- * *biologicalStatus* [[http://purl.org/germplasm/germplasmTerm#biologicalStatus]] (mcpd:SAMPSTAT)
- * *storageCondition* [[http://purl.org/germplasm/germplasmTerm#storageCondition]] (mcpd:STORAGE)
 
 
 
