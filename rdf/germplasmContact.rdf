@@ -179,14 +179,14 @@
     <foaf:mbox_sha1sum rdf:resource="727470ca24cb2dcd153eebaabcb8e217"/>
   </foaf:Person>
 
-  <foaf:Person rdf:about="&contact;RichardBruskiewich">
-    <foaf:name>Richard Bruskiewich</foaf:name>
-    <foaf:mbox_sha1sum rdf:resource="7e9cdee8f16a010f22e6a47f1aa1f506"/>
-  </foaf:Person>
-
   <foaf:Person rdf:about="&contact;MilkoSkofic">
     <foaf:name>Milko Škofič</foaf:name>
     <foaf:mbox_sha1sum rdf:resource="a6aa48d12d44b332833422ffd3b7ca7e"/>
+  </foaf:Person>
+
+  <foaf:Person rdf:about="&contact;RichardBruskiewich">
+    <foaf:name>Richard Bruskiewich</foaf:name>
+    <foaf:mbox_sha1sum rdf:resource="7e9cdee8f16a010f22e6a47f1aa1f506"/>
   </foaf:Person>
 
   <foaf:Person rdf:about="&contact;SamyGaiji">
