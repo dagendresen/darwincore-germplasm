@@ -96,7 +96,7 @@
     <dcterms:rights xml:lang="en">Creative Commons Public Domain license; see http://creativecommons.org/publicdomain/zero/1.0/. You are free to copy, distribute and transmit the work; to remix/adapt the work (e.g. to import the ontology and create specializations of its elements), all without asking permissions. If you wish to provide attribution you may include the statement: "This work is based on the Darwin Core extension for genebanks".</dcterms:rights>
     <dcterms:accessRights>public</dcterms:accessRights>
     <vann:preferredNamespaceUri>&germplasmTerm;</vann:preferredNamespaceUri>
-    <vann:preferredNamespacePrefix>germplasmTerm</vann:preferredNamespacePrefix>
+    <vann:preferredNamespacePrefix>germplasm</vann:preferredNamespacePrefix>
     <foaf:homepage rdf:resource="http://code.google.com/p/darwincore-germplasm/"/>
     <foaf:homepage rdf:resource="&tdwgWiki;"/>
     <dcterms:bibliographicCitation>Endresen DTF, and Knüpffer H (2012). The Darwin Core extension for genebanks opens up new opportunities for sharing genebank data sets. Biodiversity Informatics 8:11-29. Available at "https://journals.ku.edu/index.php/jbi/article/view/4095".</dcterms:bibliographicCitation>
@@ -378,16 +378,15 @@
     <skos:definition>The category of information pertaining to measurements, facts, characteristics, or assertions about a resource (instance of data record, such as Occurrence, Taxon, Location, Event).</skos:definition>
     <!-- Copy of the normative definition by Dublin Core -->
     <rdfs:comment xml:lang="en">Measurement values and scores for trait properties (characterization and evaluation data).</rdfs:comment>
+    <rdfs:seeAlso rdf:resource="&tdwgWiki;dwc:MeasurementOrFact"/>
     <dcterms:created>2009-08-24</dcterms:created>
     <dcterms:modified>2014-01-16</dcterms:modified>
     <rdfs:isDefinedBy rdf:resource="&germplasmTerm;"/>
     <skos:inScheme rdf:resource="&germplasmTerm;"/>
     <vs:term_status>unstable</vs:term_status>
     <skos:exactMatch rdf:resource="dwc:MeasurementOrFact"/>
-    <rdfs:seeAlso rdf:resource="&tdwgWiki;dwc:MeasurementOrFact"/>
-    <rdfs:seeAlso rdf:resource="dwc:MeasurementOrFact"/>
     <rdfs:subClassOf rdf:resource="#anyClass"/>
-    <skos:editorialNote>Notice that the GBIF IPT toolkit require a unique URI for rowTypes between extensions, and we thus need a separate _germplasm_ MeasurementOrFact class. This term is intended in other aspects to be seen to be the same as the _Darwin-Core_ MeasurementOrFact term. The measurement terms should be evaluated for possible overlapping definitions in relation to the Crop Ontology (CO). These terms have further not been tested in the "wild" for sharing real data yet, and are therefore declared as status "unstable".</skos:editorialNote>
+    <skos:editorialNote>The measurement terms should be evaluated for possible overlapping definitions in relation to the Crop Ontology (CO). These terms have further not been tested in the "wild" for sharing real data yet, and are therefore declared as status "unstable".</skos:editorialNote>
     <skos:member rdf:resource="dwc:measurementID"/>
     <skos:member rdf:resource="dwc:measurementValue"/>
     <skos:member rdf:resource="dwc:measurementUnit"/>
@@ -397,10 +396,6 @@
     <skos:member rdf:resource="&germplasmTerm;measurementByInstituteID"/>
     <skos:member rdf:resource="&germplasmTerm;measurementGrowthStage"/>
   </skos:Collection>
-
-  <!-- Notice that the GBIF IPT toolkit require a unique URI for rowTypes between extensions, and we thus need a "germplasm MeasurementOrFact class. This term is intended in other aspects to be seen to be the same as the "Darwin Core MeasurementOrFact". -->
-
-
 
 
 
@@ -586,7 +581,6 @@
     <rdfs:domain rdf:resource="&germplasmTerm;CollectingEvent"/>
     <rdfs:subPropertyOf rdf:resource="#anyProperty"/>
   </skos:Concept>
-
 
 
   <!-- Breeding event -->
@@ -821,7 +815,6 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:subPropertyOf rdf:resource="#anyProperty"/>
   </skos:Concept>
-
 
 
   <!-- Acquisition -->
@@ -1122,7 +1115,6 @@
   </skos:Concept>
 
 
-
   <!-- Treaty or regulation -->
 
   <skos:Concept rdf:about="&germplasmTerm;treatyOrRegulationID">
@@ -1292,7 +1284,7 @@
 
   <skos:Concept rdf:about="&germplasmTerm;measurementMethodSource">
     <skos:prefLabel xml:lang="en">trait descriptor source</skos:prefLabel>
-    <skos:definition xml:lang="en">Reference to a standard germplasm descriptor. For example the UPOV descriptor or the Bioversity Crop Descriptor identifier.</skos:definition>
+    <skos:definition xml:lang="en">Reference to a standard Germplasm Descriptor. For example the UPOV descriptor or the Bioversity Crop Descriptor identifier.</skos:definition>
     <skos:example xml:lang="en">UPOV TG/198/1 (april 2003)</skos:example>
     <skos:note xml:lang="en">Recommended best practice is to use a controlled vocabulary of source trait descriptors.</skos:note>
     <rdfs:seeAlso rdf:resource="&tdwgWiki;germplasm:measurementMethodSource"/>
@@ -1332,7 +1324,6 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:subPropertyOf rdf:resource="#anyProperty"/>
   </skos:Concept>
-
 
 
   <!-- Measurement experiment -->
@@ -1446,7 +1437,6 @@
   </skos:Concept>
 
 
-
   <!-- Measurement value -->
 
   <skos:Concept rdf:about="&germplasmTerm;measurementByInstituteID">
@@ -1457,7 +1447,7 @@
     <rdfs:seeAlso rdf:resource="&tdwgWiki;germplasm:measurementByInstituteID"/>
     <dcterms:created>2009-08-24</dcterms:created>
     <dcterms:modified>2014-01-16</dcterms:modified>
-    <vann:termGroup rdf:resource="&germplasmTerm;MeasurementOrFact"/>
+    <vann:termGroup rdf:resource="dwc:MeasurementOrFact"/>
     <rdfs:isDefinedBy rdf:resource="&germplasmTerm;"/>
     <skos:inScheme rdf:resource="&germplasmTerm;"/>
     <vs:term_status>unstable</vs:term_status>
@@ -1477,7 +1467,7 @@
     <rdfs:seeAlso rdf:resource="&tdwgWiki;germplasm:measurementGrowthStage"/>
     <dcterms:created>2009-08-24</dcterms:created>
     <dcterms:modified>2014-01-16</dcterms:modified>
-    <vann:termGroup rdf:resource="&germplasmTerm;MeasurementOrFact"/>
+    <vann:termGroup rdf:resource="dwc:MeasurementOrFact"/>
     <rdfs:isDefinedBy rdf:resource="&germplasmTerm;"/>
     <skos:inScheme rdf:resource="&germplasmTerm;"/>
     <vs:term_status>unstable</vs:term_status>
