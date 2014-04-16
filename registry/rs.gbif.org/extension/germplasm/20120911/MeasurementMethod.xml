@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/style/human.xsl"?>
+<extension xmlns="http://rs.gbif.org/extension/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:dc="http://purl.org/dc/terms/"    
+    xsi:schemaLocation="http://rs.gbif.org/extension/ http://rs.gbif.org/schema/extension.xsd" 
+    dc:title="Trait measurement method (v20120911)" 
+    dc:description="The Darwin Core extension for genebanks (DwC germplasm) was developed in 2009 for sharing genebank datasets with the GBIF Integrated Publishing Toolkit from the Global Biodiversity Information Facility (GBIF). This application schema includes the terms to describe the descriptors used for trait measurements or so-called Characterization and Evaluation (C and E) data. These terms where developed by the EPGRIS3 group of the European Coopertive Programme for Plant Genetic Resources (ECPGR) in 2009."
+    dc:relation="http://purl.org/germplasm/germplasmTerm.rdf"
+    name="MeasurementMethod" 
+    namespace="http://purl.org/germplasm/germplasmTerm#"
+    rowType="http://purl.org/germplasm/germplasmTerm#MeasurementMethod">
+
+
+    <!--
+      Software application schema for the GBIF IPT data provider software
+      Darwin Core extension for genebanks (DwC germplasm)
+      Dag Endresen (GBIF/NordGen), 2012-09-11
+    -->
+
+    <!-- MeasurementMethod (TraitDescriptor) -->
+    <property name="measurementMethodID" 
+      namespace="http://purl.org/germplasm/germplasmTerm#" 
+      qualName="http://purl.org/germplasm/germplasmTerm#measurementMethodID" 
+      dc:description="Persistent identifier for a trait descriptor used to identify the description of the measurement method."
+      type="string" 
+      examples="URI, DOI, LSID or similar" 
+      dc:relation="http://terms.gbif.org/wiki/germplasm:measurementMethodID"
+      group="MeasurementMethod" 
+      required="false"/>
+    <property name="measurementMethodName" 
+      namespace="http://purl.org/germplasm/germplasmTerm#" 
+      qualName="http://purl.org/germplasm/germplasmTerm#measurementMethodName" 
+      dc:description="English name used to identify the trait measurement method."
+      type="string" 
+      examples="stem rust susceptibility; powdery mildew susceptibility; plant height; ear density" 
+      dc:relation="http://terms.gbif.org/wiki/germplasm:measurementMethodName"
+      group="MeasurementMethod" 
+      required="false"/>
+    <property name="measurementMethodCategory" 
+      namespace="http://purl.org/germplasm/germplasmTerm#" 
+      qualName="http://purl.org/germplasm/germplasmTerm#measurementMethodCategory" 
+      dc:description="Classification type for the trait descriptor."
+      type="string" 
+      examples="agrobotanical; morphological; chemical; phenological; molecular biology; disease susceptibility/-resistance; tolerance (abiotic); utilization" 
+      dc:relation="http://terms.gbif.org/wiki/germplasm:measurementMethodCategory"
+      group="MeasurementMethod" 
+      required="false"/>
+    <property name="measurementMethodScale" 
+      namespace="http://purl.org/germplasm/germplasmTerm#" 
+      qualName="http://purl.org/germplasm/germplasmTerm#measurementMethodScale"
+      dc:description="Measurement scale used to score the measurement values."
+      type="string" 
+      examples="absolute; interval; nominal; ordinal; ratio; relative" 
+      dc:relation="http://terms.gbif.org/wiki/germplasm:measurementMethodScale"
+      group="MeasurementMethod" 
+      required="false"/>
+    <property name="measurementMethodSource" 
+      namespace="http://purl.org/germplasm/germplasmTerm#" 
+      qualName="http://purl.org/germplasm/germplasmTerm#measurementMethodSource" 
+      dc:description="Reference to a standard Germplasm Descriptor. For example the UPOV descriptor or the Bioversity Crop Descriptor identifier."
+      type="string" 
+      examples="UPOV TG/198/1 (april 2003)" 
+      dc:relation="http://terms.gbif.org/wiki/germplasm:measurementMethodSource"
+      group="MeasurementMethod" 
+      required="false"/>
+    <property name="measurementMethodRemarks" 
+      namespace="http://purl.org/germplasm/germplasmTerm#" 
+      qualName="http://purl.org/germplasm/germplasmTerm#measurementMethodRemarks" 
+      dc:description="Remarks related to the trait measurement method."
+      type="string" 
+      examples="inflorescences after cutting; measured three days after heading date" 
+      dc:relation="http://terms.gbif.org/wiki/germplasm:measurementMethodRemarks"
+      group="MeasurementMethod" 
+      required="false"/>
+
+    <property name="measurementType" 
+      namespace="http://rs.tdwg.org/dwc/terms/" 
+      qualName="http://rs.tdwg.org/dwc/terms/measurementType" 
+      dc:description="The nature of the measurement, fact, characteristic, or assertion. Recommended best practice is to use a controlled vocabulary."
+      type="string" 
+      examples="tail length, temperature, trap line length, survey area, trap type" 
+      dc:relation="http://terms.gbif.org/wiki/dwc:measurementType"
+      group="MeasurementMethod" 
+      required="false"/>
+    <property name="measurementMethod" 
+      namespace="http://rs.tdwg.org/dwc/terms/" 
+      qualName="http://rs.tdwg.org/dwc/terms/" 
+      dc:description="A description of or reference to (publication, URI) the method or protocol used to determine the measurement, fact, characteristic, or assertion."
+      type="string" 
+      examples="minimum convex polygon around burrow entrances (for a home range area), barometric altimeter" 
+      dc:relation="http://terms.gbif.org/wiki/dwc:measurementMethod"
+      group="MeasurementMethod" 
+      required="false"/>
+
+</extension>
