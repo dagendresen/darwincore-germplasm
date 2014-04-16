@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/style/human.xsl"?>
+<extension xmlns="http://rs.gbif.org/extension/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:dc="http://purl.org/dc/terms/"    
+    xsi:schemaLocation="http://rs.gbif.org/extension/ http://rs.gbif.org/schema/extension.xsd" 
+    dc:title="Trait measurement experiment (v20140416)" 
+    dc:description="The Darwin Core extension for genebanks (DwC-germplasm) was developed in 2009 for sharing genebank datasets using the GBIF Integrated Publishing Toolkit (IPT) from the Global Biodiversity Information Facility (GBIF). This application schema includes the terms to describe the experiments to collect trait measurements or so-called Characterization and Evaluation (C and E) data. These terms where largely developed by the EPGRIS3 group of the European Coopertive Programme for Plant Genetic Resources (ECPGR) in 2009."
+    dc:relation="http://purl.org/germplasm/germplasmTerm"
+    name="MeasurementExperiment" 
+    namespace="http://purl.org/germplasm/germplasmTerm#"
+    rowType="http://purl.org/germplasm/germplasmTerm#MeasurementExperiment">
+
+
+<!--
+Software application schema for the GBIF IPT data provider software, Darwin Core extension for genebanks (DwC-germplasm). 
+Major update: New version based on PURL germplasm vocabulary, Dag Endresen (GBIF/NordGen), 2012-09-11.
+Major update: Adding terms for experiment location, Dag Endresen, Xander van der Sar, Frank Menting, 2014-04-16.
+
+-->
+
+   <!-- TraitExperiment -->
+    <property name="measurementExperimentID" 
+      namespace="http://purl.org/germplasm/germplasmTerm#" 
+      qualName="http://purl.org/germplasm/germplasmTerm#measurementExperimentID" 
+      dc:description="Persistent identifier used to identify a trait measurement experiment."
+      type="string" 
+      examples="URI, DOI, LSID or similar" 
+      dc:relation="http://terms.tdwg.org/wiki/germplasm:measurementExperimentID"
+      group="MeasurementExperiment" 
+      required="false"/>
+    <property name="measurementExperimentIdentifier" 
+      namespace="http://purl.org/germplasm/germplasmTerm#" 
+      qualName="http://purl.org/germplasm/germplasmTerm#measurementExperimentIdentifier" 
+      dc:description="Unique number in the dataset for the experiment."
+      type="string" 
+      examples="Local identifier for the experiment or project activity" 
+      dc:relation="http://terms.tdwg.org/wiki/germplasm:measurementExperimentIdentifier"
+      group="MeasurementExperiment" 
+      required="false"/>
+    <property name="measurementExperimentYear" 
+      namespace="http://purl.org/germplasm/germplasmTerm#" 
+      qualName="http://purl.org/germplasm/germplasmTerm#measurementExperimentYear" 
+      dc:description="The year when the trait experiment was conducted."
+      type="integer" 
+      examples="2010" 
+      dc:relation="http://terms.tdwg.org/wiki/germplasm:measurementExperimentYear"
+      group="MeasurementExperiment" 
+      required="false"/>
+    <property name="measurementExperimentReport" 
+      namespace="http://purl.org/germplasm/germplasmTerm#" 
+      qualName="http://purl.org/germplasm/germplasmTerm#measurementExperimentReport" 
+      dc:description="A reference to the report of the experiment, either supplied as the file name or the URL of the report."
+      type="string" 
+      examples="URL or reference citation" 
+      dc:relation="http://terms.tdwg.org/wiki/germplasm:measurementExperimentReport"
+      group="MeasurementExperiment" 
+      required="false"/>
+    <property name="measurementExperimentRemarks" 
+      namespace="http://purl.org/germplasm/germplasmTerm#" 
+      qualName="http://purl.org/germplasm/germplasmTerm#measurementExperimentRemarks" 
+      dc:description="Information relevant for the interpretation of the scores in the experiment."
+      type="string" 
+      examples="Experimental design, location, experimentor, weather, etc" 
+      dc:relation="http://terms.tdwg.org/wiki/germplasm:measurementExperimentRemarks"
+      group="MeasurementExperiment" 
+      required="false"/>
+
+	<!-- MeasurementExperimentLocation -->
+    <property name="locationID" 
+      namespace="http://rs.tdwg.org/dwc/terms/" 
+      qualName="http://rs.tdwg.org/dwc/terms/locationID"
+      dc:description="An identifier for the set of location information (data associated with dcterms:Location). May be a global unique identifier or an identifier specific to the data set."
+      type="string" 
+      examples="http://sws.geonames.org/2726528/" 
+      dc:relation="http://terms.tdwg.org/wiki/dwc:locationID"
+      group="MeasurementExperimentLocation" 
+      required="false"/>
+    <property name="location" 
+      namespace="http://www.w3.org/2003/01/geo/wgs84_pos#" 
+      qualName="http://www.w3.org/2003/01/geo/wgs84_pos#location"
+      dc:description="Location for the measurement experiment."
+      type="float" 
+      examples="Wageningen, Netherlands" 
+      dc:relation="http://terms.tdwg.org/wiki/geo:location"
+      group="MeasurementExperimentLocation" 
+      required="false"/>
+    <property name="longitude" 
+      namespace="http://www.w3.org/2003/01/geo/wgs84_pos#" 
+      qualName="http://www.w3.org/2003/01/geo/wgs84_pos#lon"
+      dc:description="Longitude for the experiment location."
+      type="float" 
+      examples="-121.1761111" 
+      dc:relation="http://terms.tdwg.org/wiki/geo:lon"
+      group="MeasurementExperimentLocation" 
+      required="false"/>
+    <property name="latitude" 
+      namespace="http://www.w3.org/2003/01/geo/wgs84_pos#" 
+      qualName="http://www.w3.org/2003/01/geo/wgs84_pos#lat"
+      dc:description="Latitude for the experiment location."
+      type="float" 
+      examples="-41.0983423" 
+      dc:relation="http://terms.tdwg.org/wiki/geo:lat"
+      group="MeasurementExperimentLocation" 
+      required="false"/>
+    <property name="altitude" 
+      namespace="http://www.w3.org/2003/01/geo/wgs84_pos#" 
+      qualName="http://www.w3.org/2003/01/geo/wgs84_pos#alt"
+      dc:description="Altitude for the experiment location."
+      type="integer" 
+      examples="100" 
+      dc:relation="http://terms.tdwg.org/wiki/geo:alt"
+      group="MeasurementExperimentLocation" 
+      required="false"/>
+
+</extension>
