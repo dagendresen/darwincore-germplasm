@@ -4,11 +4,10 @@
   This is the Germplasm Contact Vocabulary, "http://purl.org/germplasm/germplasmContact#".
   This resource is part the Germplasm Vocabulary, "http://purl.org/germplasm/".
   The Germplasm Vocabulary is described at the 
-  TDWG Terms Wiki "http://terms.tdwg.org/wiki/Germplasm", 
-  GitHub "https://github.com/dagendresen/darwincore-germplasm", 
-  and Google Code "http://code.google.com/p/darwincore-germplasm/".
+  TDWG Terms Wiki "http://terms.tdwg.org/wiki/Germplasm", and
+  GitHub "https://github.com/dagendresen/darwincore-germplasm".
   Validated using "http://www.w3.org/RDF/Validator/".
-  Input, contribution and feedback are most welcome! "dag.endresen@gmail.com"
+  Input, contribution, and feedback are most welcome! "dag.endresen@gmail.com"
   Dag Endresen, GBIF-Norway, UiO Natural History Museum, University of Oslo.
 -->
 
@@ -83,8 +82,10 @@
     <geo:alt>9.4</geo:alt>
     <foaf:homepage rdf:resource="http://www.bioversityinternational.org/"/>
     <foaf:member rdf:resource="&contact;AdrianaAlercia"/>
+    <foaf:member rdf:resource="&contact;DagEndresen"/>
     <foaf:member rdf:resource="&contact;ElizabethArnaud"/>
     <foaf:member rdf:resource="&contact;LucaMatteis"/>
+    <foaf:member rdf:resource="&contact;MarieAngeliqueLaporte"/>
     <foaf:member rdf:resource="&contact;MilkoSkofic"/>
     <foaf:member rdf:resource="&contact;RichardBruskiewich"/>
     <foaf:member rdf:resource="&contact;TomHazekamp"/>

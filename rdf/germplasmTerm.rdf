@@ -3,19 +3,19 @@
 <!--
   This is the Germplasm Term Vocabulary, "http://purl.org/germplasm/germplasmTerm#".
   This resource is part the Germplasm Vocabulary, "http://purl.org/germplasm/".
-  The Germplasm Vocabulary is also described using the TDWG Terms Wiki available at
-  "&tdwgWiki;Germplasm" and at the Google Code home page site at
-  "http://code.google.com/p/darwincore-germplasm/".
+  The Germplasm Vocabulary is described at the 
+  TDWG Terms Wiki "http://terms.tdwg.org/wiki/Germplasm", and
+  GitHub "https://github.com/dagendresen/darwincore-germplasm".
   Validated using "http://www.w3.org/RDF/Validator/".
-  Input and feedback are most welcome! "dag.endresen@gmail.com"
-  Dag Endresen, GBIF-Norway, Natural History Museum, University of Oslo (NHM-UiO).
+  Input, contribution, and feedback are most welcome! "dag.endresen@gmail.com"
+  Dag Endresen, GBIF-Norway, UiO Natural History Museum, University of Oslo.
 -->
 
 <!DOCTYPE rdf:RDF [
   <!ENTITY germplasm01       "http://rs.nordgen.org/dwc/germplasm/0.1/terms/">
   <!ENTITY germplasmTerm     "http://purl.org/germplasm/germplasmTerm#">
   <!ENTITY germplasmType     "http://purl.org/germplasm/germplasmType#">
-  <!ENTITY history           "http://purl.org/germplasm/archive/20140508/">
+  <!ENTITY history           "http://purl.org/germplasm/archive/20150811/">
   <!ENTITY contact           "http://purl.org/germplasm/germplasmContact#">
   <!ENTITY tdwgWiki          "http://terms.tdwg.org/wiki/Germplasm/">
 ]>
@@ -77,7 +77,7 @@
     <skos:prefLabel xml:lang="en">Germplasm Vocabulary</skos:prefLabel>
     <rdfs:comment xml:lang="en">The Germplasm Vocabulary (Darwin Core extension for germplasm) provides a vocabulary of terms for describing and annotating germplasm information resources.</rdfs:comment>
     <dcterms:created>2009-08-24</dcterms:created>
-    <dcterms:modified>2014-05-08</dcterms:modified>
+    <dcterms:modified>2015-08-11</dcterms:modified>
     <dcterms:creator rdf:resource="&contact;DagEndresen"/>
     <dcterms:creator rdf:resource="&contact;Bioversity"/>
     <dcterms:creator rdf:resource="&contact;NordGen"/>
@@ -87,6 +87,7 @@
     <dcterms:contributor rdf:resource="&contact;HelmutKnupffer"/>
     <dcterms:contributor rdf:resource="&contact;JonasNordling"/>
     <dcterms:contributor rdf:resource="&contact;LucaMatteis"/>
+    <dcterms:contributor rdf:resource="&contact;MarieAngeliqueLaporte"/>
     <dcterms:contributor rdf:resource="&contact;MilkoSkofic"/>
     <dcterms:contributor rdf:resource="&contact;RichardBruskiewich"/>
     <dcterms:contributor rdf:resource="&contact;SamyGaiji"/>
@@ -99,7 +100,7 @@
     <dcterms:accessRights>public</dcterms:accessRights>
     <vann:preferredNamespaceUri>&germplasmTerm;</vann:preferredNamespaceUri>
     <vann:preferredNamespacePrefix>germplasmTerm</vann:preferredNamespacePrefix>
-    <foaf:homepage rdf:resource="http://code.google.com/p/darwincore-germplasm/"/>
+    <foaf:homepage rdf:resource="https://github.com/dagendresen/darwincore-germplasm"/>
     <foaf:homepage rdf:resource="&tdwgWiki;"/>
     <dcterms:bibliographicCitation>Endresen DTF, and Knüpffer H (2012). The Darwin Core extension for genebanks opens up new opportunities for sharing genebank data sets. Biodiversity Informatics 8:11-29. Available at "https://journals.ku.edu/index.php/jbi/article/view/4095".</dcterms:bibliographicCitation>
     <dc:relation>Endresen DTF, Gaiji S, and Robertson T (2009). DarwinCore Germplasm Extension and deployment in the GBIF infrastructure. Proceedings of TDWG, 2009. Available at "http://www.tdwg.org/proceedings/article/view/464".</dc:relation>

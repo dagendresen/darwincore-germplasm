@@ -3,18 +3,18 @@
 <!--
   This is the Germplasm Type Vocabulary, "http://purl.org/germplasm/germplasmType#".
   This resource is part the Germplasm Vocabulary, "http://purl.org/germplasm/".
-  The Germplasm Vocabulary is also described using the TDWG Terms Wiki available at
-  "http://terms.tdwg.org/wiki/Germplasm", and at the Google Code home page site at
-  "http://code.google.com/p/darwincore-germplasm/".
+  The Germplasm Vocabulary is described at the 
+  TDWG Terms Wiki "http://terms.tdwg.org/wiki/Germplasm", and
+  GitHub "https://github.com/dagendresen/darwincore-germplasm".
   Validated using "http://www.w3.org/RDF/Validator/".
-  Input and feedback are most welcome! "dag.endresen@gmail.com"
-  Dag Endresen, GBIF-Norway, Natural History Museum, University of Oslo (NHM-UiO).
+  Input, contribution, and feedback are most welcome! "dag.endresen@gmail.com"
+  Dag Endresen, GBIF-Norway, UiO Natural History Museum, University of Oslo.
 -->
 
 <!DOCTYPE rdf:RDF [
   <!ENTITY germplasmTerm     "http://purl.org/germplasm/germplasmTerm#">
   <!ENTITY germplasmType     "http://purl.org/germplasm/germplasmType#">
-  <!ENTITY history           "http://purl.org/germplasm/archive/20140116/">
+  <!ENTITY history           "http://purl.org/germplasm/archive/20150811/">
   <!ENTITY contact           "http://purl.org/germplasm/germplasmContact#">
   <!ENTITY tdwgWiki          "http://terms.tdwg.org/wiki/Germplasm/">
 ]>
@@ -43,7 +43,7 @@
     <skos:prefLabel xml:lang="en">List of controlled values for some of the germplasm terms</skos:prefLabel>
     <rdfs:comment xml:lang="en">The Darwin Core extension for germplasm provides a vocabulary of terms for describing and annotating germplasm information resources. This resource lists controlled values for some of the germplasm terms.</rdfs:comment>
     <dcterms:created>2012-06-28</dcterms:created>
-    <dcterms:modified>2014-01-16</dcterms:modified>
+    <dcterms:modified>2015-08-11</dcterms:modified>
     <dcterms:creator rdf:resource="&contact;DagEndresen"/>
     <dcterms:contributor rdf:resource="&contact;Bioversity"/>
     <dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
@@ -51,7 +51,7 @@
     <dcterms:accessRights>public</dcterms:accessRights>
     <vann:preferredNamespaceUri>&germplasmType;</vann:preferredNamespaceUri>
     <vann:preferredNamespacePrefix>germplasmType</vann:preferredNamespacePrefix>
-    <foaf:homepage rdf:resource="http://code.google.com/p/darwincore-germplasm/"/>
+    <foaf:homepage rdf:resource="https://github.com/dagendresen/darwincore-germplasm"/>
     <foaf:homepage rdf:resource="http://terms.tdwg.org/wiki/Germplasm"/>
     <dcterms:bibliographicCitation>Endresen DTF, and Knüpffer H (2012). The Darwin Core extension for genebanks opens up new opportunities for sharing genebank data sets. Biodiversity Informatics 8:11-29. Available at "https://journals.ku.edu/index.php/jbi/article/view/4095".</dcterms:bibliographicCitation>
     <dc:relation>Alercia A, Diulgheroff S, Mackay M (2012). FAO/Bioversity Multi-Crop Passport Descriptors V.2 [MCPD V.2]. Available at "http://www.bioversityinternational.org/e-library/publications/single-details-publication/?tx_news_pi1[news]=1350&amp;cHash=d953e45ada3ab285d635593b5068a38f" and "http://www.bioversityinternational.org/uploads/tx_news/1526.pdf".</dc:relation>
