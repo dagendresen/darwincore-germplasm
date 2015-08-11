@@ -3,18 +3,19 @@
 <!--
   This is the Germplasm Contact Vocabulary, "http://purl.org/germplasm/germplasmContact#".
   This resource is part the Germplasm Vocabulary, "http://purl.org/germplasm/".
-  The Germplasm Vocabulary is also described using the TDWG Terms Wiki available at
-  "http://terms.tdwg.org/wiki/Germplasm" and at the Google Code home page site at
-  "http://code.google.com/p/darwincore-germplasm/".
+  The Germplasm Vocabulary is described at the 
+  TDWG Terms Wiki "http://terms.tdwg.org/wiki/Germplasm", 
+  GitHub "https://github.com/dagendresen/darwincore-germplasm", 
+  and Google Code "http://code.google.com/p/darwincore-germplasm/".
   Validated using "http://www.w3.org/RDF/Validator/".
-  Input and feedback are most welcome! "dag.endresen@gmail.com"
-  Dag Endresen, GBIF-Norway, Natural History Museum, University of Oslo (NHM-UiO).
+  Input, contribution and feedback are most welcome! "dag.endresen@gmail.com"
+  Dag Endresen, GBIF-Norway, UiO Natural History Museum, University of Oslo.
 -->
 
 <!DOCTYPE rdf:RDF [
   <!ENTITY germplasmTerm     "http://purl.org/germplasm/germplasmTerm#">
   <!ENTITY germplasmType     "http://purl.org/germplasm/germplasmType#">
-  <!ENTITY history           "http://purl.org/germplasm/archive/20140508/">
+  <!ENTITY history           "http://purl.org/germplasm/archive/20150811/">
   <!ENTITY contact           "http://purl.org/germplasm/germplasmContact#">
 ]>
 
@@ -42,7 +43,7 @@
     <skos:prefLabel xml:lang="en">List of contributors for the Germplasm Vocabulary (Darwin Core extension for gene banks)</skos:prefLabel>
     <rdfs:comment xml:lang="en">The Germplasm Vocabulary (Darwin Core extension for gene banks) provides a vocabulary of terms for describing and annotating germplasm information resources. This resource lists the institutions and persons contributing to the development of the Germplasm Vocabulary.</rdfs:comment>
     <dcterms:created>2012-06-28</dcterms:created>
-    <dcterms:modified>2014-05-08</dcterms:modified>
+    <dcterms:modified>2015-08-11</dcterms:modified>
     <dcterms:creator rdf:resource="&contact;DagEndresen"/>
     <dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
     <dcterms:rights xml:lang="en">Creative Commons Public Domain license; see http://creativecommons.org/publicdomain/zero/1.0/. You are free to copy, distribute and transmit the work; to remix/adapt the work (e.g. to import the ontology and create specializations of its elements), all without asking permissions. If you wish to provide attribution you may include the statement: "This work is based on the Darwin Core extension for genebanks".</dcterms:rights>
@@ -185,6 +186,11 @@
   <foaf:Person rdf:about="&contact;LucaMatteis">
     <foaf:name>Luca Matteis</foaf:name>
     <foaf:mbox_sha1sum rdf:resource="727470ca24cb2dcd153eebaabcb8e217"/>
+  </foaf:Person>
+
+  <foaf:Person rdf:about="&contact;MarieAngeliqueLaporte">
+    <foaf:name>Marie-Angélique Laporte</foaf:name>
+    <foaf:mbox_sha1sum rdf:resource="4cb8b07fcc495673d707da5ce8c5f6f7"/>
   </foaf:Person>
 
   <foaf:Person rdf:about="&contact;MilkoSkofic">

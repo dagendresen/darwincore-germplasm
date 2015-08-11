@@ -3,7 +3,7 @@ PURL.org/germplasm
 ------------------
 
 The germplasm domain of the purl.org was established in March 2012 to provide 
-persistant URIs for new germplasm terminology.
+persistant URIs for germplasm terminology (data descriptors).
 
 The Germplasm Vocabulary (http://purl.org/germplasm/germplasmTerm) was established in 
 August 2009 to provide an extension to the TDWG Darwin Core standard for publishing 
@@ -14,10 +14,10 @@ The Germplasm Ontology (http://purl.org/germplasm/ontology) was established in
 January 2014.
 
 
-Contact: Dag Endresen [dag.endresen@gmail.com] for further information.
+Contact: Dag Endresen [dag.endresen@gmail.com] or Luca Matteis for more information.
 
 
-README_PURL.txt last updated 3 January 2014.
+This README_PURL.txt was last updated 11th August 2015 by Dag Endresen.
 
 
 
@@ -34,59 +34,67 @@ Type of  PURL: Partial-redirect PURL
 Target URL: https://code.google.com/p/germplasm/
 Maintainer IDs: germplasm, lmatteis, dagendresen (note: each on new line)
 
-http://purl.org/germplasm/home
-Path: /germplasm/home
-Type: Simple redirection to a target URL (302)
-Target URL: http://germplasm.googlecode.com
-Maintainer IDs: germplasm, lmatteis, dagendresen
+http://purl.org/germplasm/0.1/
+Type: 303
+Target (OBSOLETE): http://rs.nordgen.org/dwc/germplasm/0.1/terms/
+Note: Obsolete, abandoned previous version of the germplasm vocabulary
 
-http://purl.org/germplasm/ontology
-Path: /germplasm/home
-Type: Simple redirection to a target URL (302)
-Target URL: https://germplasm.googlecode.com/git/GermplasmOntology.ttl
-Maintainer IDs: germplasm, lmatteis, dagendresen
-
-http://purl.org/germplasm/vocabulary
-Path: /germplasm/home
-Type: Simple redirection to a target URL (302)
-Target URL: http://darwincore-germplasm.googlecode.com
-Maintainer IDs: germplasm, dagendresen, lmatteis
+http://purl.org/germplasm/archive/
+Type of  PURL: Partial-redirect PURL
+Target: https://github.com/dagendresen/darwincore-germplasm/tree/master/rdf/archive/
 
 http://purl.org/germplasm/germplasmContact
 Path (id): /germplasm/germplasmContact
 Type: Simple redirection to a target URL (302)
-Target URL: http://darwincore-germplasm.googlecode.com/svn/trunk/rdf/germplasmContact.rdf
-Maintainer IDs: germplasm, dagendresen, lmatteis
+Target: https://raw.githubusercontent.com/dagendresen/darwincore-germplasm/master/rdf/germplasmContact.rdf
+Note: Moved from Google Code to GitHub in August 2015, http://darwincore-germplasm.googlecode.com/svn/trunk/rdf/germplasmContact.rdf
 
 http://purl.org/germplasm/germplasmType
 Path (id): /germplasm/germplasmType
 Type: Simple redirection to a target URL (302)
-Target URL: http://darwincore-germplasm.googlecode.com/svn/trunk/rdf/germplasmType.rdf
-Maintainer IDs: germplasm, dagendresen, lmatteis
+Target: https://raw.githubusercontent.com/dagendresen/darwincore-germplasm/master/rdf/germplasmType.rdf
+Note: Moved from Google Code to GitHub in August 2015, http://darwincore-germplasm.googlecode.com/svn/trunk/rdf/germplasmType.rdf
 
 http://purl.org/germplasm/germplasmTerm
 Path (id): /germplasm/germplasmTerm
 Type: Simple redirection to a target URL (302)
-Target URL: http://darwincore-germplasm.googlecode.com/svn/trunk/rdf/germplasmTerm.rdf
-Maintainer IDs: germplasm, dagendresen, lmatteis
+Target: https://raw.githubusercontent.com/dagendresen/darwincore-germplasm/master/rdf/germplasmTerm.rdf
+Note: Moved from Google Code to GitHub in August 2015, http://darwincore-germplasm.googlecode.com/svn/trunk/rdf/germplasmTerm.rdf
 
-http://purl.org/germplasm/archive/
-Path: /germplasm/archive/
-Type of  PURL: Partial-redirect PURL
-Target URL: http://darwincore-germplasm.googlecode.com/svn/trunk/rdf/archive/
-Maintainer IDs: germplasm, dagendresen, lmatteis
+http://purl.org/germplasm/id/
+Type: Partial
+Target: https://www.genesys-pgr.org/resolver/
+Note: For the Genesys germplasm data portal, resolution mechanism for UUID identifiers
+
+http://purl.org/germplasm/instcode/
+Type: Partial
+Target URL: http://apps3.fao.org/wiews/institute.htm?i_l=EN&query_INSTCODE=
+Note: Example PURL for creating persistent institute identifiers for FAO WIEWS
+
+http://purl.org/germplasm/home
+Type: Simple redirection to a target URL (302)
+Target: http://germplasm.googlecode.com
+See also: https://github.com/dagendresen/darwincore-germplasm
 
 http://purl.org/germplasm/mailinglist
-Path: /germplasm/mailinglist
 Type: Simple redirection to a target URL (302)
 Target URL: http://groups.google.com/group/germplasm-ontology
-Maintainer IDs: germplasm, lmatteis, dagendresen
+Note: A mailinglist for the Germplasm Ontology (and Germplasm Vocabulary)
+
+http://purl.org/germplasm/ontology
+Type: Simple redirection to a target URL (302)
+Target URL: https://germplasm.googlecode.com/git/GermplasmOntology.ttl
+
+http://purl.org/germplasm/vocabulary
+Type: Simple redirection to a target URL (302)
+Target URL: http://darwincore-germplasm.googlecode.com
 
 
 
--------------------------------------------------
-Germplasm domain is maintained by germplasm group
--------------------------------------------------
+
+-----------------------------------------------------
+Germplasm domain is maintained by the germplasm group
+-----------------------------------------------------
 
 purl.org >> Groups >> Search for a group  -->  Modify
 purl.org >> Groups >> Modify an existing group

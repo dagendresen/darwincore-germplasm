@@ -1,13 +1,18 @@
 
 Germplasm Vocabulary: Darwin Core extension for genebanks
 
-http://purl.org/germplasm/
 Released 27 August 2012
+
+http://purl.org/germplasm/
 
 
 Project home page:
- https://code.google.com/p/darwincore-germplasm/
  http://terms.tdwg.org/wiki/Germplasm
+ https://github.com/dagendresen/darwincore-germplasm
+ https://code.google.com/p/darwincore-germplasm/ (obsolete)
+
+
+This README.TXT was last updated on 11th August 2015, by Dag Endresen
 
 
 
@@ -21,16 +26,16 @@ PURL: http://purl.org/germplasm/
 Target URL: http://germplasm.googlecode.com
 
 PURL: http://purl.org/germplasm/germplasmContact
-Target URL: http://darwincore-germplasm.googlecode.com/svn/trunk/rdf/germplasmContact.rdf
+Target: https://raw.githubusercontent.com/dagendresen/darwincore-germplasm/master/rdf/germplasmContact.rdf
 
 PURL: http://purl.org/germplasm/germplasmType
-Target URL: http://darwincore-germplasm.googlecode.com/svn/trunk/rdf/germplasmType.rdf
+Target: https://raw.githubusercontent.com/dagendresen/darwincore-germplasm/master/rdf/germplasmType.rdf
 
 PURL: http://purl.org/germplasm/germplasmTerm
-Target URL: http://darwincore-germplasm.googlecode.com/svn/trunk/rdf/germplasmTerm.rdf
+Target: https://raw.githubusercontent.com/dagendresen/darwincore-germplasm/master/rdf/germplasmTerm.rdf
 
 PURL: http://purl.org/germplasm/archive/
-Target URL: http://darwincore-germplasm.googlecode.com/svn/trunk/rdf/archive/
+Target: https://github.com/dagendresen/darwincore-germplasm/tree/master/rdf/archive/
 
 
 
