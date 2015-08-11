@@ -62,9 +62,21 @@ in this respect also be seen as public annotations to the official germplasm ter
 
     TDWG Terms Wiki :: germplasm: http://terms.tdwg.org/wiki/Germplasm 
 
-To contribute to the maintenance of the release version of the Germplasm Term Vocabulary you will need a 
-Google Account, such as e.g. your Gmail username. Contact: dag.endresen@gmail.com if you want to contribute 
-to the Germplasm Vocabulary (Darwin Core extension for gene banks) here at this Google Code site.
+To contribute to the maintenance of the release version of the Germplasm Term Vocabulary you will need a GitHub Account. Contact: dag.endresen@gmail.com if you want to contribute 
+to the source code for the Germplasm Vocabulary (Darwin Core extension for gene banks).
+
+
+## Citation
+
+ Endresen, D.T.F. and H. Knüpffer (2012). The Darwin Core extension for genebanks opens 
+ up new opportunities for sharing genebank data sets. Biodiversity Informatics 8:11-29. 
+ Available online at https://journals.ku.edu/index.php/jbi/article/view/4095
+
+ Endresen, D., S. Gaiji, and T. Robertson (2009). DarwinCore Germplasm Extension and 
+ deployment in the GBIF infrastructure. Proceedings of TDWG 2009, Montpellier, France. 
+ Bioversity Information Standards (TDWG). 
+ Available at http://www.tdwg.org/proceedings/article/view/464
+
 
 ## Links
 * Darwin Core standard, http://rs.tdwg.org/dwc/

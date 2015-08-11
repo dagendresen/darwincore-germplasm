@@ -6,34 +6,7 @@
 See: 
   http://purl.org/germplasm/
   http://terms.tdwg.org/wiki/Germplasm
-  https://code.google.com/p/darwincore-germplasm/
-  http://rs.gbif.org/terms/germplasm/
   http://rs.gbif.org/extension/germplasm/
-
-
-History:
-
- Development of the Darwin Core Germplasm extension was started at the Darwin Core 
- workshop hosted by GBIF in Copenhagen during January 21-23, 2009
- [http://www.gbif.org/News/DwCworkshop].
-
- DwC Germplasm version 0.1, August 25 (First draft version for the GBIF IPT software)
-
- The DRAFT DwC Germplasm extansion was presented to the GIGA TAG meeting hosted by 
- Bioversity in Rome during May 18-19, 2009; and for the SINGER GPG2 planning meeting 
- hosted by USDA in Washington DC during August 24-26, 2009.
-
- The DwC Germplasm extension was presented at a separate session at the TDWG 2009 
- conference in Montpellier hosted by Bioversity, Agopolis during November 9-13, 2009.
-
- ...
-
- Prototype version 0.1 with namespace URIs at http://rs.nordgen.org/dwc/ was 
- REPLACED BY namespace URIs at http://purl.org/germplasm/ in 2012.
-
- The PURL implementation is the persistent home for the Germplasm Vocabulary.
- Namespace URI pattern: http://purl.org/germplasm/germplasmTerm#[TERM]
-
 
 
 Citation:
@@ -46,8 +19,3 @@ Citation:
  deployment in the GBIF infrastructure. Proceedings of TDWG 2009, Montpellier, France. 
  Bioversity Information Standards (TDWG). 
  Available at http://www.tdwg.org/proceedings/article/view/464
-
-
--
-Last updated: Dag Endresen, dag.endresen@gmail.com, December, 2013)
--
