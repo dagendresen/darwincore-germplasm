@@ -1,0 +1,126 @@
+@prefix g: <http://purl.org/germplasm/ontology#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix book: <http://purl.org/NET/book/vocab#> .
+@prefix dwcg: <http://purl.org/germplasm/germplasmTerm#> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix wo: <http://purl.org/ontology/wo/> .
+   
+g: a owl:Ontology ;
+      dc:created "2013/12/20 12:00:00";
+      dc:date "2013/12/20 12:00:00";
+      dc:description """The main objective of the Germplasm Ontology is to digitize and provide persistent identifiers for the terms contained within the PGR Descriptors publications. These terms are widely used within the community of plant genetic resources, however there's a lack of clarity on how one should use them to annotate their data, which is often stored in various types of formats. By providing persistent resolvable identifiers in the form of HTTP URIs for each of these terms, alongside many examples, the Germplasm Ontology allows users to annotate their data in ways recognized by the entire community, so that they can be more easily analyzed and discovered.""" ;
+      dc:title "Germplasm Ontology" ;
+      dc:hasVersion "Revision: 0.1" ;
+      foaf:authors 
+        [ foaf:name "Luca Matteis"; 
+          foaf:homepage "http://www.bioversityinternational.org/" 
+        ];
+      foaf:authors 
+        [ foaf:name "Dag Endresen"
+        ];
+      foaf:page "https://code.google.com/p/germplasm/";
+      rdfs:seeAlso "http://www.bioversityinternational.org/e-library/publications/categories/descriptors/"
+     .
+
+g:GermplasmAccession a owl:Class;
+    rdfs:label "Germplasm accession";
+    rdfs:comment "An accession is an item in a collection. An accession in a genebank is like a book in a library, with a title (species, population, parental line), editor (collector or breeder) and brief summary (phenotypic information, date of collection, etc) available in a database. An accession appears as a bag of seeds, a straw of animal semen, plant tissue cultures or buds from twigs of fruit crops.";
+    rdfs:seeAlso dwcg:GermplasmAccession
+    .
+
+g:Institute a owl:Class;
+    rdfs:label "Institute";
+    rdfs:comment "An institute that is maintaining an accession or that partecipated in the collection"
+    .
+
+g:Mission a owl:Class;
+    rdfs:label "Mission";
+    rdfs:comment "Mission event for collecting an accession";
+    rdfs:subClassOf event:Event
+    .
+
+g:Genus a owl:Class;
+    rdfs:subClassOf wo:Genus;
+    rdfs:subClassOf <http://dbpedia.org/ontology/Species>
+    .
+
+g:Species a owl:Class;
+    rdfs:subClassOf wo:Species;
+    rdfs:subClassOf <http://dbpedia.org/ontology/Species>
+    .
+
+g:instCode a owl:ObjectProperty;
+    g:mcpdTerm "INSTCODE";
+    rdfs:label "Institute code";
+    rdfs:comment "The codes consist of the 3-letter ISO 3166 country code of the country where the institute is located plus a number (e.g. COL0001). The current set of Institute Codes is available from the FAO website (http://apps3.fao.org/wiews/).";
+    rdfs:seeAlso <http://apps3.fao.org/wiews/wiews.jsp>;
+    rdfs:domain g:Institute;
+    rdfs:range xsd:string
+    .
+
+g:instName a owl:ObjectProperty;
+    g:mcpdTerm "COLLNAME";
+    rdfs:label "Institute name";
+    rdfs:comment "Name of the institute";
+    rdfs:domain g:Institute;
+    rdfs:range xsd:string
+    .
+
+g:instAddress a owl:ObjectProperty;
+    g:mcpdTerm "COLLINSTADDRESS";
+    rdfs:label "Institute address";
+    rdfs:comment "Address of the institute";
+    rdfs:domain g:Institute;
+    rdfs:range xsd:string
+    .
+
+g:maintainedIn a owl:ObjectProperty;
+    rdfs:label "institute";
+    rdfs:comment "Associates a GermplasmAccession to an Institute. It indicates where the accession is maintained.";
+    rdfs:domain g:GermplasmAccession;
+    rdfs:range g:Institute
+    .
+
+g:acceNumb a owl:ObjectProperty;
+    g:mcpdTerm "ACCENUMB";
+    rdfs:label "Accession number";
+    rdfs:comment "This number serves as a unique identifier for accessions within a genebank collection, and is assigned when a sample is entered into the genebank collection (e.g. 'PI 113869').";
+    rdfs:domain g:GermplasmAccession;
+    rdfs:range xsd:string
+    .
+
+g:collectedBy a owl:ObjectProperty;
+    rdfs:label "Collected by";
+    rdfs:comment "Indicates which institute the accession was collected by";
+    rdfs:domain g:GermplasmAccession;
+    rdfs:range g:Institute
+    .
+    
+g:collectingMission a owl:ObjectProperty;
+    g:mcpdTerm "COLLMISSID";
+    rdfs:label "Collected mission";
+    rdfs:comment "Indicates by which mission the accession was collected";
+    rdfs:domain g:GermplasmAccession;
+    rdfs:range g:Mission
+    .
+    
+g:genus a owl:ObjectProperty;
+    g:mcpdTerm "GENUS";
+    rdfs:label "genus";
+    rdfs:comment "Associates a GermplasmAccession with a Genus";
+    rdfs:domain g:GermplasmAccession;
+    rdfs:range g:Genus
+    .
+    
+g:species a owl:ObjectProperty;
+    g:mcpdTerm "SPECIES";
+    rdfs:label "species";
+    rdfs:comment "Associates a GermplasmAccession with a Species";
+    rdfs:domain g:GermplasmAccession;
+    rdfs:range g:Species
+    .
