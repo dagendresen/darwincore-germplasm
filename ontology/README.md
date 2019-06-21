@@ -6,9 +6,7 @@ This folder restores the online access to the GermplasmOntology from its previou
 * https://code.google.com/archive/p/germplasm/GermplasmOntology.ttl
 * https://germplasm.googlecode.com/git/GermplasmOntology.ttl
 
-See also:
+## See also:
 * https://purl.org/germplasm/ontology (now updated to point here)
-
-See also:
 * DesignGoals.wiki (copied from https://code.google.com/archive/p/germplasm/wikis/DesignGoals.wiki)
 * FAQ.wiki (copied from https://code.google.com/archive/p/germplasm/wikis/FAQ.wiki)
